@@ -106,7 +106,7 @@ _Example of counting the times the timer is "done":_
 This GIF is at 30 fps and doesn't show each time it's done, but you can see it in the program.
 {% endhint %}
 
-![](../.gitbook/assets/tdcountchop.gif)
+![](../.gitbook/assets/tdcountchop-1-.gif)
 
 ## Timers
 
@@ -114,7 +114,7 @@ This GIF is at 30 fps and doesn't show each time it's done, but you can see it i
 
 Provides a timer and whether it is "ready" or "done."
 
-![](../.gitbook/assets/tdcountchop-1-.gif)
+![](../.gitbook/assets/tdcountchop-1-%20%281%29.gif)
 
 ## Audio
 
