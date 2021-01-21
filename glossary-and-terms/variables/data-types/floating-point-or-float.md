@@ -59,7 +59,7 @@ Do not use commas in your numbers!
 This updates the variable when used.
 {% endhint %}
 
-**Example:**      
+**Example:**
 
 _Processing, Java-based, and C-based:_
 

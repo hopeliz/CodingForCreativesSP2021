@@ -53,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.Rotate(Vector3.down * rotateSpeed * Time.deltaTime);
         }
-        
+
         if (Input.GetKey(KeyCode.RightArrow)) 
         {
             transform.Rotate(Vector3.up * rotateSpeed * Time.deltaTime);
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
 }
 ```
 
-#### **Vector3 Shortcuts:**
+## **Vector3 Shortcuts:**
 
 | Shortcut | Equivalent |
 | :--- | :--- |

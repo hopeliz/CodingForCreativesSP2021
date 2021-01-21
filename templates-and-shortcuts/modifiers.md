@@ -1,6 +1,6 @@
 # Modifiers
 
-Something that might make coding easier is to find shortcuts to represent code to set things such as coordinates where one coordinate is a 1 or -1. Then, to change the one value, multiply the variable or shortcut by a modifier. 
+Something that might make coding easier is to find shortcuts to represent code to set things such as coordinates where one coordinate is a 1 or -1. Then, to change the one value, multiply the variable or shortcut by a modifier.
 
 We'll do this often with a `speed` variable in different class activities.
 

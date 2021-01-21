@@ -18,6 +18,6 @@ void draw() {
 Printing information in the console:
 
 ```java
-println("I'm a message!");  
+println("I'm a message!");
 ```
 

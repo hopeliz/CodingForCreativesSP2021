@@ -39,7 +39,7 @@ For when you want some randomness.
 
 ### Switch SOP
 
-Takes in multiple surface operators \(SOPS\) and creates an array. A single element of the array can be accessed by the Switch SOP's Index parameter. 
+Takes in multiple surface operators \(SOPS\) and creates an array. A single element of the array can be accessed by the Switch SOP's Index parameter.
 
 ![](../.gitbook/assets/switch-sop.png)
 

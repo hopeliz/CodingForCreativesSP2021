@@ -32,9 +32,9 @@ Example:
 String[] names = { "Fluffy", "Nugget", "Pumpkin" };
 
 for (int i = 0; i < names.length; i++) {
-	for (int j = 0; j < 3; j++) {
-		println(names[i]);
-	}
+    for (int j = 0; j < 3; j++) {
+        println(names[i]);
+    }
 }
 ```
 

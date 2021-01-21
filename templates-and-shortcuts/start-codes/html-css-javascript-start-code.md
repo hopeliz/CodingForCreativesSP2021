@@ -56,5 +56,3 @@ CSS file the code above references:
 }
 ```
 
-
-

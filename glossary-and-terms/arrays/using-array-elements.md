@@ -9,12 +9,12 @@ Now, the elements can be accessed by their **indices** \(plural of index\).
 _Processing:_
 
 ```java
-println(shoppingList); 	// Prints full array
+println(shoppingList);     // Prints full array
 
 println("My shopping list includes: " + shoppingList[0] + ", " + shoppingList[1] + 
 ", " + shoppingList[2] + ", " + shoppingList[3] + ", and " + shoppingList[4] + 
 ".");
- 
+
 // Prints "My shopping list includes: milk, bread, eggs, bottled water, and soda."
 ```
 
@@ -22,7 +22,7 @@ println("My shopping list includes: " + shoppingList[0] + ", " + shoppingList[1]
 
 Sometimes you need to add elements to an array. Often, you’ll get an error if you try to assign a value to a non-existent “slot” or reference an index outside of what is available.
 
-Most languages use a function such as **`.append()`** or **`.expand()`** or **`.push()`** or **`.add()`**``
+Most languages use a function such as **`.append()`** or **`.expand()`** or **`.push()`** or **`.add()`** \`\`
 
 Examples:
 
@@ -30,7 +30,7 @@ _Processing:_
 
 ```java
 shoppingList = append(shoppingList, "toothpicks");
- 
+
 ages = append(ages, 63);
 ```
 
@@ -46,7 +46,7 @@ _Processing:_
 
 ```java
 shoppingList = shorten(shoppingList);
- 
+
 ages = shorten(ages);
 ```
 
@@ -70,7 +70,7 @@ println(ages);
 shoppingList = reverse(shoppingList);
 println(shoppingList);
 // Prints "soda milk eggs bread bottled water"
- 
+
 ages = reverse(ages);
 println(ages);
 // Prints in this order: 80, 51, 50, 50, 45, 31, 12, 7

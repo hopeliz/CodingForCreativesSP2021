@@ -9,14 +9,14 @@ Combines four parts of a loop into one line:
 
 No need to remember to update or break the loop within the code block!
 
-### For loop example \#1
+## For loop example \#1
 
 **Processing, Java, C\#:**
 
 ```java
 for (int count = 0; count < 5; count++) {
     println(count);
-} 
+}
 ```
 
 **JavaScript and JS libraries:**
@@ -43,7 +43,7 @@ Here:
 4. Update: count++;   **\(line 1\)**
 5. Action: println\(count\);   **\(line 2\)**  \(prints the current value of count\)
 
-### For loop example \#2
+## For loop example \#2
 
 **Processing, Java, C\#:**
 
@@ -52,7 +52,7 @@ String[] names = { "Fluffy", "Nugget", "Pumpkin" };
 
 for (int i = 0; i < names.length; i++) {
     println(names[i]);
-} 
+}
 ```
 
 **JS libraries:**

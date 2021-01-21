@@ -11,7 +11,7 @@ Picture an array like a numbered list starting at zero...
 | 0 | "milk" |
 | 1 | "bread" |
 | 2 | "eggs" |
-| 3 | "bottled water"                                                                                                                                              |
+| 3 | "bottled water" |
 | 4 | "soda" |
 
 | ages |  |
@@ -19,7 +19,7 @@ Picture an array like a numbered list starting at zero...
 | 0 | 12 |
 | 1 | 31 |
 | 2 | 7 |
-| 3 | 80                                                                                                                                              |
+| 3 | 80 |
 | 4 | 45 |
 | 5 | 50 |
 | 6 | 51 |
@@ -50,7 +50,7 @@ ages[7] = 50;
 
 ```java
 for (int i = 0; i < randNums.length(); i++) {
-	randNums[i] = random(0, 5);
+    randNums[i] = random(0, 5);
 }
 ```
 

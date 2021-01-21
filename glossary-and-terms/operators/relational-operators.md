@@ -2,7 +2,7 @@
 
 Many if statements compare values
 
-Use the operators below to compare values:
+Use the operators below to compare values :
 
 <table>
   <thead>

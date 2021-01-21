@@ -27,7 +27,7 @@ _JavaScript_
 var gameOver = true;
 ```
 
-  _Python:_
+_Python:_
 
 ```python
 gameOver = False
@@ -50,7 +50,6 @@ boolean lightOn = false;
 
 println(lightOn); // Prints “false” to console
 println(!lightOn); // Prints “true” to console
-
 ```
 
 _C\# example:_
@@ -60,7 +59,6 @@ bool lightOn = false;
 
 print(lightOn); // Prints “false” to console
 print(!lightOn); // Prints “true” to console
-
 ```
 
 {% hint style="warning" %}

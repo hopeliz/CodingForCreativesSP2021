@@ -1,6 +1,6 @@
 # Blank Space / Canvas Origin
 
-## Blank Space / Canvas Origin 
+## Blank Space / Canvas Origin
 
 * At the coordinates \(0, 0, 0\)
 * Often appears at the center 

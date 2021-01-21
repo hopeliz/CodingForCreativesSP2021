@@ -4,15 +4,15 @@
 
 Arrays inside arrays \(array-ception or “Yo, Dawg, I heard you like arrays, so I put an array inside your array” array\)
 
-Think of these like tables or matrices with multiple columns.
+Think of these like tables or matrices with multiple columns.
 
-They have two indices per element \(like coordinates - row, column\)
+They have two indices per element \(like coordinates - row, column\)
 
 ## Creating Two-Dimensional Arrays
 
 Two-Dimensional arrays can be created with sets of initial values listed within curly brackets **`{ }`**, then list these sets within outer curly brackets **`{ }`**
 
-Double square brackets **`[ ][ ]`** are placed right after the data type for all the elements of an array to signify it as a two-dimensional array.
+Double square brackets **`[ ][ ]`** are placed right after the data type for all the elements of an array to signify it as a two-dimensional array.
 
 Examples:
 
@@ -34,7 +34,7 @@ How to picture it:
 | people | 0 | 1 |
 | :--- | :--- | :--- |
 | 0 | "Charles" | "Stanton" |
-| 1 | "Eric"         | "Straub"                                                                                                                        |
+| 1 | "Eric" | "Straub" |
 | 2 | "Ellie" | "Aderyn" |
 | 3 | "Betty" | "Dean" |
 | 4 | "Alex" | "Heber" |
@@ -49,7 +49,7 @@ _Processing:_
 
 ```java
 println(people[0][0] + " " + people[0][1]);
- 
+
 // Prints "Charles Stanton"
 ```
 
@@ -65,8 +65,7 @@ _Processing:_
 people[0][0] = "Charlie";
 
 println(people[0][0] + " " + people[0][1]);
- 
-// Prints "Charlie Stanton"
 
+// Prints "Charlie Stanton"
 ```
 

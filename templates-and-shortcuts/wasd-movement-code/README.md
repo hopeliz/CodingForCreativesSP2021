@@ -6,5 +6,3 @@
 
 {% page-ref page="unity-example-2d-platformer.md" %}
 
-
-

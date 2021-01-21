@@ -36,7 +36,7 @@ thing = "moo cow"
 
 ## Shortcut
 
- ****Add easily to an existing string by using **`+=` .**
+**\*\*Add easily to an existing string by using** `+=` .\*\*
 
 **Processing example:**
 
@@ -77,8 +77,8 @@ String msg = "I'm a banana!";
 String[] msgWord = split(msg, " ");
 
 println(msgWord[0]);         // Prints "I'm"
-println(msgWord[1]);	       // Prints "a"
-println(msgWord[2]);	       // Prints "banana!"
+println(msgWord[1]);           // Prints "a"
+println(msgWord[2]);           // Prints "banana!"
 ```
 
 ## String Functions

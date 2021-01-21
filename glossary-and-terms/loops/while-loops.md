@@ -2,9 +2,9 @@
 
 Runs while the conditions following “while” are true - possibly forever!
 
-To “break” out of the loop, update a “control variable” in the loop so eventually the conditions will be false
+To “break” out of the loop, update a “control variable” in the loop so eventually the conditions will be false
 
-### While loop example
+## While loop example
 
 **Processing, Java, C\#:**
 

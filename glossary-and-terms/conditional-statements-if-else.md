@@ -96,7 +96,7 @@ else:
 
 Else if statement blocks go between if and the else blocks to provide more options.
 
-These are good for multiple specific choices.
+These are good for multiple specific choices .
 
 **Format:**
 
@@ -160,13 +160,13 @@ else:
 This doesn't exist in certain languages.
 {% endhint %}
 
-**Switch/case statements** replace else if statements when equivalents are being tested.
+**Switch/case statements** replace else if statements when equivalents are being tested .
 
-Instead of testing in the parentheses, the parentheses hold the first value, then each “case” is what the variable is compared with. If the variable matches the case, the corresponding code block runs.
+Instead of testing in the parentheses, the parentheses hold the first value , then each “case” is what the variable is compared with . If the variable matches the case, the corresponding code block runs .
 
-Each case needs a “break” to move on.
+Each case needs a “break” to move on .
 
-Each switch/case code block should have a default case serving as an else statement. Programmers often use the default case to test if the block ran, but had no equivalents \(a form of error catching\)
+Each switch/case code block should have a default case serving as an else statement . Programmers often use the default case to test if the block ran, but had no equivalents \(a form of error catching\)
 
 **Format:**
 

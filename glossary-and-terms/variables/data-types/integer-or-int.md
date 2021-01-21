@@ -46,9 +46,9 @@ Do not use commas in your numbers!
 This updates the variable when used.
 {% endhint %}
 
-**Example:**    
+**Example:**
 
-_Processing, Java-based, and C-based:_  
+_Processing, Java-based, and C-based:_
 
 ```java
 int count = 2;
@@ -60,7 +60,7 @@ count += 3;
 println(count);        // Prints "5"
 ```
 
-_Python:_  
+_Python:_
 
 ```python
 count = 2
@@ -107,6 +107,6 @@ println(health);        // Prints "9"
 ```
 
 {% hint style="warning" %}
-This `++` shortcut after the variable name does not work in Python. 
+This `++` shortcut after the variable name does not work in Python.
 {% endhint %}
 

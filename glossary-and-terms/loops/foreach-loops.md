@@ -4,11 +4,11 @@ Runs a block of code for each item of an array or list.
 
 A variable is created after the type of loop to store the current item in an array.
 
-Found in languages like C\# and Python.
+Found in languages like C\# and Python .
 
 Use this kind when you want the same exact action to occur for each item.
 
-### Foreach loop examples
+## Foreach loop examples
 
 **C\# and Unity:**
 
@@ -17,7 +17,7 @@ string[] names = { "Fluffy", "Nugget", "Pumpkin" };
 
 foreach (int item in names) {
     println(item);
-} 
+}
 ```
 
 **Python:**

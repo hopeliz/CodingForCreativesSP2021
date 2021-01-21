@@ -130,7 +130,7 @@ First, expand the parameter you want to have the value in by pressing the plus s
 
 ![](../.gitbook/assets/parameter.png)
 
-This will show the variable name of the parameter. 
+This will show the variable name of the parameter.
 
 The colored squares next to the value mean:
 

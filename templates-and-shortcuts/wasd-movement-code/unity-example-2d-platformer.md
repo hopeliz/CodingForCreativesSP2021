@@ -23,7 +23,7 @@ public class PlayerMovement2D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class PlayerMovement2D : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += Vector3.right * Time.deltaTime * speed;
-            
+
             // Switch direction of sprite image if originally facing left
             if (direction == 1)
             {
@@ -77,6 +77,5 @@ public class PlayerMovement2D : MonoBehaviour
         isJumping = false;
     }
 }
-
 ```
 

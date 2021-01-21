@@ -32,7 +32,7 @@ Free music with credit
 
 **Freesound**  
 Free sound effects with credit  
-[https://freesound.org/](https://freesound.org/) 
+[https://freesound.org/](https://freesound.org/)
 
 **PublicDomain4U**  
 Public domain music & recordings  
@@ -49,7 +49,7 @@ Free retro music & recordings
 
 **Flat Icon**  
 Free icons great for menus!  
-****[https://www.flaticon.com/](https://www.flaticon.com/)
+_\*\*_[https://www.flaticon.com/](https://www.flaticon.com/)
 
 **Free Images**  
 [https://www.freeimages.com/](https://www.freeimages.com/)
