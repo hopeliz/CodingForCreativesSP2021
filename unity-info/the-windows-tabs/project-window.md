@@ -12,7 +12,7 @@ Assets are the files used like an artist's materials - they can be used multiple
 
 **Note:** This is in a shortened window.
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 ## File Organization
 
@@ -20,7 +20,7 @@ All assets seen in this window are located \(along with data files\) in the proj
 
 Although all the assets are stored within the project, organized folders are recommended. Here's an example of a folder structure for a project:
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 This makes it easier to find and create types of assets. This is just one way to organize assets - find what works for you!
 
@@ -30,7 +30,7 @@ This makes it easier to find and create types of assets. This is just one way to
 
 ## Left Side
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 **Create Asset** - Click the plus sign or + to add an asset to the Asset folder. 
 
@@ -40,7 +40,7 @@ This makes it easier to find and create types of assets. This is just one way to
 
 ## **Breadcrumbs and File Paths**
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 Larger projects could have many subfolders. The "breadcrumb" navigation at the top of the window allows for easy access to higher folders.
 
@@ -48,17 +48,17 @@ Larger projects could have many subfolders. The "breadcrumb" navigation at the t
 
 The file path \(starting with the Assets folder\) is shown at the bottom of the window:
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 ## Search Bar
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 When you start typing in the search bar, assets with matching names will be listed. You can narrow your search using the filters just below the search bar. Clear your search by clicking the X on the right side of the search bar.
 
 ## More Options
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 **Search by Type** - This menu makes searching for a specific type of asset quick.
 
@@ -66,7 +66,7 @@ When you start typing in the search bar, assets with matching names will be list
 
 **Search by Label** - Multiple labels can be added to an asset in the Inspector window. Use this search to list only the assets with the selected label\(s\).
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 **Add Favorite Search** - This adds a custom search under Favorites on the left side of the window.
 
@@ -74,7 +74,7 @@ When you start typing in the search bar, assets with matching names will be list
 
 ## Zoom
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 The zoom control on the bottom right will "zoom" in and out of the files, showing large previews down to a list of names.
 

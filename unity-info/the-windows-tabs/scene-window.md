@@ -12,7 +12,7 @@ This window shows your scene overall.
 
 The default Scene window will have what they call a Skybox \(the environment that looks like a horizon, sky, and sun\) and Gizmos \(symbols representing non-physical objects\) for the Main Camera and the Directional Light.
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 ## Movement and Viewpoint
 
@@ -34,9 +34,9 @@ The default view is the perspective view that provides a sense of depth. If you 
 
 Want a view directly from one of the directions? Click on the desired handle to go to the isometric view from that vector.
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 The lock symbol keeps the view from rotating. It will still allow you to move the whole view.
 
@@ -44,11 +44,11 @@ The lock symbol keeps the view from rotating. It will still allow you to move th
 
 The dropdown at the top left of the window provides more options for how to view things within the scene. The default Shading Mode is "Shaded." This tutorial will not go in-depth about these options. Please see the links for Unity's documentation.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 ### Toggle Options
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 **2D** - Toggles between 2D and 3D
 
@@ -58,23 +58,23 @@ The dropdown at the top left of the window provides more options for how to view
 
 **Effects** - Toggle multiple effects in the scene
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 **Hidden Objects** - When objects are hidden in the [Hierarchy ](hierarchy-window.md)window, the count shows here. Clicking this symbol in the Scene Tab toggles the visibility of the hidden objects. They will remain listed as hidden within the Hierarchy Tab.
 
 **Grid Options** - Adjust how and if the grid is visible in the Scene Tab
 
-![](../../.gitbook/assets/image%20%2825%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
 ### Options on the Top Right Side of the Tab
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 **Tool Display** - Toggles the visibility of tools within the Scene Tab
 
 **Scene View Camera Settings** - Where you can adjust how the Scene View Camera appears and behaves
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 Please see the links to access the Unity documentation for more in-depth info about these settings.
 
@@ -90,13 +90,13 @@ Please see the links to access the Unity documentation for more in-depth info ab
 
 When typing in a search term, the matching items will be listed in the Hierarchy window and the Scene window will appear to get whiter. Click the X to clear the search quickly.
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 ## More Tools Outside of the Tab
 
 These tools are available at the top left of the window in all layouts and are primarily used in the Scene window.
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 **Hand Tool** - Move around the scene without accidentally moving a selected object
 

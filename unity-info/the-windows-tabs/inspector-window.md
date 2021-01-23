@@ -12,27 +12,27 @@ The information in the Inspector window changes depending on what game objects a
 
 Example of a default sphere **game object** when selected in the Hierarchy window:
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 Example of a default empty game object when selected in the Hierarchy window:
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 Example of a Main Camera **game object** when selected in the Hierarchy window:
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 Example of a directional light **game object** when selected in the Hierarchy window:
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 Example of a material **asset** when selected in the Project window:
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2873%29.png)
 
 ## Game Object Header Information
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 The header generally shows the following elements for selected game objects:
 
@@ -53,9 +53,9 @@ Notes:
 
 ## Asset Header Information
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 The header generally shows the following elements for selected assets:
 
@@ -89,7 +89,7 @@ Many components allow you to turn them off and on by using the checkbox to the l
 
 ## Add Component Button
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 At the bottom of the list of components, there's an "Add Component" button. This provides a list of current built-in and user-created components to add. You can also create a new script through this menu and it will automatically appear on that game object after naming it.
 
@@ -97,7 +97,7 @@ At the bottom of the list of components, there's an "Add Component" button. This
 
 Many assets have previews within the Inspector window at the bottom.
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 
 The preview allows you to preview materials, videos, audio, and animation.
 
@@ -109,5 +109,5 @@ For information on Asset Bundles, please see the [Unity documentation](https://d
 
 Use the icons seen on the top right of components and parameters for Unity documentation, presets, and settings:
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 

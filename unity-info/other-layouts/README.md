@@ -6,19 +6,19 @@ The Layout dropdown at the top right of the screen will have built-in options or
 
 ## Default Layout
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
 ## 4 Split Layout
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 ## Tall Layout
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 ## Wide Layout
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 
 

@@ -48,6 +48,13 @@
   * [Accessing Objects](glossary-and-terms/objects-classes-and-libraries/accessing-objects.md)
 * [Node-Based Programming](glossary-and-terms/node-based-programming.md)
 
+## Processing Info
+
+* [Overview](processing-info/overview.md)
+* [Interface](processing-info/interface.md)
+* [Template](processing-info/template.md)
+* [Printing to the Console](processing-info/printing-to-the-console.md)
+
 ## Unity Info
 
 * [Overview](unity-info/overview.md)

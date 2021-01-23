@@ -10,13 +10,13 @@ The console provides helpful feedback such as errors, warnings, and messages.
 
 **Note:** This is in a shortened window.
 
-![A clear console](../../.gitbook/assets/image%20%2828%29.png)
+![A clear console](../../.gitbook/assets/image%20%2831%29.png)
 
-![Console showing how each type of console message or &quot;log&quot; appears.](../../.gitbook/assets/image%20%2838%29.png)
+![Console showing how each type of console message or &quot;log&quot; appears.](../../.gitbook/assets/image%20%2841%29.png)
 
 Clicking on a message provides more information:
 
-![Console with detailed information](../../.gitbook/assets/image%20%2815%29.png)
+![Console with detailed information](../../.gitbook/assets/image%20%2817%29.png)
 
 ### **Errors**
 
@@ -33,15 +33,15 @@ Clicking on a message provides more information:
 
 ## Options
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 **Clear** - Clears messages, warnings, and errors.
 
 **Collapse** - Similar messages can be collapsed, resulting in one full message and the number of instances to the right. When not collapsed, the full message appears repeatedly.
 
-![Collapse is turned on](../../.gitbook/assets/image%20%2870%29.png)
+![Collapse is turned on](../../.gitbook/assets/image%20%2878%29.png)
 
-![Collapse is turned off](../../.gitbook/assets/image%20%2867%29.png)
+![Collapse is turned off](../../.gitbook/assets/image%20%2875%29.png)
 
 **Clear on Play** - When on, past messages are cleared when Play is clicked
 
@@ -53,5 +53,5 @@ Clicking on a message provides more information:
 
 **Count** - Number of messages, warnings, and errors. You can toggle these by clicking on the type you want to hide or show. ****
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
