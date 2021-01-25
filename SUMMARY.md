@@ -4,7 +4,8 @@
 
 ## Class Exercises
 
-* [Weekly Exercises](class-exercises/weekly-exercises.md)
+* [Week 2 Activities](class-exercises/weekly-exercises/README.md)
+  * [Monday - Getting Blobby](class-exercises/weekly-exercises/monday-getting-blobby.md)
 
 ## Glossary and Terms
 
