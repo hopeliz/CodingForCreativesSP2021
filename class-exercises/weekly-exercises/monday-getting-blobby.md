@@ -156,13 +156,36 @@ Looks like:
 
 ![](../../.gitbook/assets/step6.gif)
 
-## Step 7: Add Some Randomness to Size
+## Step 7: A Look at Variables
 
-**random\(min, max\)** is a common function that takes a minimum number and a maximum number and provides a "random" number between them.
+Sometimes, you want to store, record, or hold values to use later or want to be able to change a value for multiple instances of an object. For that, we use **variables**. Variables are similar to reusable labels or nicknames that stand for specified information.
 
-Let's use it first on the size of the circle, making the diameter somewhere between 1 and 75 pixels.
+Here, let's "declare" a variable called `circleSize` to hold the information of the size of our circle.
+
+"float" is used here to tell Processing the type of information it will have - a precision or "floating point" number that can have a decimal point.
+
+The single equals sign `=` is a way of "assigning" or "setting" the value of a variable. So `circleSize = 50` means "I want wherever it says 'circleSize' to be 50."
+
+{% hint style="info" %}
+It is good practice to have a starting or "initial" value to avoid errors.
+{% endhint %}
+
+Put variables that will be used for the project before and outside of the `setup()` and `draw()` blocks. We want these to be accessed outside of those restrictions.
+
+To declare a variable, use this syntax:  
+_`type`_ `nameOfVariable =` _`initialValue`_`;`
 
 ```java
+float circleSize = 50;
+```
+
+Then, replace the areas where you want the circle size to be used with the variable.
+
+Full code:
+
+```java
+float circleSize = 50;
+
 void setup() { 
   size(600, 600);
   background(0);
@@ -171,19 +194,21 @@ void setup() {
 void draw() {
   noStroke();
   fill(0, 255, 255);
-  circle(mouseX, mouseY, random(1, 75));
+  circle(mouseX, mouseY, circleSize);
 }
 ```
 
-Looks like:
+This should appear the same since you just replaced it with a variable and did not change the value.
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+## Step 8: Add Some Randomness to Size
 
-## Step 8: Add Randomness to the Red Values
+**random\(min, max\)** is a common function that takes a minimum number and a maximum number and provides a "random" number between them.
 
-Let's add a random value between 0 and 255 to the red values of the fill color:
+Let's use it first on the size of the circle by changing the variable's value from 50 to somewhere between 1 and 75 pixels.
 
 ```java
+float circleSize = random(1, 75);
+
 void setup() { 
   size(600, 600);
   background(0);
@@ -191,8 +216,70 @@ void setup() {
 
 void draw() {
   noStroke();
+  fill(0, 255, 255);
+  circle(mouseX, mouseY, circleSize);
+}
+```
+
+You'll notice as you play it several times, the initial size changes, but stays the same throughout the time it runs.
+
+## Step 9: Updating Variables
+
+The variable is initialized once when we run the program so it stays the same size. If we want to have it constantly updating to see an effect, we need to **update** the variable on every frame - in the `draw()` function.
+
+We do this simply by using the variable name, an equals sign, and a new value:
+
+```java
+circleSize = random(1, 75);    // Asks for a new random number.
+```
+
+{% hint style="info" %}
+You do not need the type of variable when you are updating it.
+{% endhint %}
+
+Let's add this to the beginning of the draw\(\) function to prepare it to be used in the circle\(\) code.
+
+Full code:
+
+```java
+float circleSize = random(1, 75);
+
+void setup() { 
+  size(600, 600);
+  background(0);
+}
+
+void draw() {
+  circleSize = random(1, 75);
+  noStroke();
+  fill(0, 255, 255);
+  circle(mouseX, mouseY, circleSize);
+}
+```
+
+You'll notice as you play it several times, the initial size changes, but stays the same throughout the time it runs.
+
+Looks like:
+
+![](../../.gitbook/assets/step9%20%281%29.gif)
+
+## Step 10: Add Randomness to the Red Values
+
+Let's add a random value between 0 and 255 to the red values of the fill color:
+
+```java
+float circleSize = random(1, 75);
+
+void setup() { 
+  size(600, 600);
+  background(0);
+}
+
+void draw() {
+  circleSize = random(1, 75);
+  noStroke();
   fill(random(0, 255), 255, 255);
-  circle(mouseX, mouseY, random(1, 75));
+  circle(mouseX, mouseY, circleSize);
 }
 ```
 
@@ -202,20 +289,23 @@ Looks like:
 
 Since both green and blue values are at their maximum, increases in the red value bring the color closer to white \(255, 255, 255\).
 
-## Step 9: Add More Randomness
+## Step 11: Add More Randomness
 
 Let's make all the color values random!
 
 ```java
+float circleSize = random(1, 75);
+
 void setup() { 
   size(600, 600);
   background(0);
 }
 
 void draw() {
+  circleSize = random(1, 75);
   noStroke();
   fill(random(0, 255), random(0, 255), random(0, 255));
-  circle(mouseX, mouseY, random(1, 75));
+  circle(mouseX, mouseY, circleSize;
 }
 ```
 
@@ -223,28 +313,17 @@ Looks like:
 
 ![](../../.gitbook/assets/step9.gif)
 
-## Step 10: Using a Variable
+## Step 12: Using a Variable
 
 This is jumping ahead, but let's make the speed in which we move the mouse on the X-axis to determine the size of the circle.
 
 What's a quick way of determining speed? Speed really is the amount of time it takes for an object to change. In this case, we want to change the size of the circle based on how much change happened between two frames. 
 
-To record/hold a value to use later, we use **variables**. Variables are similar to reusable labels or nicknames that stand for specified information.
+mouseX is updated at the beginning of each frame, so we can't use it by itself. Here, we will "declare" another variable called `lastXPosition` to hold the information of one frame's mouseX information to use in the next frame. 
 
-mouseX is updated at the beginning of each frame, so we can't use it by itself. Here, we will "declare" a variable called `lastXPosition` to hold the information of one frame's mouseX information to use in the next frame. 
-
-"float" is used here to tell Processing the type of information it will have. We'll cover this next week.
-
-The single equals sign = is a way of "assigning" or "setting" the value of a variable. So `lastXPosition = 0` means "I want lastXPosition to be 0."
-
-{% hint style="info" %}
-It is good practice to have a starting or "initial" value to avoid errors.
-{% endhint %}
+Again, `lastXPosition = 0` means "I want lastXPosition to be 0."
 
 Put variables that will be used for the project before and outside of the setup\(\) and draw\(\) blocks. We want these to be accessed outside of those restrictions.
-
-To declare a variable, use this syntax:  
-_`type`_ `nameOfVariable =` _`initialValue`_`;`
 
 ```java
 float lastXPosition = 0;
@@ -280,10 +359,17 @@ That looks like this:
 abs(mouseX - lastXPosition)
 ```
 
-Now that we have what we need to get a value for the diameter, let's use it in the circle code:
+Now that we have what we need to get a value for the diameter, let's use it for `circleSize` instead of the random function:
+
+```java
+circleSize = abs(mouseX - lastXPosition);
+```
+
+**Full Code:**
 
 ```java
 float lastXPosition = 0;
+float circleSize = abs(mouseX - lastXPosition);
 
 void setup() { 
   size(600, 600);
@@ -291,9 +377,10 @@ void setup() {
 }
 
 void draw() {
+  circleSize = abs(mouseX - lastXPosition);
   noStroke();
   fill(random(0, 255), random(0, 255), random(0, 255));
-  circle(mouseX, mouseY, abs(mouseX - lastXPosition));
+  circle(mouseX, mouseY, circleSize);
   lastXPosition = mouseX;
 }
 ```
