@@ -1,4 +1,6 @@
 # Week 2 Activities
 
-Text instructions will be added after class.
+{% page-ref page="monday-getting-blobby.md" %}
+
+
 
