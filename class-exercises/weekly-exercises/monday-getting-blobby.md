@@ -1,6 +1,6 @@
 # Monday - Getting Blobby
 
-The steps below walk you through the Processing activity we did during Monday of Week 2. All code should allow you to copy and paste.
+The steps below walk you through a similar Processing activity to the one we did during Monday of Week 2. All code should allow you to copy and paste.
 
 ## Step 1: Create a Canvas
 
