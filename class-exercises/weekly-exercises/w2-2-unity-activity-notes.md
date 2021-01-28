@@ -14,7 +14,7 @@ For a more in-depth look at using Translate, Rotate, and Scale, go here:
 
 **Move Button:**
 
-![Located at the top left - Move button is selected here.](../../.gitbook/assets/image%20%28108%29.png)
+![Located at the top left - Move button is selected here.](../../.gitbook/assets/image%20%28110%29.png)
 
 Your object will appear to have **arrows**:
 
@@ -26,7 +26,7 @@ Your object will appear to have **arrows**:
 
 **Rotate Button:**
 
-![Located at the top left - Rotate button is selected here.](../../.gitbook/assets/image%20%28103%29.png)
+![Located at the top left - Rotate button is selected here.](../../.gitbook/assets/image%20%28105%29.png)
 
 Your object will appear to have **circles** or **curves**:
 
@@ -38,7 +38,7 @@ Your object will appear to have **circles** or **curves**:
 
 **Scale Button:**
 
-![Located at the top left - Scale button is selected here.](../../.gitbook/assets/image%20%28106%29.png)
+![Located at the top left - Scale button is selected here.](../../.gitbook/assets/image%20%28108%29.png)
 
  Your object will appear to have **blocks** at the end of lines:
 
@@ -56,7 +56,7 @@ Add a built-in component through the **Inspector** window:
 
 Click the **Add Component** button.
 
-![](../../.gitbook/assets/image%20%28111%29.png)
+![](../../.gitbook/assets/image%20%28114%29.png)
 
 Use the dropdown menu items to navigate to Physics &gt; Rigidbody OR use the search and start typing the name of the component to find it:
 
@@ -64,7 +64,7 @@ Use the dropdown menu items to navigate to Physics &gt; Rigidbody OR use the sea
 
 Click on the component to add it and it will appear in the Inspector window:
 
-![The component appears at the bottom of the list of attached components.](../../.gitbook/assets/image%20%28117%29.png)
+![The component appears at the bottom of the list of attached components.](../../.gitbook/assets/image%20%28121%29.png)
 
 ## Creating a Material
 
@@ -76,11 +76,11 @@ Your **Project** window is a visual representation of your project folder. It sh
 
 Right-click in your Project window and select Create &gt; Material
 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28100%29.png)
 
 This will create a new material, which you can name.
 
-![](../../.gitbook/assets/image%20%28105%29.png)
+![](../../.gitbook/assets/image%20%28107%29.png)
 
 This name can include spaces.
 
@@ -92,7 +92,7 @@ I named this "Blue Materia." \(Yes, that was an accident and I didn't feel like 
 
 Once selected, the properties of the material will appear in the **Inspector** window:
 
-![](../../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 Here, you can change different aspects of the material. We'll just change the color here by clicking on the white square next to "Albedo."
 
@@ -100,7 +100,7 @@ Here, you can change different aspects of the material. We'll just change the co
 
 Click first on the **Hue** \(color\) in the circle, then on the square to choose your **Saturation** \(intensity\) and **Value** \(brightness\) of that color.
 
-![Example of a type of blue.](../../.gitbook/assets/image%20%28113%29.png)
+![Example of a type of blue.](../../.gitbook/assets/image%20%28117%29.png)
 
 Hit the ENTER key or close the color wheel popup. This will update the material.
 

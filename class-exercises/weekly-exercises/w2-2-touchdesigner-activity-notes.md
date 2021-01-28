@@ -12,7 +12,7 @@ The two shapes to play with would be a Circle TOP or Rectangle TOP.
 
 Bring up the **OP Create Dialog** that shows all the available operators by pressing the Tab button OR right-click and select **Add Operator**.
 
-![OP Create Dialog that shows the available Texture operators \(TOPs\)](../../.gitbook/assets/image%20%28115%29.png)
+![OP Create Dialog that shows the available Texture operators \(TOPs\)](../../.gitbook/assets/image%20%28119%29.png)
 
 You can use the search bar at the top left or look around and find the Circle TOP or the Rectangle TOP.
 
@@ -20,7 +20,7 @@ I'll use a Rectangle TOP here.
 
 Once selected, click again to place the operator.
 
-![Rectangle TOP next to its parameters](../../.gitbook/assets/image%20%28107%29.png)
+![Rectangle TOP next to its parameters](../../.gitbook/assets/image%20%28109%29.png)
 
 When you select the operator, it should show you its parameters \(properties\) on the top right. If you do not see these, press the P key to toggle it on and off.
 
@@ -46,9 +46,9 @@ Click and drag from the "output" notch on the right of the Rectangle TOP to the 
 
 Select and update the Transform TOP's parameters to see a result:
 
-![Example of Translate&apos;s X-axis value being updated to 0.25](../../.gitbook/assets/image%20%2897%29.png)
+![Example of Translate&apos;s X-axis value being updated to 0.25](../../.gitbook/assets/image%20%2898%29.png)
 
-![Example of Translate&apos;s Rotate value being further updated to -56 degrees.](../../.gitbook/assets/image%20%28110%29.png)
+![Example of Translate&apos;s Rotate value being further updated to -56 degrees.](../../.gitbook/assets/image%20%28113%29.png)
 
 ## Step 3: Creating a Color
 
@@ -66,11 +66,11 @@ You can use the search bar at the top left or look around and find the Constant 
 
 Once selected, click again to place the operator.
 
-![Constant TOP next to its parameters](../../.gitbook/assets/image%20%28114%29.png)
+![Constant TOP next to its parameters](../../.gitbook/assets/image%20%28118%29.png)
 
 You can easily change the color by clicking on the white rectangle and using sliders to select the color you want.
 
-![](../../.gitbook/assets/image%20%28112%29.png)
+![](../../.gitbook/assets/image%20%28116%29.png)
 
 Notice the numbers uses in Red, Green, and Blue here fall between 0 and 1.
 
@@ -78,7 +78,7 @@ Close the Color box to save and return to TouchDesigner.
 
 Those numbers appear in the values next to the color.
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+![](../../.gitbook/assets/image%20%28106%29.png)
 
 ## Step 4: Creating a Number
 
@@ -88,7 +88,7 @@ Bring up the **OP Create Dialog** by pressing the Tab button OR right-click and 
 
 Click on the green CHOP tab.
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28120%29.png)
 
 You can use the search bar at the top left or look around and find the Constant CHOP
 
@@ -102,7 +102,7 @@ You can rename the channel like we did in class, but I'll leave it as "chan1" he
 
 The red value of my current color is 0.578, so I'll type that in for my Constant CHOP.
 
-![](../../.gitbook/assets/image%20%28101%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 ## Step 5: Referencing a CHOP Value
 
@@ -112,7 +112,7 @@ First, let's look at our Constant TOP \(color\) and its values.
 
 By default, the parameters are "collapsed" to make it look pretty. We can click the **+** \(plus sign\) to the left of a parameter to see the actual names of the properties \(similar to variables\).
 
-![Example of &quot;Color&quot; no longer being &quot;collapsed&quot; showing the actual names of the values.](../../.gitbook/assets/image%20%28109%29.png)
+![Example of &quot;Color&quot; no longer being &quot;collapsed&quot; showing the actual names of the values.](../../.gitbook/assets/image%20%28112%29.png)
 
 Here, we see the three floating point values are **colorr**, **colorg**, and **colorb**.
 
@@ -139,7 +139,7 @@ So for our example, it's:
 
 `op('constant2')['chan1']`
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 Notice that the number we have for constant2, our Constant CHOP is now showing in the first value next to the Color parameter and is colored cyan.
 
@@ -155,7 +155,7 @@ Default mode:
 
 Viewer active mode:
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28101%29.png)
 
 It should turn green when you hover your cursor over it and your cursor should turn into a chevron.
 
@@ -194,6 +194,43 @@ Here, I added two more channels \(chan2 and chan3\) and updated them with my gre
 Now, you can change the colors by modifying the values in the Constant CHOP.
 
 ![](../../.gitbook/assets/chopreference3.gif)
+
+## Step 7: Adding the Color to an Object
+
+One way to add a color would be by using a Composite TOP - again, we want to stay with the same colors, so it will be a purple texture operator.
+
+Bring up the **OP Create Dialog** by pressing the Tab button OR right-click and select **Add Operator**.
+
+You can use the search bar at the top left or look around and find the Composite TOP.
+
+Once selected, click again to place the operator.
+
+I updated my network structure to look like this:
+
+![](../../.gitbook/assets/image%20%28111%29.png)
+
+Notice how the "input" notch on the left side of the Composite TOP is much bigger than the others - that is because it can take in a bunch of information. It's looking for at least two things to combine/overlay.
+
+Let's click and drag from the "output" notch of the Constant TOP to the Composite TOP.
+
+![](../../.gitbook/assets/image%20%28115%29.png)
+
+Then, click and drag from the "output" notch of the Transform TOP to the Composite TOP.
+
+![](../../.gitbook/assets/image%20%28103%29.png)
+
+Notice in the Composite TOP these two important things:
+
+1. The Operation defaults to Multiply, but it is a drop down of options you've seen probably in Photoshop and do similar layering effects and modes.
+2. Under "Input OP," it lists all the operators hooked up to this Composite TOP. You can use the up arrow symbol to change the layer order or the red X to remove a connection.
+
+![](../../.gitbook/assets/image%20%2897%29.png)
+
+## Step 8: Changing the Color and Transform without Changing the Original
+
+Now, you can adjust the color and the positioning and size of your shape without changing the original shape!
+
+![](../../.gitbook/assets/week2td.gif)
 
 ## So Why is this important?
 
