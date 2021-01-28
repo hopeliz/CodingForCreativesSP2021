@@ -7,6 +7,7 @@
 * [Week 2 Activities](class-exercises/weekly-exercises/README.md)
   * [Monday - Getting Blobby](class-exercises/weekly-exercises/monday-getting-blobby.md)
   * [Tuesday Unity Activity Notes](class-exercises/weekly-exercises/tuesday-unity-activity-notes.md)
+  * [Tuesday TouchDesigner Activity Notes](class-exercises/weekly-exercises/tuesday-touchdesigner-activity-notes.md)
 
 ## Glossary and Terms
 

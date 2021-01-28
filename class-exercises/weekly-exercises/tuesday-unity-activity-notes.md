@@ -14,7 +14,7 @@ For a more in-depth look at using Translate, Rotate, and Scale, go here:
 
 **Move Button:**
 
-![Located at the top left - Move button is selected here.](../../.gitbook/assets/image%20%2897%29.png)
+![Located at the top left - Move button is selected here.](../../.gitbook/assets/image%20%28108%29.png)
 
 Your object will appear to have **arrows**:
 
@@ -26,7 +26,7 @@ Your object will appear to have **arrows**:
 
 **Rotate Button:**
 
-![Located at the top left - Rotate button is selected here.](../../.gitbook/assets/image%20%2894%29.png)
+![Located at the top left - Rotate button is selected here.](../../.gitbook/assets/image%20%28103%29.png)
 
 Your object will appear to have **circles** or **curves**:
 
@@ -38,7 +38,7 @@ Your object will appear to have **circles** or **curves**:
 
 **Scale Button:**
 
-![Located at the top left - Scale button is selected here.](../../.gitbook/assets/image%20%2896%29.png)
+![Located at the top left - Scale button is selected here.](../../.gitbook/assets/image%20%28106%29.png)
 
  Your object will appear to have **blocks** at the end of lines:
 
@@ -52,19 +52,19 @@ Adding a **Rigidbody** component will give the object simulated gravity and will
 
 Add a built-in component through the **Inspector** window:
 
-![Inspector window for an example cube.](../../.gitbook/assets/image%20%2887%29.png)
+![Inspector window for an example cube.](../../.gitbook/assets/image%20%2890%29.png)
 
 Click the **Add Component** button.
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 Use the dropdown menu items to navigate to Physics &gt; Rigidbody OR use the search and start typing the name of the component to find it:
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2894%29.png)
 
 Click on the component to add it and it will appear in the Inspector window:
 
-![The component appears at the bottom of the list of attached components.](../../.gitbook/assets/image%20%28100%29.png)
+![The component appears at the bottom of the list of attached components.](../../.gitbook/assets/image%20%28117%29.png)
 
 ## Creating a Material
 
@@ -76,35 +76,35 @@ Your **Project** window is a visual representation of your project folder. It sh
 
 Right-click in your Project window and select Create &gt; Material
 
-![](../../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 This will create a new material, which you can name.
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%28105%29.png)
 
 This name can include spaces.
 
 I named this "Blue Materia." \(Yes, that was an accident and I didn't feel like changing it for this page.\)
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 
 ### **Step 2: Modify a Material**
 
 Once selected, the properties of the material will appear in the **Inspector** window:
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 Here, you can change different aspects of the material. We'll just change the color here by clicking on the white square next to "Albedo."
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2893%29.png)
 
 Click first on the **Hue** \(color\) in the circle, then on the square to choose your **Saturation** \(intensity\) and **Value** \(brightness\) of that color.
 
-![Example of a type of blue.](../../.gitbook/assets/image%20%2899%29.png)
+![Example of a type of blue.](../../.gitbook/assets/image%20%28113%29.png)
 
 Hit the ENTER key or close the color wheel popup. This will update the material.
 
-![](../../.gitbook/assets/image%20%2891%29.png)
+![](../../.gitbook/assets/image%20%2896%29.png)
 
 ### Step 3: Adding a Material to an Object
 
@@ -114,7 +114,7 @@ Unity's best feature is its click-and-drag capability. To add your material to a
 
 When it has been added, not only will you be able to see it update in the Scene window, but you can also see the Material component update at the bottom of the **Inspector** window.
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](../../.gitbook/assets/image%20%2887%29.png)
 
 {% hint style="danger" %}
 Remember: When you update the properties of an asset in the **Project** window, it updates it for ALL objects the asset is added to.
