@@ -1,4 +1,4 @@
-# Tuesday Unity Activity Notes
+# Wednesday Unity Activity Notes
 
 The activity we did was to get you practicing a little more with the **Translate**, **Rotate**, and **Scale** properties in Unity - all controlled by the **Transform** component \(a built-in script\) in the **Inspector** tab.
 

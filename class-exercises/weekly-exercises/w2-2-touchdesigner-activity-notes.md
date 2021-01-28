@@ -1,4 +1,4 @@
-# Tuesday TouchDesigner Activity Notes
+# Wednesday TouchDesigner Activity Notes
 
 The activity we did was to get you practicing a little more with adding operators \(nodes\) in TouchDesigner, especially Transform and Constant operators. We also touched on referencing Channel Operators \(CHOPs\).
 
