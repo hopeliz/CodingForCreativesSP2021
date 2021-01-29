@@ -4,10 +4,10 @@
 
 ## Class Exercises
 
-* [Week 2 Activities](class-exercises/weekly-exercises/README.md)
-  * [Monday - Getting Blobby](class-exercises/weekly-exercises/monday-getting-blobby.md)
-  * [Wednesday Unity Activity Notes](class-exercises/weekly-exercises/w2-2-unity-activity-notes.md)
-  * [Wednesday TouchDesigner Activity Notes](class-exercises/weekly-exercises/w2-2-touchdesigner-activity-notes.md)
+* [Week 2 Activities](class-exercises/week-2/README.md)
+  * [Monday - Getting Blobby](class-exercises/week-2/monday-getting-blobby.md)
+  * [Wednesday Unity Activity Notes](class-exercises/week-2/w2-2-unity-activity-notes.md)
+  * [Wednesday TouchDesigner Activity Notes](class-exercises/week-2/w2-2-touchdesigner-activity-notes.md)
 
 ## Glossary and Terms
 
