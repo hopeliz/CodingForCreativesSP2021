@@ -10,6 +10,7 @@
   * [Wednesday TouchDesigner Activity Notes](class-exercises/week-2/w2-2-touchdesigner-activity-notes.md)
 * [More Variable Activities](class-exercises/variable-activities/README.md)
   * [Star Wars Name Exercise](class-exercises/variable-activities/star-wars-name-exercise.md)
+  * [Mad Libs Exercise](class-exercises/variable-activities/mad-libs-exercise.md)
 
 ## Glossary and Terms
 

@@ -120,6 +120,10 @@ Let's use the built-in `.substring()` function:
 
 We'll use the second one since we need the beginning of each string. Remember to add a space between the second and third variables to show a separation between the first and last name.
 
+{% hint style="info" %}
+Remember: The "index" is the position in a list \(strings are lists of characters\) and it always starts with **ZERO**.
+{% endhint %}
+
 ```java
 String lastName;
 String firstName;
