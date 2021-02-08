@@ -11,6 +11,8 @@
 * [More Variable Activities](class-exercises/variable-activities/README.md)
   * [Star Wars Name Exercise](class-exercises/variable-activities/star-wars-name-exercise.md)
   * [Mad Libs Exercise](class-exercises/variable-activities/mad-libs-exercise.md)
+* [Week 3 Activities](class-exercises/week-3-activities/README.md)
+  * [Rubber Ducky Activity](class-exercises/week-3-activities/rubber-ducky-activity.md)
 
 ## Glossary and Terms
 
