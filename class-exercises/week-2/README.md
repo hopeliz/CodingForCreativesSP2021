@@ -1,4 +1,4 @@
-# Week 2 Activities
+# Week 2 \(Variable\) Activities
 
 {% page-ref page="monday-getting-blobby.md" %}
 

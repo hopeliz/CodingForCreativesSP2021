@@ -1,4 +1,4 @@
-# Week 3 Activities
+# Week 3 \(If/Else Statements\) Activities
 
 {% page-ref page="rubber-ducky-activity.md" %}
 
