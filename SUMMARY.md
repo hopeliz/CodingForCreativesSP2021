@@ -5,12 +5,12 @@
 ## Class Exercises
 
 * [Week 2 \(Variable\) Activities](class-exercises/week-2/README.md)
-  * [More Variable Activities](class-exercises/week-2/variable-activities/README.md)
-    * [Star Wars Name Exercise](class-exercises/week-2/variable-activities/star-wars-name-exercise.md)
-    * [Mad Libs Exercise](class-exercises/week-2/variable-activities/mad-libs-exercise.md)
   * [Getting Blobby \(Processing\)](class-exercises/week-2/w2-1-getting-blobby.md)
   * [Unity Activity Notes](class-exercises/week-2/w2-2-unity-activity-notes.md)
   * [TouchDesigner Activity Notes](class-exercises/week-2/w2-2-touchdesigner-activity-notes.md)
+  * [More Variable Activities](class-exercises/week-2/variable-activities/README.md)
+    * [Star Wars Name Exercise](class-exercises/week-2/variable-activities/star-wars-name-exercise.md)
+    * [Mad Libs Exercise](class-exercises/week-2/variable-activities/mad-libs-exercise.md)
 * [Week 3 \(If/Else Statements\) Activities](class-exercises/week-3-activities/README.md)
   * [Rubber Ducky Activity \(Unity\)](class-exercises/week-3-activities/rubber-ducky-activity.md)
 * [Week 4 \(Loops\) Activities](class-exercises/week-4-loops-activities/README.md)
@@ -18,6 +18,7 @@
   * [More Loop Activities](class-exercises/week-4-loops-activities/more-loop-activities/README.md)
     * [Movement Using If Statements In Processing](class-exercises/week-4-loops-activities/more-loop-activities/movement-using-if-statements-in-processing.md)
     * [Moving Shapes in Processing](class-exercises/week-4-loops-activities/more-loop-activities/moving-shapes-in-processing.md)
+* [Week 5 \(Arrays & Lists\) Activities](class-exercises/week-5-arrays-and-lists-activities.md)
 
 ## Glossary and Terms
 
