@@ -5,19 +5,19 @@
 ## Class Exercises
 
 * [Week 2 \(Variable\) Activities](class-exercises/week-2/README.md)
+  * [More Variable Activities](class-exercises/week-2/variable-activities/README.md)
+    * [Star Wars Name Exercise](class-exercises/week-2/variable-activities/star-wars-name-exercise.md)
+    * [Mad Libs Exercise](class-exercises/week-2/variable-activities/mad-libs-exercise.md)
   * [Monday - Getting Blobby](class-exercises/week-2/monday-getting-blobby.md)
   * [Wednesday Unity Activity Notes](class-exercises/week-2/w2-2-unity-activity-notes.md)
   * [Wednesday TouchDesigner Activity Notes](class-exercises/week-2/w2-2-touchdesigner-activity-notes.md)
-* [More Variable Activities](class-exercises/variable-activities/README.md)
-  * [Star Wars Name Exercise](class-exercises/variable-activities/star-wars-name-exercise.md)
-  * [Mad Libs Exercise](class-exercises/variable-activities/mad-libs-exercise.md)
 * [Week 3 \(If/Else Statements\) Activities](class-exercises/week-3-activities/README.md)
   * [Rubber Ducky Activity](class-exercises/week-3-activities/rubber-ducky-activity.md)
 * [Week 4 \(Loops\) Activities](class-exercises/week-4-loops-activities/README.md)
+  * [More Loop Activities](class-exercises/week-4-loops-activities/more-loop-activities/README.md)
+    * [Movement Using If Statements In Processing](class-exercises/week-4-loops-activities/more-loop-activities/movement-using-if-statements-in-processing.md)
+    * [Moving Shapes in Processing](class-exercises/week-4-loops-activities/more-loop-activities/moving-shapes-in-processing.md)
   * [Using For and Foreach Loops in Unity](class-exercises/week-4-loops-activities/using-for-and-foreach-loops-in-unity.md)
-* [More Loop Activities](class-exercises/more-loop-activities/README.md)
-  * [Movement Using If Statements In Processing](class-exercises/more-loop-activities/movement-using-if-statements-in-processing.md)
-  * [Moving Shapes in Processing](class-exercises/more-loop-activities/moving-shapes-in-processing.md)
 
 ## Glossary and Terms
 

@@ -17,7 +17,7 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28188%29.png)
+![](../../../.gitbook/assets/image%20%28188%29.png)
 
 You'll notice that the square isn't in the center.
 
@@ -40,7 +40,7 @@ void setup() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28189%29.png)
+![](../../../.gitbook/assets/image%20%28189%29.png)
 
 ## Step 2: Use Variables Instead of Values
 
@@ -123,7 +123,7 @@ Output when played:
 
 This movement will happen with any key.
 
-![](../../.gitbook/assets/w4s3.gif)
+![](../../../.gitbook/assets/w4s3.gif)
 
 As you can see, only the square is being drawn over itself.
 
@@ -162,7 +162,7 @@ void keyPressed() {
 
 Output when played:
 
-![](../../.gitbook/assets/w4s3b.gif)
+![](../../../.gitbook/assets/w4s3b.gif)
 
 ## Step 4: Refining Movement
 
@@ -205,7 +205,7 @@ void keyPressed() {
 
 Output when played \(keys pressed added to the graphic\):
 
-![](../../.gitbook/assets/w4s4.gif)
+![](../../../.gitbook/assets/w4s4.gif)
 
 ## Step 5: Add Other Directions
 
@@ -352,7 +352,7 @@ void keyPressed() {
 
 Output when played \(keys pressed added to the graphic\):
 
-![](../../.gitbook/assets/w4s5.gif)
+![](../../../.gitbook/assets/w4s5.gif)
 
 
 

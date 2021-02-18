@@ -33,7 +33,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28162%29.png)
+![](../../../.gitbook/assets/image%20%28162%29.png)
 
 ## Step 2: Creating Variables for Varying Values
 
@@ -99,7 +99,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5as3.gif)
+![](../../../.gitbook/assets/week5as3.gif)
 
 ## Step 4: Change Direction with If Statements
 
@@ -144,7 +144,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5as4.gif)
+![](../../../.gitbook/assets/week5as4.gif)
 
 ## Step 5: Make a Full Square
 
@@ -236,5 +236,5 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5as5.gif)
+![](../../../.gitbook/assets/week5as5.gif)
 

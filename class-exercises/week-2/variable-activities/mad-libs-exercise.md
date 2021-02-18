@@ -54,7 +54,7 @@ If played, the console shows this:
 
 Variables in Processing need to have their data type declared along with the name.
 
-The naming convention for variable names is using descriptive short phrases/names and [camel case](../../glossary-and-terms/variables/declaring-variables.md#camel-casing).
+The naming convention for variable names is using descriptive short phrases/names and [camel case](../../../glossary-and-terms/variables/declaring-variables.md#camel-casing).
 
 Since you might want to use these variables in more than just `setup()` or `draw()`, create them outside the `setup()` and `draw()` functions at the top of the code. This will allow any block to access the variables.
 
