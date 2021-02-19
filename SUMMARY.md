@@ -18,7 +18,8 @@
   * [More Loop Activities](class-exercises/week-4-loops-activities/more-loop-activities/README.md)
     * [Movement Using If Statements In Processing](class-exercises/week-4-loops-activities/more-loop-activities/movement-using-if-statements-in-processing.md)
     * [Moving Shapes in Processing](class-exercises/week-4-loops-activities/more-loop-activities/moving-shapes-in-processing.md)
-* [Week 5 \(Arrays & Lists\) Activities](class-exercises/week-5-arrays-and-lists-activities.md)
+* [Week 5 \(Arrays & Lists\) Activities](class-exercises/week-5-arrays-and-lists-activities/README.md)
+  * [Moving Squares Activity](class-exercises/week-5-arrays-and-lists-activities/moving-squares-activity.md)
 
 ## Glossary and Terms
 
