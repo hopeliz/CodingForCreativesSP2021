@@ -20,6 +20,8 @@
     * [Moving Shapes in Processing](class-exercises/week-4-loops-activities/more-loop-activities/moving-shapes-in-processing.md)
 * [Week 5 \(Arrays & Lists\) Activities](class-exercises/week-5-arrays-and-lists-activities/README.md)
   * [Moving Squares Activity](class-exercises/week-5-arrays-and-lists-activities/moving-squares-activity.md)
+* [Week 6 \(Functions\)](class-exercises/week-6-functions/README.md)
+  * [Mario Activity](class-exercises/week-6-functions/mario-activity.md)
 
 ## Glossary and Terms
 
