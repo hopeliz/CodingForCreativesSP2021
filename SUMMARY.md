@@ -4,7 +4,24 @@
 
 ## Class Exercises
 
-* [Weekly Exercises](class-exercises/weekly-exercises.md)
+* [Week 2 \(Variable\) Activities](class-exercises/week-2/README.md)
+  * [Getting Blobby \(Processing\)](class-exercises/week-2/w2-1-getting-blobby.md)
+  * [Unity Activity Notes](class-exercises/week-2/w2-2-unity-activity-notes.md)
+  * [TouchDesigner Activity Notes](class-exercises/week-2/w2-2-touchdesigner-activity-notes.md)
+  * [More Variable Activities](class-exercises/week-2/variable-activities/README.md)
+    * [Star Wars Name Exercise](class-exercises/week-2/variable-activities/star-wars-name-exercise.md)
+    * [Mad Libs Exercise](class-exercises/week-2/variable-activities/mad-libs-exercise.md)
+* [Week 3 \(If/Else Statements\) Activities](class-exercises/week-3-activities/README.md)
+  * [Rubber Ducky Activity \(Unity\)](class-exercises/week-3-activities/rubber-ducky-activity.md)
+* [Week 4 \(Loops\) Activities](class-exercises/week-4-loops-activities/README.md)
+  * [Using For and Foreach Loops in Unity](class-exercises/week-4-loops-activities/using-for-and-foreach-loops-in-unity.md)
+  * [More Loop Activities](class-exercises/week-4-loops-activities/more-loop-activities/README.md)
+    * [Movement Using If Statements In Processing](class-exercises/week-4-loops-activities/more-loop-activities/movement-using-if-statements-in-processing.md)
+    * [Moving Shapes in Processing](class-exercises/week-4-loops-activities/more-loop-activities/moving-shapes-in-processing.md)
+* [Week 5 \(Arrays & Lists\) Activities](class-exercises/week-5-arrays-and-lists-activities/README.md)
+  * [Moving Squares Activity](class-exercises/week-5-arrays-and-lists-activities/moving-squares-activity.md)
+* [Week 6 \(Functions\)](class-exercises/week-6-functions/README.md)
+  * [Mario Activity](class-exercises/week-6-functions/mario-activity.md)
 
 ## Glossary and Terms
 
@@ -47,6 +64,27 @@
 * [Objects, Classes & Libraries](glossary-and-terms/objects-classes-and-libraries/README.md)
   * [Accessing Objects](glossary-and-terms/objects-classes-and-libraries/accessing-objects.md)
 * [Node-Based Programming](glossary-and-terms/node-based-programming.md)
+
+## Processing Info
+
+* [Overview](processing-info/overview.md)
+* [Interface](processing-info/interface.md)
+* [Template](processing-info/template.md)
+* [Printing to the Console](processing-info/printing-to-the-console.md)
+
+## Unity Info
+
+* [Overview](unity-info/overview.md)
+* [The Default Interface](unity-info/the-default-interface.md)
+* [The Windows \(Tabs\)](unity-info/the-windows-tabs/README.md)
+  * [Hierarchy Window](unity-info/the-windows-tabs/hierarchy-window.md)
+  * [Scene Window](unity-info/the-windows-tabs/scene-window.md)
+  * [Project Window](unity-info/the-windows-tabs/project-window.md)
+  * [Inspector Window](unity-info/the-windows-tabs/inspector-window.md)
+  * [Game Window](unity-info/the-windows-tabs/game-window.md)
+  * [Console Window](unity-info/the-windows-tabs/console-window.md)
+* [Other Layouts](unity-info/other-layouts/README.md)
+  * [Create a Custom Layout](unity-info/other-layouts/create-a-custom-layout.md)
 
 ## TouchDesigner Info
 
