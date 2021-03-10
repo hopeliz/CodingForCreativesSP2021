@@ -24,6 +24,8 @@
   * [Mario Activity](class-exercises/week-6-functions/mario-activity.md)
   * [More Functions Activities](class-exercises/week-6-functions/more-functions-activities/README.md)
     * [Snake \(Processing\)](class-exercises/week-6-functions/more-functions-activities/snake-processing.md)
+* [Week 7 \(Human Interaction\)](class-exercises/week-7-human-interaction/README.md)
+  * [Raycasting \(Unity\)](class-exercises/week-7-human-interaction/raycasting-unity.md)
 
 ## Glossary and Terms
 
