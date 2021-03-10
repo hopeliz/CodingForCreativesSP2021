@@ -1425,7 +1425,7 @@ Save your script and test it in Unity!
 
 In Unity, create a folder in your Assets folder in the Project window and name it Audio.
 
-![](../../.gitbook/assets/image%20%28241%29.png)
+![](../../.gitbook/assets/image%20%28205%29%20%281%29.png)
 
 Just as you click and dragged the image files from the MarioAssets folder, click and drag the audio files from the Audio file.
 

@@ -114,7 +114,7 @@ This GIF is at 30 fps and doesn't show each time it's done, but you can see it i
 
 Provides a timer and whether it is "ready" or "done."
 
-![](../.gitbook/assets/tdcountchop-1-%20%281%29.gif)
+![](../.gitbook/assets/tdcountchop-1-%20%282%29.gif)
 
 ## Audio
 

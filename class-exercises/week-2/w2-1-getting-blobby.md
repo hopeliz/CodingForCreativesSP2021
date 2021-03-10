@@ -26,7 +26,7 @@ void draw() {
 
 Looks like:
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 When no background color is provided in the code, this is the gray it will default to.
 

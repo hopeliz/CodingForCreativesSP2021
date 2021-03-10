@@ -22,6 +22,8 @@
   * [Moving Squares Activity](class-exercises/week-5-arrays-and-lists-activities/moving-squares-activity.md)
 * [Week 6 \(Functions\)](class-exercises/week-6-functions/README.md)
   * [Mario Activity](class-exercises/week-6-functions/mario-activity.md)
+  * [More Functions Activities](class-exercises/week-6-functions/more-functions-activities/README.md)
+    * [Snake \(Processing\)](class-exercises/week-6-functions/more-functions-activities/snake-processing.md)
 
 ## Glossary and Terms
 
