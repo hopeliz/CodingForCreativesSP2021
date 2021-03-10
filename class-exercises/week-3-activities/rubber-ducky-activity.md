@@ -118,7 +118,7 @@ Create a new material:
 
 ![](../../.gitbook/assets/image%20%28142%29.png)
 
-Name it! \(I chose "Water"\) 
+Name it! \(I chose "Water"\)
 
 Then, select the new material and change the Albedo color to the color you want in the Inspector tab.
 
@@ -208,7 +208,7 @@ public class DuckyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame

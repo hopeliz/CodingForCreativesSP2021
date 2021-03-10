@@ -5,7 +5,7 @@ You can "print" or display messages in the console with the following code:
 Line of text:
 
 ```java
-print("Hello!");  
+print("Hello!");
 ```
 
 Prints:
@@ -26,7 +26,7 @@ Prints:
 Line of text with a carriage return at the end:
 
 ```java
-println("Hello!");  
+println("Hello!");
 ```
 
 Prints:

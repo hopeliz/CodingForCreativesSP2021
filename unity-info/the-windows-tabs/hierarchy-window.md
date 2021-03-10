@@ -6,11 +6,11 @@ description: Where the items in your scene go
 
 This window shows a text list of game objects within your scene.
 
-Game objects are the objects in the actual game. They use assets listed in the [Project](project-window.md) window to determine how the scene or game looks, sounds, and behaves. 
+Game objects are the objects in the actual game. They use assets listed in the [Project](project-window.md) window to determine how the scene or game looks, sounds, and behaves.
 
 ## Default View
 
-Usually, this tab starts with a Main Camera and a Directional Light. 
+Usually, this tab starts with a Main Camera and a Directional Light.
 
 ![](../../.gitbook/assets/image%20%2853%29.png)
 
@@ -40,7 +40,7 @@ You can search for items using the search bar. Once you begin typing, the list w
 
 Sometimes, you'll find yourself picking the wrong game object in the Scene View because of an overlap or how close it is to your intended game object. The pointy hand symbol that appears to the left of the object is a way to tell the program whether an object can be selected in the Scene View. Clicking the symbol to the left of the scene name will toggle the ability to pick all the objects.
 
-**Notes:**   
+**Notes:**  
 1. You must unselect the object for the updated setting to work.  
 2. When you change the ability for a parent object to be selected, you change it for all its child objects.
 
@@ -50,7 +50,7 @@ Sometimes, you'll find yourself picking the wrong game object in the Scene View 
 
 Sometimes, you'll want to hide an object in the Scene view. Hover your cursor over the space to the left of an object. Click the eye symbol to toggle the object's visibility. Clicking the eye to the left of the scene name will toggle visibility on and off for all objects.
 
-**Notes:**   
+**Notes:**  
 1. The hidden object will still be visible in the Game View.  
 2. When you hide a parent object, this also hides its child objects.
 

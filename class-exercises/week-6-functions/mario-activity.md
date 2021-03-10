@@ -163,16 +163,15 @@ public class MarioMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
-
 ```
 
 Let's also create some blank functions to control what happens when Mario does these things.
@@ -205,13 +204,13 @@ public class MarioMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Walk()
@@ -249,13 +248,13 @@ public class MarioMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void Walk()
@@ -268,7 +267,6 @@ public class MarioMove : MonoBehaviour
 
     }
 }
-
 ```
 
 Save your script and return to Unity.
@@ -336,7 +334,7 @@ public class MarioMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -442,7 +440,7 @@ if (Input.GetKey(KeyCode.LeftArrow))
 }
 ```
 
-Well, we turn on `isWalking`, we need to turn it off. The most obvious would be to turn off when the user releases or stops pressing the arrow key. Instead of creating code to look for key releases, let's turn these two if statements into an if/else if/else statement so the default would have `isWalking` turned off \(`false`\). 
+Well, we turn on `isWalking`, we need to turn it off. The most obvious would be to turn off when the user releases or stops pressing the arrow key. Instead of creating code to look for key releases, let's turn these two if statements into an if/else if/else statement so the default would have `isWalking` turned off \(`false`\).
 
 ```csharp
 if (Input.GetKey(KeyCode.RightArrow))
@@ -499,7 +497,7 @@ public class MarioMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -750,7 +748,6 @@ public class MarioMove : MonoBehaviour
 
     }
 }
-
 ```
 
 Save your script and test it in Unity!
@@ -812,7 +809,7 @@ public void Jump()
 }
 ```
 
-Back in our `Update()` function, we need to tell it when to run the `Jump()` function - with a keystroke and only on the first frame the key is pressed \(`Input.GetKeyDown()`\). 
+Back in our `Update()` function, we need to tell it when to run the `Jump()` function - with a keystroke and only on the first frame the key is pressed \(`Input.GetKeyDown()`\).
 
 ```csharp
 if (Input.GetKeyDown(KeyCode.Space))
@@ -963,7 +960,6 @@ public class MarioMove : MonoBehaviour
         mario.GetComponent<SpriteRenderer>().sprite = jumpingImage;
     }
 }
-
 ```
 
 Save your script and return to Unity.
@@ -997,7 +993,7 @@ At the end of the script, but before/inside the final curly bracket }, put this 
 ```csharp
 public void OnCollisionEnter2D(Collision2D collision)
 {
-    
+
 }
 ```
 
@@ -1106,7 +1102,7 @@ public class MarioMove : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow))
         {
             mario.transform.position += Vector3.right * moveSpeed * Time.deltaTime;
-            
+
             if (!isJumping)
             {
                 isWalking = true;
@@ -1116,7 +1112,7 @@ public class MarioMove : MonoBehaviour
         else if (Input.GetKey(KeyCode.LeftArrow))
         {
             mario.transform.position += Vector3.left * moveSpeed * Time.deltaTime;
-            
+
             if (!isJumping)
             {
                 isWalking = true;
@@ -1212,7 +1208,7 @@ At the end of the script before the final curly bracket `}`, add a new custom sc
 ```csharp
 public void ChangeDirection()
 {
-    
+
 }
 ```
 
@@ -1232,12 +1228,12 @@ if (Input.GetKey(KeyCode.RightArrow))
         {
             mario.transform.position += Vector3.right * moveSpeed * Time.deltaTime;
             isWalking = true;
-            
+
             if (!isJumping)
             {
                 isWalking = true;
             }
-            
+
             if (direction == 0)
             {
                 ChangeDirection();
@@ -1249,12 +1245,12 @@ if (Input.GetKey(KeyCode.RightArrow))
         {
             mario.transform.position += Vector3.left * moveSpeed * Time.deltaTime;
             isWalking = true;
-            
+
             if (!isJumping)
             {
                 isWalking = true;
             }
-            
+
             if (direction == 1)
             {
                 ChangeDirection();
@@ -1414,7 +1410,6 @@ public class MarioMove : MonoBehaviour
         mario.transform.localScale = new Vector3(mario.transform.localScale.x * -1, mario.transform.localScale.y, mario.transform.localScale.z);
     }
 }
-
 ```
 
 Save your script and test it in Unity!

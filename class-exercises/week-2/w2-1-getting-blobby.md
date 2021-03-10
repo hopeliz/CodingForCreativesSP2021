@@ -4,7 +4,7 @@ The steps below walk you through a similar Processing activity to the one we did
 
 ## Step 1: Create a Canvas
 
-**Remember:** 
+**Remember:**
 
 * `setup()` runs once on the first frame, `draw()` runs once per frame until it's stopped
 * Think of blocks of code like packages:
@@ -20,7 +20,7 @@ void setup() {
 }
 
 void draw() {
-  
+
 }
 ```
 
@@ -317,9 +317,9 @@ Looks like:
 
 This is jumping ahead, but let's make the speed in which we move the mouse on the X-axis to determine the size of the circle.
 
-What's a quick way of determining speed? Speed really is the amount of time it takes for an object to change. In this case, we want to change the size of the circle based on how much change happened between two frames. 
+What's a quick way of determining speed? Speed really is the amount of time it takes for an object to change. In this case, we want to change the size of the circle based on how much change happened between two frames.
 
-mouseX is updated at the beginning of each frame, so we can't use it by itself. Here, we will "declare" another variable called `lastXPosition` to hold the information of one frame's mouseX information to use in the next frame. 
+mouseX is updated at the beginning of each frame, so we can't use it by itself. Here, we will "declare" another variable called `lastXPosition` to hold the information of one frame's mouseX information to use in the next frame.
 
 Again, `lastXPosition = 0` means "I want lastXPosition to be 0."
 

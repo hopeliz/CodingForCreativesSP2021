@@ -96,13 +96,13 @@ public class FlyUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
 ```
@@ -165,7 +165,7 @@ public class FlyUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -174,7 +174,6 @@ public class FlyUp : MonoBehaviour
         cube.transform.position += Vector3.up * Time.deltaTime;
     }
 }
-
 ```
 
 ## Step 6: Add the Script to the Scene
@@ -262,7 +261,7 @@ public class FlyUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -343,7 +342,7 @@ public class FlyUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -356,7 +355,6 @@ public class FlyUp : MonoBehaviour
         cube5.transform.position += Vector3.up * speed * Time.deltaTime;
     }
 }
-
 ```
 
 Look at all that repetition!
@@ -428,7 +426,7 @@ public class FlyUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -440,7 +438,6 @@ public class FlyUp : MonoBehaviour
         }
     }
 }
-
 ```
 
 Save this and return to Unity.
@@ -506,7 +503,7 @@ Finally, we say what to do at the end of every time it runs through the loop: `i
 
 The code we want to run is in the curly brackets `{}`.
 
-This time, instead of just cube, we use the name of our array followed by square brackets `[]` with the number of the element inside. For example, `cubes[0]` is the first element or Element 0 and `cubes[3]` is the fourth element or Element 3. 
+This time, instead of just cube, we use the name of our array followed by square brackets `[]` with the number of the element inside. For example, `cubes[0]` is the first element or Element 0 and `cubes[3]` is the fourth element or Element 3.
 
 Here, we use `i` to stand for this number.
 
@@ -574,7 +571,7 @@ public class FlyUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -603,7 +600,6 @@ public class FlyUp : MonoBehaviour
         }
     }
 }
-
 ```
 
 Here's what it looks like:

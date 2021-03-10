@@ -8,7 +8,7 @@ For a more in-depth look at using Translate, Rotate, and Scale, go here:
 
 [https://hopemoore.gitbook.io/unity-basics/translate-rotate-and-scale/intro-to-transforms](https://hopemoore.gitbook.io/unity-basics/translate-rotate-and-scale/intro-to-transforms)
 
-## Move / Translate 
+## Move / Translate
 
 **Unity Shortcut:** W key
 
@@ -40,13 +40,13 @@ Your object will appear to have **circles** or **curves**:
 
 ![Located at the top left - Scale button is selected here.](../../.gitbook/assets/image%20%28108%29.png)
 
- Your object will appear to have **blocks** at the end of lines:
+Your object will appear to have **blocks** at the end of lines:
 
 ![](https://lh4.googleusercontent.com/97hlsLObtgBi7Tmk3NERJFOhgtg4Nd0-RFOPfLlb_m8NEXN7W3Br-nOVEH6h_ufgEVBEbP_SVxc4Sv2uKMJfrVD7vbONdYyz9C_bWMWFP1ZCND7xmuqzU_D7W5ErdheEgo8W7gnmv0M)
 
 ## Rigidbody Component
 
-By default, objects will not move when the game is played. The objects can also overlap. 
+By default, objects will not move when the game is played. The objects can also overlap.
 
 Adding a **Rigidbody** component will give the object simulated gravity and will use the object's **Collider** component to know where the edges of the objects are. This makes overlapping items with this component explode! It also allows objects to fall and affect those around them.
 
@@ -68,7 +68,7 @@ Click on the component to add it and it will appear in the Inspector window:
 
 ## Creating a Material
 
-Materials are separate, REUSABLE "objects" \(called **Assets**\) in Unity that you create and then add to other game objects in your scene. 
+Materials are separate, REUSABLE "objects" \(called **Assets**\) in Unity that you create and then add to other game objects in your scene.
 
 ### **Step 1: Create a Material**
 

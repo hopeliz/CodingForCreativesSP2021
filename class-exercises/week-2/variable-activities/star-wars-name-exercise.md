@@ -66,13 +66,13 @@ To get parts of the strings \(i.e. "first 3 letters" etc.\).
 
 ### **Using a function on an existing variable**
 
-The two ways you will see a variable work in or with a function are: 
+The two ways you will see a variable work in or with a function are:
 
-First way:   
-  
-The variable is used within the parentheses as information being used  
-  
-Example: 
+First way:
+
+The variable is used within the parentheses as information being used
+
+Example:
 
 ```java
 String greeting = "Hello!";
@@ -88,18 +88,18 @@ Prints:
 
 Second Way:
 
-The name of the variable followed by a period and the function name. 
+The name of the variable followed by a period and the function name.
 
 We will look further into this idea as we progress through the course. It's like starting with an object \(whatever the variable stands for\) and adding something to it OR digging deeper to get the object's properties.
 
-Example using the built-in `length()` function that gets the number of characters in a string: 
+Example using the built-in `length()` function that gets the number of characters in a string:
 
 ```java
 String mysteryWord;
 
 void setup() {
     mysteryWord = "Booger";
-    
+
     print("The mystery word has " + mysteryWord.length() + " letters.");
 }
 ```
@@ -110,11 +110,11 @@ Prints:
 
 ### **Getting a Substring of a String**
 
-We need to get the substrings of the variables we have. 
+We need to get the substrings of the variables we have.
 
 Let's use the built-in `.substring()` function:
 
-`.substring(index of first letter)` __starts the string with the index/location of the first letter.
+`.substring(index of first letter)` \_\_starts the string with the index/location of the first letter.
 
 `.substring(index of first letter, index of limit letter)` starts the string with the index/location of the first letter and ends on the letter before the limit letter.
 
@@ -135,7 +135,7 @@ void setup() {
   firstName = "Hope";
   parentName = "Michael";
   state = "Ohio";
-  
+
   println(lastName.substring(0, 3) + firstName.substring(0, 2) + " " + parentName.substring(0, 2) + state.substring(0, 2));
 }
 
@@ -162,7 +162,7 @@ void setup() {
   firstName = "Hope";
   parentName = "Michael";
   state = "Ohio";
-  
+
   println(lastName.substring(0, 3) + firstName.substring(0, 2).toLowerCase() + " " + parentName.substring(0, 2) + state.substring(0, 2).toLowerCase());
 }
 

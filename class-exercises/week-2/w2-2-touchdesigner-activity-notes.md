@@ -58,7 +58,7 @@ Just like in Unity or when coding in Processing, color is seen as separate from 
 
 Color is considered a "flat" visual object in TouchDesigner, so we are staying with the purple Texture operators \(TOPs\).
 
-For "just a single color," we want to use a **Constant** **TOP**. 
+For "just a single color," we want to use a **Constant** **TOP**.
 
 Bring up the **OP Create Dialog** by pressing the Tab button OR right-click and select **Add Operator**.
 

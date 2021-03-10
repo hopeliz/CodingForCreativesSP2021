@@ -2,5 +2,3 @@
 
 {% page-ref page="rubber-ducky-activity.md" %}
 
-
-

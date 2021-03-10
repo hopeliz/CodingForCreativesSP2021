@@ -82,7 +82,7 @@ Please see the links to access the Unity documentation for more in-depth info ab
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-The slider at the top adjusts the size of the visible gizmos. 
+The slider at the top adjusts the size of the visible gizmos.
 
 Please see the links to access the Unity documentation for more in-depth info about these options.
 

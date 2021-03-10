@@ -2,5 +2,3 @@
 
 {% page-ref page="using-for-and-foreach-loops-in-unity.md" %}
 
-
-

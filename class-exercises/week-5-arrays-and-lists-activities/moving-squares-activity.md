@@ -114,7 +114,7 @@ void draw() {
     square(xPos, yPos, size);
     xPos += size + 5;
     square(xPos, yPos, size);
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -123,8 +123,6 @@ void draw() {
 Output when played:
 
 ![](../../.gitbook/assets/image%20%28195%29.png)
-
-
 
 ## Step 5: Making the Sizes Different
 
@@ -156,7 +154,7 @@ void draw() {
     square(xPos, yPos, size0);
     xPos += size0 + 5;
     square(xPos, yPos, size1);
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -168,7 +166,7 @@ Output when played:
 
 ## Step 6: Make a Third Square
 
-Make a third square with the same method. 
+Make a third square with the same method.
 
 Create a variable to hold the size of the new square.
 
@@ -194,7 +192,7 @@ void draw() {
     square(xPos, yPos, size1);
     xPos += size1 + 5;
     square(xPos, yPos, size2);
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -246,7 +244,7 @@ void draw() {
     square(xPos, yPos, sizes[1]);
     xPos += sizes[1] + 5;
     square(xPos, yPos, sizes[2]);
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -317,7 +315,7 @@ void draw() {
       square(xPos, yPos, sizes[i]);
       xPos += sizes[i] + 5;
     }
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -372,7 +370,7 @@ void draw() {
       square(xPos, yPos, sizes[i]);
       xPos += sizes[i] + 5;
     }
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -431,7 +429,7 @@ void draw() {
       square(xPos, yPos, sizes[i]);
       xPos += sizes[i] + 5;
     }
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -444,8 +442,6 @@ void mouseClicked() {
 Output when played:
 
 ![](../../.gitbook/assets/week5movingsquares.gif)
-
-
 
 ## Step 10: Adding Randomness
 
@@ -482,7 +478,7 @@ void draw() {
       square(xPos, yPos, sizes[i]);
       xPos += sizes[i] + 5;
     }
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -556,7 +552,7 @@ void draw() {
       square(xPos, yPos, sizes[i]);
       xPos += sizes[i] + 5;
     }
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -636,7 +632,7 @@ void draw() {
       xPos += sizes[i] + 5;
       yPos[i] += 0.5;
     }
-    
+
     // Reset xPos
     xPos = 10;
 }
@@ -653,8 +649,6 @@ void mouseClicked() {
 Output when clicked:
 
 ![](../../.gitbook/assets/week5movingsquares5.gif)
-
-
 
 ## Step 13: Add More Randomness
 
@@ -687,7 +681,7 @@ void mouseClicked() {
 }
 ```
 
-Update the for loop to reflect the changes of the variables using `[i]` after the `xPos` variable. 
+Update the for loop to reflect the changes of the variables using `[i]` after the `xPos` variable.
 
 Since `xPos` will be random, remove the line that updates `xPos` **in both the for loop and outside it.**
 
@@ -757,7 +751,7 @@ void setup() {
 
 void draw() {
     background(0);  // Black background
-    
+
     for (int i = 0; i < sizes.length; i++) {
       fill(red[i], green[i], blue[i]);
       square(xPos[i], yPos[i], sizes[i]);
@@ -795,7 +789,7 @@ To make sure these arrays all have the same number of indices, add code to `mous
 direction = append(direction, random(0, 3));
 ```
 
-This will give you an error! We declared direction as an integer and `random()` gives us a float. We can change or _**cast**_ ****the `random()` result into an integer by using `int()` and putting the `random()` code in the parentheses.
+This will give you an error! We declared direction as an integer and `random()` gives us a float. We can change or _**cast**_ _\*\*_the `random()` result into an integer by using `int()` and putting the `random()` code in the parentheses.
 
 ```java
 direction = append(direction, int(random(0, 3)));
@@ -850,26 +844,26 @@ void setup() {
 
 void draw() {
     background(0);  // Black background
-    
+
     for (int i = 0; i < sizes.length; i++) {
       fill(red[i], green[i], blue[i]);
       square(xPos[i], yPos[i], sizes[i]);
-      
+
       if (direction[i] == 0) {
         // Move up
         yPos[i] -= 1;
       }
-      
+
       if (direction[i] == 1) {
         // Move right
         xPos[i] += 1;
       }
-      
+
       if (direction[i] == 2) {
         // Move down
         yPos[i] += 1;
       }
-      
+
       if (direction[i] == 3) {
         // Move left
         xPos[i] -= 1;

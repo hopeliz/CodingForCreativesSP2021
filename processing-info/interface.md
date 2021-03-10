@@ -26,7 +26,7 @@ The default mode is Java - a coding language that Processing is a derivative of 
 
 ![](../.gitbook/assets/image%20%2879%29.png)
 
-I'm not sure that's what it's called, but you can have multiple tabs to organize your code at the top - each a different file. Along the left are numbered lines to help with finding and fixing errors. 
+I'm not sure that's what it's called, but you can have multiple tabs to organize your code at the top - each a different file. Along the left are numbered lines to help with finding and fixing errors.
 
 ### The Console
 

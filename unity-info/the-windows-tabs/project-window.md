@@ -32,7 +32,7 @@ This makes it easier to find and create types of assets. This is just one way to
 
 ![](../../.gitbook/assets/image%20%2836%29.png)
 
-**Create Asset** - Click the plus sign or + to add an asset to the Asset folder. 
+**Create Asset** - Click the plus sign or + to add an asset to the Asset folder.
 
 **Favorite Searches** - By default, you can use the searches under "Favorites" to see just Materials, Models, or Prefabs.
 
@@ -79,8 +79,4 @@ When you start typing in the search bar, assets with matching names will be list
 The zoom control on the bottom right will "zoom" in and out of the files, showing large previews down to a list of names.
 
 ![](../../.gitbook/assets/assetzoom_01.gif)
-
-
-
-
 

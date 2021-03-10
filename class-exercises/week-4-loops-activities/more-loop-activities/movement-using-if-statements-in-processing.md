@@ -9,7 +9,7 @@ Create a canvas in `setup()` and a "player" that will move - I'm using a square 
 ```java
 void setup() {
     size(600, 600);        // Creates a 600 x 600 canvas
-    
+
     // Create a 50 x 50 square at coordinates (300, 300)
     rect(300, 300, 50, 50);    
 }
@@ -28,11 +28,11 @@ The default mode for rectangles/squares in Processing puts the origin at the top
 ```java
 void setup() {
     size(600, 600);        // Creates a 600 x 600 canvas
-    
+
     // Change rectMode() to draw the origin (x, y) coordinates 
     // in the center of the square
     rectMode(CENTER);
-    
+
     // Create a 50 x 50 square at coordinates (300, 300)
     rect(300, 300, 50, 50);    
 }
@@ -53,10 +53,10 @@ float size = 50;
 
 void setup() {
     size(600, 600);        // Creates a 600 x 600 canvas
-    
+
     // Change rectMode() to draw the origin (x, y) coordinates in the center of the square
     rectMode(CENTER);
-    
+
     // Create a square at the coordinates provided in the variables
     rect(x, y, size, size);    
 }
@@ -80,10 +80,10 @@ If you want to move the square up, you want to draw it at a y coordinate that's 
 
 ```java
 void keyPressed() {
-  
+
   // Subtract 5 from y each time a key is pressed
   y -= 5;
-  
+
   rect(x, y, size, size);
 }
 ```
@@ -99,10 +99,10 @@ float size = 50;
 
 void setup() {
     size(600, 600);        // Creates a 600 x 600 canvas
-    
+
     // Change rectMode() to draw the origin (x, y) coordinates in the center of the square
     rectMode(CENTER);
-    
+
     // Create a square at the coordinates provided in the variables
     rect(x, y, size, size);    
 }
@@ -111,10 +111,10 @@ void draw() {
 }
 
 void keyPressed() {
-  
+
   // Subtract 5 from y each time a key is pressed
   y -= 5;
-  
+
   rect(x, y, size, size);
 }
 ```
@@ -136,13 +136,13 @@ float size = 50;
 
 void setup() {
     size(600, 600);        // Creates a 600 x 600 canvas
-    
+
     // Change rectMode() to draw the origin (x, y) coordinates in the center of the square
     rectMode(CENTER);
-    
+
     // Draw a black background
     background(0);      // Equivalent to background(0, 0, 0);
-    
+
     // Create a square at the coordinates provided in the variables
     rect(x, y, size, size);    
 }
@@ -151,10 +151,10 @@ void draw() {
 }
 
 void keyPressed() {
-  
+
   // Subtract 5 from y each time a key is pressed
   y -= 5;
-  
+
   background(0);
   rect(x, y, size, size);
 }
@@ -188,12 +188,12 @@ Since the key pressed is stored as the built-in variable named `key`, let's comp
 ...
 
 void keyPressed() {
-  
+
   // Go up if 'w' is pressed
   if (key == 'w') {
     y -= speed;
   }
-  
+
   background(0);
   rect(x, y, size, size);
 }
@@ -215,17 +215,17 @@ Copy and paste the if statement or practice typing the if statement and update t
 ...
 
 void keyPressed() {
-  
+
   // Go up if 'w' is pressed
   if (key == 'w') {
     y -= speed;
   }
-  
+
   // Go down if 's' is pressed
   if (key == 's') {
     y += speed;
   }
-  
+
   background(0);
   rect(x, y, size, size);
 }
@@ -237,27 +237,27 @@ Copy and paste the two if statements or practice typing them and update the axis
 ...
 
 void keyPressed() {
-  
+
   // Go up if 'w' is pressed
   if (key == 'w') {
     y -= speed;
   }
-  
+
   // Go down if 's' is pressed
   if (key == 's') {
     y += speed;
   }
-  
+
   // Go left if 'a' is pressed
   if (key == 'a') {
     x -= speed;
   }
-  
+
   // Go right if 'd' is pressed
   if (key == 'd') {
     x += speed;
   }
-  
+
   background(0);
   rect(x, y, size, size);
 }
@@ -275,27 +275,27 @@ With OR, only one of the tests has to be true for the code to run.
 ...
 
 void keyPressed() {
-  
+
   // Go up if 'w' or 'W' is pressed
   if (key == 'w' || key == 'W') {
     y -= speed;
   }
-  
+
   // Go down if 's' or 'S' is pressed
   if (key == 's' || key == 'S') {
     y += speed;
   }
-  
+
   // Go left if 'a' or 'A' is pressed
   if (key == 'a' || key == 'A') {
     x -= speed;
   }
-  
+
   // Go right if 'd' or 'D' is pressed
   if (key == 'd' || key == 'D') {
     x += speed;
   }
-  
+
   ...
 ```
 
@@ -309,13 +309,13 @@ float speed = 5;
 
 void setup() {
     size(600, 600);        // Creates a 600 x 600 canvas
-    
+
     // Change rectMode() to draw the origin (x, y) coordinates in the center of the square
     rectMode(CENTER);
-    
+
     // Draw a black background
     background(0);      // Equivalent to background(0, 0, 0);
-    
+
     // Create a square at the coordinates provided in the variables
     rect(x, y, size, size);    
 }
@@ -324,27 +324,27 @@ void draw() {
 }
 
 void keyPressed() {
-  
+
   // Go up if 'w' or 'W' is pressed
   if (key == 'w' || key == 'W') {
     y -= speed;
   }
-  
+
   // Go down if 's' or 'S' is pressed
   if (key == 's' || key == 'S') {
     y += speed;
   }
-  
+
   // Go left if 'a' or 'A' is pressed
   if (key == 'a' || key == 'A') {
     x -= speed;
   }
-  
+
   // Go right if 'd' or 'D' is pressed
   if (key == 'd' || key == 'D') {
     x += speed;
   }
-  
+
   background(0);
   rect(x, y, size, size);
 }
@@ -353,6 +353,4 @@ void keyPressed() {
 Output when played \(keys pressed added to the graphic\):
 
 ![](../../../.gitbook/assets/w4s5.gif)
-
-
 

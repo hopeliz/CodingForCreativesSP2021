@@ -14,7 +14,7 @@ In this example, we will use a circle, but this will work with rectangles, squar
 void setup() {
   // 600 x 600 canvas
   size(600, 600);
-  
+
   // Have the pivot point be the center of the shape
   ellipseMode(CENTER);
 }
@@ -22,10 +22,10 @@ void setup() {
 void draw() {
   // Draws a black background
   background(0);
-  
+
   // Color of the shape
   fill(255, 125, 125);
-  
+
   // Draws a 50 x 50 circle at (100, 100)
   ellipse(100, 100, 50, 50);
 }
@@ -46,7 +46,7 @@ float y = 100;
 void setup() {
   // 600 x 600 canvas
   size(600, 600);
-  
+
   // Have the pivot point be the center of the shape
   ellipseMode(CENTER);
 }
@@ -54,10 +54,10 @@ void setup() {
 void draw() {
   // Draws a black background
   background(0);
-  
+
   // Color of the shape
   fill(255, 125, 125);
-  
+
   // Draws a 50 x 50 circle at the x and y coordinates
   ellipse(x, y, 50, 50);
 }
@@ -77,7 +77,7 @@ float speed = 2;
 void setup() {
   // 600 x 600 canvas
   size(600, 600);
-  
+
   // Have the pivot point be the center of the shape
   ellipseMode(CENTER);
 }
@@ -85,13 +85,13 @@ void setup() {
 void draw() {
   // Draws a black background
   background(0);
-  
+
   // Color of the shape
   fill(255, 125, 125);
-  
+
   // Draws a 50 x 50 circle at the x and y coordinates
   ellipse(x, y, 50, 50);
-  
+
   // Update x for every frame
   x += speed;
 }
@@ -115,7 +115,7 @@ float speed = 2;
 void setup() {
   // 600 x 600 canvas
   size(600, 600);
-  
+
   // Have the pivot point be the center of the shape
   ellipseMode(CENTER);
 }
@@ -123,18 +123,18 @@ void setup() {
 void draw() {
   // Draws a black background
   background(0);
-  
+
   // Color of the shape
   fill(255, 125, 125);
-  
+
   // Draws a 50 x 50 circle at the x and y coordinates
   ellipse(x, y, 50, 50);
-  
+
   // Update x for every frame until it reaches 500
   if (x <= 500) {
     x += speed;
   }
-  
+
   // Update y if x is around 500
   if (x >= 500) {
     y += speed;
@@ -172,7 +172,7 @@ int direction = 0;
 void setup() {
   // 600 x 600 canvas
   size(600, 600);
-  
+
   // Have the pivot point be the center of the shape
   ellipseMode(CENTER);
 }
@@ -180,15 +180,15 @@ void setup() {
 void draw() {
   // Draws a black background
   background(0);
-  
+
   // Color of the shape
   fill(255, 125, 125);
-  
+
   // Draws a 50 x 50 circle at the x and y coordinates
   ellipse(x, y, 50, 50);
-  
+
   if (direction == 0) {
-    
+
     // Limit how far
     if (x <= 500) {
       x += speed;
@@ -198,7 +198,7 @@ void draw() {
       direction = 1;
     }
   } 
-  
+
   if (direction == 1) {
     // Limit how far
     if (y <= 500) {
@@ -209,7 +209,7 @@ void draw() {
       direction = 2;
     }
   }
-  
+
   if (direction == 2) {
     // Limit how far
     if (x >= 100) {
@@ -220,7 +220,7 @@ void draw() {
       direction = 3;
     }
   }
-  
+
   if (direction == 3) {
     // Limit how far
     if (y >= 100) {

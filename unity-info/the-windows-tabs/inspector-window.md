@@ -39,9 +39,10 @@ The header generally shows the following elements for selected game objects:
 **Icon, Label, or Gizmo** - represents the type of game object. Click on this icon to change it.
 
 **Active \(checkbox\)** - objects can be turned on and off  
-Notes:   
-- Shortcut:   ALT + SHIFT + A  
-- Scripts trying to access inactive objects will give you an error.
+Notes:
+
+* Shortcut:   ALT + SHIFT + A  
+* Scripts trying to access inactive objects will give you an error.
 
 **Game object name** - Can be updated within the Inspector window
 
@@ -49,7 +50,7 @@ Notes:
 
 **Tag** **\(Dropdown\)** - Tags can be added or selected from a list to help with organization and access through a script.
 
-**Layer \(Dropdown\)**  - Layers can help a script determine how elements interact with certain objects.
+**Layer \(Dropdown\)** - Layers can help a script determine how elements interact with certain objects.
 
 ## Asset Header Information
 
@@ -101,7 +102,7 @@ Many assets have previews within the Inspector window at the bottom.
 
 The preview allows you to preview materials, videos, audio, and animation.
 
-The blue "label" icon on the right allows you to label your assets with one or more labels. 
+The blue "label" icon on the right allows you to label your assets with one or more labels.
 
 For information on Asset Bundles, please see the [Unity documentation](https://docs.unity3d.com/ScriptReference/AssetBundle.html).
 

@@ -42,11 +42,11 @@ void setup() {
 
 If played, the console shows this:
 
-> One \(adjective 1\) and \(adjective 2\) \(time of day\), \(name\) was delivered a\(n\) \(object 1\) by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to \(name\), not only because the \(object 1\) could have been sent through the regular mail, but because \(pronoun\) was/were\(number higher than 20\) years old.   
+> One \(adjective 1\) and \(adjective 2\) \(time of day\), \(name\) was delivered a\(n\) \(object 1\) by an owl and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to \(name\), not only because the \(object 1\) could have been sent through the regular mail, but because \(pronoun\) was/were\(number higher than 20\) years old.  
 >   
-> The letter said classes start in \(whole number 1\) days and that \(pronoun\) has/have to go to Diagon Ally to pick up three things:  a set of textbooks that \(action 1\), a pet \(animal or creature\), and \(whole number 2\) \(type of container 1\)s of \(measurement number\)-ounce of potion starter base \(also known as \(liquid\)\). \(type of container 2\)s are provided. \(name\) was unfamiliar with Diagon Ally and wandered the town of \(object 2\)ville. \(Pronoun\) easily found a stray \(animal\), which \(pronoun\) named \(adjective  3\)\(object 3\) and it was the most \(adjective 4\) \(animal\) \(pronoun\) had/have ever seen!   
+> The letter said classes start in \(whole number 1\) days and that \(pronoun\) has/have to go to Diagon Ally to pick up three things: a set of textbooks that \(action 1\), a pet \(animal or creature\), and \(whole number 2\) \(type of container 1\)s of \(measurement number\)-ounce of potion starter base \(also known as \(liquid\)\). \(type of container 2\)s are provided. \(name\) was unfamiliar with Diagon Ally and wandered the town of \(object 2\)ville. \(Pronoun\) easily found a stray \(animal\), which \(pronoun\) named \(adjective 3\)\(object 3\) and it was the most \(adjective 4\) \(animal\) \(pronoun\) had/have ever seen!  
 >   
-> \(Name\) couldn't find any potion starter base - especially not the \(total number of ounces\) ounces needed, but luckily found a textbook that \(action\)ed.   
+> \(Name\) couldn't find any potion starter base - especially not the \(total number of ounces\) ounces needed, but luckily found a textbook that \(action\)ed.  
 >   
 > Despite the struggles, \(pronoun\) made friends with other witches, wizards, \(type of person 1\)s , and \(type of person 2\)s andexcelled in school.
 
@@ -154,7 +154,7 @@ void setup() {
   println("Numbers: " + num3 + measurement);
   println("Numbers: " + (num3 + measurement));
   println(num3 + measurement);
-  
+
   println("One " + adj1 + " and " + adj2 + " " + timeOfDay + ", " + name + " was delivered a(n) " + obj1 + " by an owl" +
 " and attached was an acceptance letter to Hogwarts School of Witchcraft and Wizardry. This seemed weird to " + name + "," +
 " not only because the " + obj1 + " could have been sent through the regular mail, but because " + pronoun + " was/were " + 
@@ -193,11 +193,11 @@ Certain notation can be used within strings to accomplish things like creating a
 
 Let's make the beginning of some of the sentences have a capital letter instead of lowercase that the variable is in.
 
-Some languages have functions that can capitalize just the first letter, but Processing and Java has just uppercase and lowercase functions. 
+Some languages have functions that can capitalize just the first letter, but Processing and Java has just uppercase and lowercase functions.
 
 To capitalize the first letter and leave the rest lowercase, we can use two substrings. Substrings are parts of a defined string.
 
-`.substring(index of first letter)` __starts the string with the index/location of the first letter.
+`.substring(index of first letter)` \_\_starts the string with the index/location of the first letter.
 
 _`.substring(index of first letter, index of limit letter)`_ starts the string with the index/location of the first letter and ends on the letter before the limit letter
 
@@ -292,8 +292,6 @@ The output looks like this:
 > The letter said classes start in 19 days and that they has/have to go to Diagon Ally to pick up three things: a set of textbooks that burst, a pet owl, and 4007 potion bottles of 2.6-ounce of potion starter base \(also known as Razzwheat Gaterade\). Tupperwares are provided. Bartholowmew was unfamiliar with Diagon Ally and wandered the town of Wandville. They easily found a stray owl, which they named uncomfortable flying car and it was the most rainy owl they had/have ever seen! Bartholowmew couldn't find any potion starter base - especially not the 10418.199 ounces needed, but luckily found a textbook that bursted.
 >
 > Despite the struggles, they made friends with other witches, wizards, Half man half snakes, and Clones and excelled in school.
-
-
 
 You can also turn large numbers into strings that properly format the number with commas and rounding.
 

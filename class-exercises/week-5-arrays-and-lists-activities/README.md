@@ -2,5 +2,3 @@
 
 {% page-ref page="moving-squares-activity.md" %}
 
-
-

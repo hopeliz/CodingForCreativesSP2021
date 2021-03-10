@@ -1,6 +1,6 @@
 # Other Layouts
 
-The windows are built to be dragged around by their tabs to form different configurations. 
+The windows are built to be dragged around by their tabs to form different configurations.
 
 The Layout dropdown at the top right of the screen will have built-in options or you can create your own.
 
@@ -19,6 +19,4 @@ The Layout dropdown at the top right of the screen will have built-in options or
 ## Wide Layout
 
 ![](../../.gitbook/assets/image%20%2843%29.png)
-
-
 

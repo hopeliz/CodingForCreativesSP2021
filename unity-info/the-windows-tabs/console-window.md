@@ -27,7 +27,7 @@ Clicking on a message provides more information:
 | Printed message**:** | This is an example of an error. |
 | What code printed the error: | UnityEngine.Debug.LogError\(Object\) |
 | Name of the script catching the error: | SampleMessage.cs |
-| Function name within the script:  | Update\(\) |
+| Function name within the script: | Update\(\) |
 | File path of the script: | Assets/Scripts/SampleMessage.cs |
 | Line with error or error catch: | 18 |
 
@@ -51,7 +51,7 @@ Clicking on a message provides more information:
 
 **Search** - Results will appear and the term will be highlighted in blue. Click the x on the right side of the bar to clear the search.
 
-**Count** - Number of messages, warnings, and errors. You can toggle these by clicking on the type you want to hide or show. ****
+**Count** - Number of messages, warnings, and errors. You can toggle these by clicking on the type you want to hide or show. _\*\*_
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 
