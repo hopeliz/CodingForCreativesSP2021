@@ -26,6 +26,8 @@
     * [Snake \(Processing\)](class-exercises/week-6-functions/more-functions-activities/snake-processing.md)
 * [Week 7 \(Human Interaction\)](class-exercises/week-7-human-interaction/README.md)
   * [Raycasting \(Unity\)](class-exercises/week-7-human-interaction/raycasting-unity.md)
+* [Week 8 \(Randomness & Object Interaction\)](class-exercises/week-8-randomness-and-object-interaction/README.md)
+  * [Bouncing Ball \(Unity\)](class-exercises/week-8-randomness-and-object-interaction/bouncing-ball-unity.md)
 
 ## Glossary and Terms
 
