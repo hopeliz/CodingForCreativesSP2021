@@ -148,7 +148,7 @@ In the Inspector window, select **Preserve Aspect** under _Image Type_ so that i
 
 This will make the circle keep its shape in differently sized screens.
 
-![](../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28258%29%20%281%29.png)
 
 Use the Scale Tool to make the circle SUPER tiny - almost dot-like.
 
