@@ -382,7 +382,7 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares1%20%281%29.gif)
+![](../../.gitbook/assets/week5movingsquares1%20%282%29.gif)
 
 This will make each new square 100. But what if you want to make it 25 pixels bigger than the last?
 

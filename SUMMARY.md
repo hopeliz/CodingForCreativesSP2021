@@ -22,6 +22,14 @@
   * [Moving Squares Activity](class-exercises/week-5-arrays-and-lists-activities/moving-squares-activity.md)
 * [Week 6 \(Functions\)](class-exercises/week-6-functions/README.md)
   * [Mario Activity](class-exercises/week-6-functions/mario-activity.md)
+  * [More Functions Activities](class-exercises/week-6-functions/more-functions-activities/README.md)
+    * [Snake \(Processing\)](class-exercises/week-6-functions/more-functions-activities/snake-processing.md)
+* [Week 7 \(Human Interaction\)](class-exercises/week-7-human-interaction/README.md)
+  * [Raycasting \(Unity\)](class-exercises/week-7-human-interaction/raycasting-unity.md)
+* [Week 8 \(Randomness & Object Interaction\)](class-exercises/week-8-randomness-and-object-interaction/README.md)
+  * [Bouncing Ball \(Unity\)](class-exercises/week-8-randomness-and-object-interaction/bouncing-ball-unity.md)
+* [Week 9 \(Creating Custom Objects\)](class-exercises/week-9-creating-custom-objects/README.md)
+  * [Creating Custom Objects \(Processing\)](class-exercises/week-9-creating-custom-objects/creating-custom-objects-processing.md)
 
 ## Glossary and Terms
 
