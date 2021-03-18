@@ -61,7 +61,7 @@ void draw() {
 
 Output:
 
-![](../../../.gitbook/assets/image%20%28344%29.png)
+![](../../../.gitbook/assets/image%20%28348%29.png)
 
 ## Step 3: Add Movement
 

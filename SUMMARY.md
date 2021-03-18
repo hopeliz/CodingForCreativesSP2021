@@ -28,6 +28,8 @@
   * [Raycasting \(Unity\)](class-exercises/week-7-human-interaction/raycasting-unity.md)
 * [Week 8 \(Randomness & Object Interaction\)](class-exercises/week-8-randomness-and-object-interaction/README.md)
   * [Bouncing Ball \(Unity\)](class-exercises/week-8-randomness-and-object-interaction/bouncing-ball-unity.md)
+* [Week 9 \(Creating Custom Objects\)](class-exercises/week-9-creating-custom-objects/README.md)
+  * [Creating Custom Objects \(Processing\)](class-exercises/week-9-creating-custom-objects/creating-custom-objects-processing.md)
 
 ## Glossary and Terms
 

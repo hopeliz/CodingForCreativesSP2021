@@ -6,11 +6,11 @@ This activity looks at using colliders to get and update information when object
 
 Open Unity and create a scene by right-clicking in the Project window and selecting **Create &gt; Scene**.
 
-![](../../.gitbook/assets/image%20%28287%29.png)
+![](../../.gitbook/assets/image%20%28290%29.png)
 
 Give it a name and press ENTER or RETURN to confirm.
 
-![](../../.gitbook/assets/image%20%28326%29.png)
+![](../../.gitbook/assets/image%20%28329%29.png)
 
 Double-click the scene and it will open.
 
@@ -26,19 +26,19 @@ Here's a way I generally create these kinds of boxes that can serve as an interi
 
 Right-click and select **3D Object &gt; Cube**.
 
-![](../../.gitbook/assets/image%20%28313%29.png)
+![](../../.gitbook/assets/image%20%28316%29.png)
 
 The cube will most likely appear away from the origin, so let's reset it. 
 
 Select your cube to bring up its properties in the Inspector window. Right-click on the Transform component and select **Reset**.
 
-![](../../.gitbook/assets/image%20%28273%29.png)
+![](../../.gitbook/assets/image%20%28276%29.png)
 
 Now, the cube will be at the origin \(0, 0, 0\).
 
-![](../../.gitbook/assets/image%20%28350%29.png)
+![](../../.gitbook/assets/image%20%28354%29.png)
 
-![How it appears in the Game window](../../.gitbook/assets/image%20%28272%29.png)
+![How it appears in the Game window](../../.gitbook/assets/image%20%28275%29.png)
 
 {% hint style="info" %}
 If you can no longer see your cube in the Scene window, double-click on the cube object in the Hierarchy window to "focus" the Scene window on the object.
@@ -48,11 +48,11 @@ If you can no longer see your cube in the Scene window, double-click on the cube
 
 Using the scale tool on the top left of the screen, make your wall.
 
-![Shortcut: Press R](../../.gitbook/assets/image%20%28317%29.png)
+![Shortcut: Press R](../../.gitbook/assets/image%20%28320%29.png)
 
-![](../../.gitbook/assets/image%20%28333%29.png)
+![](../../.gitbook/assets/image%20%28337%29.png)
 
-![](../../.gitbook/assets/image%20%28318%29.png)
+![](../../.gitbook/assets/image%20%28321%29.png)
 
 ![](../../.gitbook/assets/image%20%28242%29.png)
 
@@ -67,27 +67,27 @@ Select the cube/wall in your Hierarchy window and do one of the following:
 
 This will duplicate the object in the same location, adding \(1\) at the end of the name of the new object.
 
-![](../../.gitbook/assets/image%20%28276%29.png)
+![](../../.gitbook/assets/image%20%28279%29.png)
 
 Select the first cube/wall and use the Move Tool on the top left of the screen to move the wall to the left.
 
-![Shortcut: Press W](../../.gitbook/assets/image%20%28277%29.png)
+![Shortcut: Press W](../../.gitbook/assets/image%20%28280%29.png)
 
-![](../../.gitbook/assets/image%20%28349%29.png)
+![](../../.gitbook/assets/image%20%28353%29.png)
 
-![](../../.gitbook/assets/image%20%28354%29.png)
+![](../../.gitbook/assets/image%20%28359%29.png)
 
 Once you have your left wall placed, use the X position coordinate for the other wall, but multiplied by -1. 
 
-![Coordinates of the first cube/wall](../../.gitbook/assets/image%20%28332%29.png)
+![Coordinates of the first cube/wall](../../.gitbook/assets/image%20%28336%29.png)
 
-![Coordinates of the second cube/wall](../../.gitbook/assets/image%20%28285%29.png)
+![Coordinates of the second cube/wall](../../.gitbook/assets/image%20%28288%29.png)
 
-![](../../.gitbook/assets/image%20%28268%29.png)
+![](../../.gitbook/assets/image%20%28270%29.png)
 
 Rename your walls by clicking to select your object and click again to rename.
 
-![](../../.gitbook/assets/image%20%28343%29.png)
+![](../../.gitbook/assets/image%20%28347%29.png)
 
 ### Make the front and back walls
 
@@ -95,19 +95,19 @@ You might think you can just select both walls \(hold SHIFT or CTRL and click\),
 
 However, this rotates each wall individually and doesn't save time.
 
-![](../../.gitbook/assets/image%20%28325%29.png)
+![](../../.gitbook/assets/image%20%28328%29.png)
 
 INSTEAD, we will use an empty object to contain or hold these objects and rotate that.
 
 BEFORE duplicating your walls, create an empty game object. Right-click in the Hierarchy window and select **Create Empty**.
 
-![](../../.gitbook/assets/image%20%28290%29.png)
+![](../../.gitbook/assets/image%20%28293%29.png)
 
 Like all game objects in the scene, it comes with a Transform component. **If the empty game object is not at \(0, 0, 0\)**, reset it by right-clicking on the Transform component and selecting **Reset**.
 
 Rename the game object to Left/Right Walls.
 
-![](../../.gitbook/assets/image%20%28297%29.png)
+![](../../.gitbook/assets/image%20%28300%29.png)
 
 Select the Left Wall and Right Wall objects and click and drag them onto the Left/Right Walls object.
 
@@ -123,17 +123,17 @@ Select and duplicate the Left/Right Walls "empty" object \(the parent\) and dupl
 
 This will duplicate the child objects as well.
 
-![](../../.gitbook/assets/image%20%28312%29.png)
+![](../../.gitbook/assets/image%20%28315%29.png)
 
 Use the **Rotate Tool** to rotate the parent object.
 
 ![Shortcut: Press E](../../.gitbook/assets/image%20%28248%29.png)
 
-![](../../.gitbook/assets/image%20%28353%29.png)
+![](../../.gitbook/assets/image%20%28357%29.png)
 
 You probably won't be perfect rotating these walls into place, so I usually rotate it some, then use the Transform component to rotate it 90 degrees \(or -90\) by typing it in on the Y rotation coordinate.
 
-![](../../.gitbook/assets/image%20%28269%29.png)
+![](../../.gitbook/assets/image%20%28271%29.png)
 
 Update the names of your new walls.
 
@@ -141,31 +141,31 @@ Update the names of your new walls.
 
 Right now, your walls probably have gaps.
 
-![](../../.gitbook/assets/image%20%28329%29.png)
+![](../../.gitbook/assets/image%20%28333%29.png)
 
 Use the **Scale Tool** on the individual walls \(best if two walls are selected at once\) to close the gaps.
 
-![](../../.gitbook/assets/image%20%28291%29.png)
+![](../../.gitbook/assets/image%20%28294%29.png)
 
 We can't see into the box in the Game window, so let's make the front wall invisible by turning off its Mesh Renerder component. This will make it appear invisible, but keep its collider so the ball can bounce off of it.
 
 Select the front wall and uncheck the checkbox next to the Mesh Renderer component.
 
-![](../../.gitbook/assets/image%20%28351%29.png)
+![](../../.gitbook/assets/image%20%28355%29.png)
 
-![](../../.gitbook/assets/image%20%28288%29.png)
+![](../../.gitbook/assets/image%20%28291%29.png)
 
 ### Make the ceiling and floor
 
 Duplicate the Left/Right Walls parent object and use the Rotate Tool to rotate it on the blue Z-axis.
 
-![](../../.gitbook/assets/image%20%28316%29.png)
+![](../../.gitbook/assets/image%20%28319%29.png)
 
 To make it easier, type -90 \(or 90\) into the Z rotation coordinate in the Inspector window.
 
 ![](../../.gitbook/assets/image%20%28246%29.png)
 
-![](../../.gitbook/assets/image%20%28352%29.png)
+![](../../.gitbook/assets/image%20%28356%29.png)
 
 Update the name of the walls.
 
@@ -173,13 +173,13 @@ Update the name of the walls.
 
 Use the Scale and Move tools on the individual walls \(children objects\) to fill the gaps.
 
-![](../../.gitbook/assets/image%20%28282%29.png)
+![](../../.gitbook/assets/image%20%28285%29.png)
 
 ### Polishing
 
 Select Main Camera and use the Move Tool to move the camera down and forward to center the box in the game window.
 
-![](../../.gitbook/assets/image%20%28295%29.png)
+![](../../.gitbook/assets/image%20%28298%29.png)
 
 The walls are currently a default white and appear as this god-awful yellow because of the directional light color. We'll turn that light off soon, so no need to change it.
 
@@ -187,27 +187,27 @@ However, let's give the walls a black material.
 
 Create a black material by right-clicking in the Project Window and selecting **Create &gt; Material**.
 
-![](../../.gitbook/assets/image%20%28304%29.png)
+![](../../.gitbook/assets/image%20%28307%29.png)
 
 Give it a name.
 
-![](../../.gitbook/assets/image%20%28270%29.png)
+![](../../.gitbook/assets/image%20%28272%29.png)
 
 Select the material to bring up its properties in the Inspector window.
 
 Click the white color block next to Albedo to bring up a color picker wheel. Click on black \(bottom left\) and press ENTER or RETURN to confirm it.
 
-![](../../.gitbook/assets/image%20%28355%29.png)
+![](../../.gitbook/assets/image%20%28360%29.png)
 
 Select all the individual walls \(hold SHIFT and click\) in the Hierarchy window.
 
-![](../../.gitbook/assets/image%20%28337%29.png)
+![](../../.gitbook/assets/image%20%28341%29.png)
 
 Click and drag the Black material to the Inspector window to apply the material to all the selected objects.
 
-![](../../.gitbook/assets/image%20%28265%29.png)
+![](../../.gitbook/assets/image%20%28266%29.png)
 
-![](../../.gitbook/assets/image%20%28283%29.png)
+![](../../.gitbook/assets/image%20%28286%29.png)
 
 ## Step 3: Add a Ball
 
@@ -215,19 +215,19 @@ Click in an empty area of the Hierarchy window to deselect objects.
 
 Right-click and select 3D Object &gt; Sphere and name the new object, "Ball."
 
-![](../../.gitbook/assets/image%20%28263%29.png)
+![](../../.gitbook/assets/image%20%28264%29.png)
 
-![](../../.gitbook/assets/image%20%28289%29.png)
+![](../../.gitbook/assets/image%20%28292%29.png)
 
 Reset the Transform of the ball.
 
-![](../../.gitbook/assets/image%20%28314%29.png)
+![](../../.gitbook/assets/image%20%28317%29.png)
 
-![](../../.gitbook/assets/image%20%28350%29.png)
+![](../../.gitbook/assets/image%20%28354%29.png)
 
 OH NO! WE CAN'T SEE IT!
 
-![](../../.gitbook/assets/image%20%28298%29.png)
+![](../../.gitbook/assets/image%20%28301%29.png)
 
 No worries! It's only because the ball is in a shadow.
 
@@ -235,29 +235,29 @@ Let's create a material that glows - or emits - a color.
 
 Right-click in the Project window and select **Create &gt; Material**.
 
-![](../../.gitbook/assets/image%20%28304%29.png)
+![](../../.gitbook/assets/image%20%28307%29.png)
 
 Name it something like White Glow.
 
-![](../../.gitbook/assets/image%20%28331%29.png)
+![](../../.gitbook/assets/image%20%28335%29.png)
 
 Select the material to see its properties in the Inspector window. The Albedo is already white.
 
 Select the checkbox next to Emission.
 
-![](../../.gitbook/assets/image%20%28300%29.png)
+![](../../.gitbook/assets/image%20%28303%29.png)
 
 Click on the HDR block next to the Color property to bring up a color picker for the glow color. Select white \(top left\) and press ENTER or RETURN to confirm.
 
-![](../../.gitbook/assets/image%20%28348%29.png)
+![](../../.gitbook/assets/image%20%28352%29.png)
 
 Click and drag the White Glow material onto the Ball object in the Hierarchy window OR select the Ball object and click and drag the material into the Inspector window.
 
-![](../../.gitbook/assets/image%20%28279%29.png)
+![](../../.gitbook/assets/image%20%28282%29.png)
 
 Although it appears to glow, it doesn't actually emit any light.
 
-![Even close to a wall, no light is reflected.](../../.gitbook/assets/image%20%28311%29.png)
+![Even close to a wall, no light is reflected.](../../.gitbook/assets/image%20%28314%29.png)
 
 Let's put a point light inside to make it appear to give off light.
 
@@ -267,11 +267,11 @@ In your Hierarchy window, right-click and select **Light &gt; Point Light**.
 
 Put your light at the same position as the ball. Select the Ball in the Hierarchy window. In the Inspector window, right-click the Transform component and select **Copy Component**.
 
-![](../../.gitbook/assets/image%20%28306%29.png)
+![](../../.gitbook/assets/image%20%28309%29.png)
 
 Select the Point Light object in the Hierarchy window. In the Inspector window, right-click the Transform component and select **Paste Component Values**.
 
-![](../../.gitbook/assets/image%20%28292%29.png)
+![](../../.gitbook/assets/image%20%28295%29.png)
 
 This puts the light where the ball is NOW, but we will be using gravity and randomness with the ball, so how do we get the light to stay with the ball?
 
@@ -279,13 +279,13 @@ PARENTING.
 
 Click and drag the Point Light object onto the Ball object so that it becomes a child of the Ball object.
 
-![](../../.gitbook/assets/image%20%28345%29.png)
+![](../../.gitbook/assets/image%20%28349%29.png)
 
 Now, wherever the ball goes, the light travels with it.
 
 The ball now appears to emit light when near a wall.
 
-![](../../.gitbook/assets/image%20%28280%29.png)
+![](../../.gitbook/assets/image%20%28283%29.png)
 
 Select the Directional Light in the Hierarchy window. Uncheck the checkbox to left of the name of the object in the Inspector window to turn off that unneeded object.
 
@@ -295,15 +295,15 @@ Select the Directional Light in the Hierarchy window. Uncheck the checkbox to le
 
 Select the Ball object in the Hierarchy or Scene window to bring up its properties and components. In the Inspector window, click the **Add Component** button.
 
-![](../../.gitbook/assets/image%20%28319%29.png)
+![](../../.gitbook/assets/image%20%28322%29.png)
 
 Start typing Rigidbody and the options will appear.
 
-![](../../.gitbook/assets/image%20%28264%29.png)
+![](../../.gitbook/assets/image%20%28265%29.png)
 
 Select Rigidbody to add the component.
 
-![Default Rigidbody component](../../.gitbook/assets/image%20%28327%29.png)
+![Default Rigidbody component](../../.gitbook/assets/image%20%28330%29.png)
 
 Play it!
 
@@ -313,29 +313,29 @@ The default Rigidbody component gives it gravity and will stop it when it touche
 
 In the Project window, right-click and select **Create &gt; Physic Material**.
 
-![](../../.gitbook/assets/image%20%28339%29.png)
+![](../../.gitbook/assets/image%20%28343%29.png)
 
 Name it something like Bouncy.
 
-![](../../.gitbook/assets/image%20%28309%29.png)
+![](../../.gitbook/assets/image%20%28312%29.png)
 
 Select it to bring up its properties in the Inspector window.
 
 Change the _Bounciness_ to 0.9 \(meaning 90 percent\) and the _Bounce Combine_ to Maximum. This will make it bouncy, but still lose momentum.
 
-![](../../.gitbook/assets/image%20%28336%29.png)
+![](../../.gitbook/assets/image%20%28340%29.png)
 
 Select all the individual walls in the Hierarchy window.
 
-![](../../.gitbook/assets/image%20%28262%29.png)
+![](../../.gitbook/assets/image%20%28263%29.png)
 
 In the Inspector window, in the Box Collider component, click and drag the Bouncy material into the _Material_ property or use the target icon to the right to select from a list.
 
-![](../../.gitbook/assets/image%20%28271%29.png)
+![](../../.gitbook/assets/image%20%28274%29.png)
 
 Select the Ball object and change the Material of the Sphere Collider the same way.
 
-![](../../.gitbook/assets/image%20%28315%29.png)
+![](../../.gitbook/assets/image%20%28318%29.png)
 
 Play it!
 
@@ -347,11 +347,11 @@ We want to push it in a random direction when the user presses the Space bar. We
 
 In the Project window, right-click and select **Create &gt; C\# Script**.
 
-![](../../.gitbook/assets/image%20%28260%29.png)
+![](../../.gitbook/assets/image%20%28261%29.png)
 
 Call it something like BallBehavior.
 
-![](../../.gitbook/assets/image%20%28301%29.png)
+![](../../.gitbook/assets/image%20%28304%29.png)
 
 Double-click on the script to open it in Visual Studio.
 
@@ -518,7 +518,7 @@ Save the code and go back to Unity.
 
 Select the Ball object in the Hierarchy window. Add the BallBehavior script by clicking and dragging it into the Inspector window or use the Add Component button to search for it.
 
-![](../../.gitbook/assets/image%20%28308%29.png)
+![](../../.gitbook/assets/image%20%28311%29.png)
 
 Click and drag the Ball object from the Hierarchy window or use the target symbol on the right of the property to select from a list.
 
@@ -546,11 +546,11 @@ BUT we can create a script that simply keeps track of the color number and have 
 
 Make a new script. In the Project window, right-click and select **Create &gt; C\# Script**.
 
-![](../../.gitbook/assets/image%20%28260%29.png)
+![](../../.gitbook/assets/image%20%28261%29.png)
 
 I'll call this script WallData.
 
-![](../../.gitbook/assets/image%20%28330%29.png)
+![](../../.gitbook/assets/image%20%28334%29.png)
 
 Double-click to open the script in Visual Studio.
 
@@ -580,7 +580,7 @@ Save it and return to Unity.
 
 Select the individual walls in the Hierarchy window.
 
-![](../../.gitbook/assets/image%20%28262%29.png)
+![](../../.gitbook/assets/image%20%28263%29.png)
 
 Click and drag the WallData script or use the Add Component button to search for the script to add it tall all the selected objects.
 
@@ -746,7 +746,7 @@ Select the Ball object in the Hierarchy window.
 
 The Ball Behavior script component now has properties for _Mat 1_ and _Mat 2_.
 
-![](../../.gitbook/assets/image%20%28261%29.png)
+![](../../.gitbook/assets/image%20%28262%29.png)
 
 Use the Black material for _Mat 1_ \(click and drag it or click the target icon on the right to choose from a list\).
 
@@ -754,7 +754,7 @@ For _Mat 2_, create another material with a color to change the wall to when the
 
 My _Ball Rb_ reset to None, so I had to click and drag the Ball object to set it again. \(This doesn't always happen\).
 
-![](../../.gitbook/assets/image%20%28294%29.png)
+![](../../.gitbook/assets/image%20%28297%29.png)
 
 Test it!
 
@@ -786,11 +786,11 @@ public void OnCollisionStay(Collision collision)
 
 Save it and go back to Unity. A property for _Touching Material_ will appear.
 
-![](../../.gitbook/assets/image%20%28305%29.png)
+![](../../.gitbook/assets/image%20%28308%29.png)
 
 Create a material and set it to _Touching Material_.
 
-![](../../.gitbook/assets/image%20%28342%29.png)
+![](../../.gitbook/assets/image%20%28346%29.png)
 
 Test it!
 
