@@ -40,7 +40,7 @@ Name your scene. I named this one "Looking at Things."
 
 Double-click on the new scene. This will open the scene in the Hierarchy, Scene, and Game windows.
 
-The name of the scene will be at the top of the Hierarchy window. A scene will have a Main Camera and Directional Light by default. 
+The name of the scene will be at the top of the Hierarchy window. A scene will have a Main Camera and Directional Light by default.
 
 ![](../../.gitbook/assets/image%20%28351%29.png)
 
@@ -148,7 +148,7 @@ In the Inspector window, select **Preserve Aspect** under _Image Type_ so that i
 
 This will make the circle keep its shape in differently sized screens.
 
-![](../../.gitbook/assets/image%20%28302%29.png)
+![](../../.gitbook/assets/image%20%28258%29.png)
 
 Use the Scale Tool to make the circle SUPER tiny - almost dot-like.
 
@@ -228,7 +228,7 @@ public GameObject promptTextObject;
 public Text promptText;
 ```
 
-In the `Update()` function, create a variable for the object that is hit's information. 
+In the `Update()` function, create a variable for the object that is hit's information.
 
 We want to put it in an if statement to have things happen ONLY when the ray hits something.
 
@@ -339,7 +339,7 @@ public class RaycastingTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -372,7 +372,6 @@ public class RaycastingTest : MonoBehaviour
 
     }
 }
-
 ```
 
 Save your script and test it in Unity!
@@ -415,7 +414,7 @@ public class RaycastingTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -449,7 +448,6 @@ public class RaycastingTest : MonoBehaviour
 
     }
 }
-
 ```
 
 Save your script and test it!

@@ -28,7 +28,7 @@ Right-click and select **3D Object &gt; Cube**.
 
 ![](../../.gitbook/assets/image%20%28316%29.png)
 
-The cube will most likely appear away from the origin, so let's reset it. 
+The cube will most likely appear away from the origin, so let's reset it.
 
 Select your cube to bring up its properties in the Inspector window. Right-click on the Transform component and select **Reset**.
 
@@ -77,7 +77,7 @@ Select the first cube/wall and use the Move Tool on the top left of the screen t
 
 ![](../../.gitbook/assets/image%20%28359%29.png)
 
-Once you have your left wall placed, use the X position coordinate for the other wall, but multiplied by -1. 
+Once you have your left wall placed, use the X position coordinate for the other wall, but multiplied by -1.
 
 ![Coordinates of the first cube/wall](../../.gitbook/assets/image%20%28336%29.png)
 
@@ -468,7 +468,7 @@ public class BallBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -511,7 +511,6 @@ public class BallBehavior : MonoBehaviour
         }
     }
 }
-
 ```
 
 Save the code and go back to Unity.
@@ -573,7 +572,6 @@ public class WallData : MonoBehaviour
 {
     public int colorNumber = 0;
 }
-
 ```
 
 Save it and return to Unity.
@@ -600,11 +598,11 @@ public Material mat2;
 ```csharp
 public void OnCollisionEnter(Collision collision)
 {
-    
+
 }
 ```
 
-In these curly brackets `{ }`,  we can check the color number of the wall we are hitting, then use it to determine what color/material to change it to.
+In these curly brackets `{ }`, we can check the color number of the wall we are hitting, then use it to determine what color/material to change it to.
 
 The local or temporary variable, **`collision`**, stores information about the object the object the script is attached to is touching. We can get the game object, then all its components, including the Wall Data script component. Using that, we can access its public properties, variables, and functions.
 
@@ -613,7 +611,7 @@ Let's check to see if the `colorNumber` variable is zero:
 ```csharp
 if (collision.gameObject.GetComponent<WallData>().colorNumber == 0)
 {
-    
+
 }
 ```
 
@@ -672,7 +670,7 @@ public class BallBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -737,7 +735,6 @@ public class BallBehavior : MonoBehaviour
         }
     }
 }
-
 ```
 
 Save the code and go back to Unity.
@@ -771,7 +768,7 @@ At the very end, but BEFORE the final closing curly bracket `}`, we can use a bu
 ```csharp
 public void OnCollisionStay(Collision collision)
 {
-    
+
 }
 ```
 
@@ -828,7 +825,7 @@ public class BallBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -903,12 +900,9 @@ public class BallBehavior : MonoBehaviour
         collision.gameObject.GetComponent<Renderer>().material = touchingMaterial;
     }
 }
-
 ```
 
 **Final result:**
 
 ![2x speed](../../.gitbook/assets/boucingball_07.gif)
-
- 
 

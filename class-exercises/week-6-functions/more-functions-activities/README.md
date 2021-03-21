@@ -2,5 +2,3 @@
 
 {% page-ref page="snake-processing.md" %}
 
-
-

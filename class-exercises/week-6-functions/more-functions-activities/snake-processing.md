@@ -30,9 +30,9 @@ Here, we are "calling" or "invoking" a built-in function. The two values we prov
 
 **`rectMode()`** - takes a mode to know how to handle rectangles and squares
 
-**`background()`** or   
-**`background(float grayscale)`** or   
-**`background(float red, float green, float blue)`** or   
+**`background()`** or  
+**`background(float grayscale)`** or  
+**`background(float red, float green, float blue)`** or  
 **`background(float red, float green, float blue, float alpha)`**
 
 This is a good example of how four different functions can have the same name and run different code based on the number of arguments. One argument will provide the grayscale or the equivalent of having all three colors the same value. The ones with one or three arguments all have a default alpha of 1. If you use all four arguments, the colors are 0-255 and the alpha is 0-1.
@@ -80,9 +80,9 @@ void setup() {
 
 void draw() {
   background(0);    
-  
+
   x += speed;
-  
+
   // Draw your squares last
   square(x, y, size);
 }
@@ -120,19 +120,19 @@ Instead of speed, have x increase by the size of the square.
 ```java
 void draw() {
   background(0);    
-  
+
   // counts down delay
   delay -= 1;
-  
+
   // Run the code at zero
   if (delay <= 0) {
     x += size;
-    
-    
+
+
     // Reset the delay
     delay = delayReset;
   }
-  
+
   // Draw your squares last
   square(x, y, size);
 }
@@ -156,30 +156,30 @@ Check the `direction` in the delay if statement and add code to update the appro
 ...
 
 delay -= 1;
-  
+
 if (delay <= 0) {
-  
+
   // If going right
   if (direction == 0) {
     x += size;
   }
-  
+
   // If going down
   else if (direction == 1) {
     y += size;
   }
-  
+
   // If going left
   else if (direction == 2) {
     x -= size;
   }
-  
+
   // If going up
   else {
     y -= size;
   }
-  
-  
+
+
   delay = delayReset;
 }
 
@@ -190,7 +190,7 @@ Add the **`keyPressed()`** function. Like `setup()` and `draw()`, you are creati
 
 ```java
 void keyPressed() {
-  
+
 }
 ```
 
@@ -201,15 +201,15 @@ void keyPressed() {
   if (keyCode == RIGHT) {
     direction = 0;
   }
-  
+
   if (keyCode == DOWN) {
     direction = 1;
   }
-  
+
   if (keyCode == LEFT) {
     direction = 2;
   }
-  
+
   if (keyCode == UP) {
     direction = 3;
   }
@@ -236,35 +236,35 @@ void setup() {
 
 void draw() {
   background(0);    
-  
+
   delay -= 1;
-  
+
   if (delay <= 0) {
-    
+
     // If going right
     if (direction == 0) {
       x += size;
     }
-    
+
     // If going down
     else if (direction == 1) {
       y += size;
     }
-    
+
     // If going left
     else if (direction == 2) {
       x -= size;
     }
-    
+
     // If going up
     else {
       y -= size;
     }
-    
-    
+
+
     delay = delayReset;
   }
-  
+
   square(x, y, size);
 }
 
@@ -272,15 +272,15 @@ void keyPressed() {
   if (keyCode == RIGHT) {
     direction = 0;
   }
-  
+
   if (keyCode == DOWN) {
     direction = 1;
   }
-  
+
   if (keyCode == LEFT) {
     direction = 2;
   }
-  
+
   if (keyCode == UP) {
     direction = 3;
   }
@@ -320,10 +320,10 @@ We want to set the target coordinates to be random when the game starts and when
 
 ```java
 void resetTarget() {
-  
+
   // size/2 offsets the target so it stays within the canvas
   float offset = size/2;
-  
+
   targetX = random(0 + offset, width - offset);
   targetY = random(0 + offset, height - offset);
 }
@@ -358,13 +358,13 @@ boolean touchingTarget(float playerX, float playerY) {
       playerX - offset <= targetX + offset &&
       playerY + offset >= targetY - offset &&
       playerY - offset <= targetY + offset) {
-        
+
     // If touching, return/output true
-    
+
     return true;
   }
   else {
-    
+
     // otherwise, return/output false
     return false;
   }
@@ -405,74 +405,74 @@ void setup() {
 
 void draw() {
   background(0);    
-  
+
   delay -= 1;
-  
+
   if (delay <= 0) {
-    
+
     // If going right
     if (direction == 0) {
       x += size;
     }
-    
+
     // If going down
     else if (direction == 1) {
       y += size;
     }
-    
+
     // If going left
     else if (direction == 2) {
       x -= size;
     }
-    
+
     // If going up
     else {
       y -= size;
     }
-    
-    
+
+
     delay = delayReset;
   }
-  
+
   if (touchingTarget(x, y) == true) {
     resetTarget();
   }
-  
+
   // Player
   stroke(255);
   fill(255);    // White
   square(x, y, size);
-  
+
   // Target
   stroke(255, 0, 0);
   fill(255, 0, 0);    // Red
   square(targetX, targetY, size);
-  
+
 }
 
 void keyPressed() {
   if (keyCode == RIGHT) {
     direction = 0;
   }
-  
+
   if (keyCode == DOWN) {
     direction = 1;
   }
-  
+
   if (keyCode == LEFT) {
     direction = 2;
   }
-  
+
   if (keyCode == UP) {
     direction = 3;
   }
 }
 
 void resetTarget() {
-  
+
   // size/2 offsets the target so it stays within the canvas
   float offset = size/2;
-  
+
   targetX = random(0 + offset, width - offset);
   targetY = random(0 + offset, height - offset);
 }
@@ -484,13 +484,13 @@ boolean touchingTarget(float playerX, float playerY) {
       playerX - offset <= targetX + offset &&
       playerY + offset >= targetY - offset &&
       playerY - offset <= targetY + offset) {
-        
+
     // If touching, return/output true
-    
+
     return true;
   }
   else {
-    
+
     // otherwise, return/output false
     return false;
   }
@@ -517,49 +517,49 @@ In our if statements, update `x` and `y` to `x[0]` and `y[0]`. We will be changi
 ```java
 void draw() {
   background(0);    
-  
+
   delay -= 1;
-  
+
   if (delay <= 0) {
-    
+
     // If going right
     if (direction == 0) {
       x[0] += size;
     }
-    
+
     // If going down
     else if (direction == 1) {
       y[0] += size;
     }
-    
+
     // If going left
     else if (direction == 2) {
       x[0] -= size;
     }
-    
+
     // If going up
     else {
       y[0] -= size;
     }
-    
-    
+
+
     delay = delayReset;
   }
-  
+
   if (touchingTarget(x[0], y[0]) == true) {
     resetTarget();
   }
-  
+
   // Player
   stroke(255);
   fill(255);    // White
   square(x[0], y[0], size);
-  
+
   // Target
   stroke(255, 0, 0);
   fill(255, 0, 0);    // Red
   square(targetX, targetY, size);
-  
+
 }
 ```
 
@@ -620,84 +620,84 @@ void setup() {
 
 void draw() {
   background(0);    
-  
+
   delay -= 1;
-  
+
   if (delay <= 0) {
-    
+
     for (int i = x.length - 1; i > 0; i--) {
       x[i] = x[i - 1];
       y[i] = y[i - 1];
     }
-    
+
     // If going right
     if (direction == 0) {
       x[0] += size;
     }
-    
+
     // If going down
     else if (direction == 1) {
       y[0] += size;
     }
-    
+
     // If going left
     else if (direction == 2) {
       x[0] -= size;
     }
-    
+
     // If going up
     else {
       y[0] -= size;
     }
-    
-    
+
+
     delay = delayReset;
   }
-  
+
   if (touchingTarget(x[0], y[0]) == true) {
     x = append(x, x[0]);
     y = append(y, y[0]);
     resetTarget();
   }
-  
+
   // Player
   stroke(255);
   fill(255);    // White
-  
+
   for (int i = 0; i < x.length; i++) {
     square(x[i], y[i], size);
   }
-  
+
   // Target
   stroke(255, 0, 0);
   fill(255, 0, 0);    // Red
   square(targetX, targetY, size);
-  
+
 }
 
 void keyPressed() {
   if (keyCode == RIGHT) {
     direction = 0;
   }
-  
+
   if (keyCode == DOWN) {
     direction = 1;
   }
-  
+
   if (keyCode == LEFT) {
     direction = 2;
   }
-  
+
   if (keyCode == UP) {
     direction = 3;
   }
 }
 
 void resetTarget() {
-  
+
   // size/2 offsets the target so it stays within the canvas
   float offset = size/2;
-  
+
   targetX = random(0 + offset, width - offset);
   targetY = random(0 + offset, height - offset);
 }
@@ -709,13 +709,13 @@ boolean touchingTarget(float playerX, float playerY) {
       playerX - offset <= targetX + offset &&
       playerY + offset >= targetY - offset &&
       playerY - offset <= targetY + offset) {
-        
+
     // If touching, return/output true
-    
+
     return true;
   }
   else {
-    
+
     // otherwise, return/output false
     return false;
   }

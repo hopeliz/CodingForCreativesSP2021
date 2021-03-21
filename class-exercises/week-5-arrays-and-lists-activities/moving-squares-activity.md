@@ -789,7 +789,7 @@ To make sure these arrays all have the same number of indices, add code to `mous
 direction = append(direction, random(0, 3));
 ```
 
-This will give you an error! We declared direction as an integer and `random()` gives us a float. We can change or _**cast**_ _\*\*_the `random()` result into an integer by using `int()` and putting the `random()` code in the parentheses.
+This will give you an error! We declared direction as an integer and `random()` gives us a float. We can change or _**cast**_ \_\*\*\_the `random()` result into an integer by using `int()` and putting the `random()` code in the parentheses.
 
 ```java
 direction = append(direction, int(random(0, 3)));

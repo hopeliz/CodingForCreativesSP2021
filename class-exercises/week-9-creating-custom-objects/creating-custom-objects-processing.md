@@ -29,26 +29,26 @@ We can do this in `draw()` so that it is drawn in each frame.
 void draw() {
   // Set background to black
   background(0);
-  
+
   // Set the rectMode to CENTER so squares and recatangles are drawn from the center and have a center pivot point.
   rectMode(CENTER);
-  
+
   // Set the fill color to white for now
   fill(255);
   square(300, 300, 100);
-  
+
   // Set the fill for the next square to black
   fill(0);
   square(300, 300, 80);
-  
+
   // Set the fill for the next square to white for now
   fill(255);
   square(300, 300, 60);
-  
+
   // Set the fill for the next square to black
   fill(0);
   square(300, 300, 40);
-  
+
   // Set the fill for the next square to white for now
   fill(255);
   square(300, 300, 20);
@@ -73,23 +73,23 @@ Then, replace the values in the code to the variables.
 void draw() {
   // Set background to black
   background(0);
-  
+
   // Set the rectMode to CENTER so squares and recatangles are drawn from the center and have a center pivot point.
   rectMode(CENTER);
-  
+
   // Set the fill color to white for now
   fill(fillColor);
   square(xPosition, yPosition, size);
-  
+
   fill(stripeColor);
   square(xPosition, yPosition, size * 0.8);
-  
+
   fill(fillColor);
   square(xPosition, yPosition, size * 0.6);
-  
+
   fill(stripeColor);
   square(xPosition, yPosition, size * 0.4);
-  
+
   fill(fillColor);
   square(xPosition, yPosition, size * 0.2);
 }
@@ -112,23 +112,23 @@ void setup() {
 void draw() {
   // Set background to black
   background(0);
-  
+
   // Set the rectMode to CENTER so squares and recatangles are drawn from the center and have a center pivot point.
   rectMode(CENTER);
-  
+
   // Set the fill color to white for now
   fill(fillColor);
   square(xPosition, yPosition, size);
-  
+
   fill(stripeColor);
   square(xPosition, yPosition, size * 0.8);
-  
+
   fill(fillColor);
   square(xPosition, yPosition, size * 0.6);
-  
+
   fill(stripeColor);
   square(xPosition, yPosition, size * 0.4);
-  
+
   fill(fillColor);
   square(xPosition, yPosition, size * 0.2);
 }
@@ -163,7 +163,7 @@ void checkButtonState() {
   if (mouseX >= xPosition - size/2 && mouseX <= xPosition + size/2 && mouseY >= yPosition - size/2 && mouseY <= yPosition + size/2) {
     // Change state to hover
     state = 1;
-    
+
     // Check for a mouse BUTTON PRESS (true when held down)
     if (mousePressed) {
       // Change state to selected
@@ -177,16 +177,16 @@ void checkButtonState() {
 }
 
 void determineColor() {
-  
+
   // Determine the fill color based on the state
   if (state == 1) {
     fillColor = hoverColor;
   }
-  
+
   else if (state == 2) {
     fillColor = selectedColor;
   }
-  
+
   else {
     if (buttonOn) {
       fillColor = buttonOnColor;
@@ -241,27 +241,27 @@ void setup() {
 void draw() {
   // Set background to black
   background(0);
-  
+
   // Set the rectMode to CENTER so squares and recatangles are drawn from the center and have a center pivot point.
   rectMode(CENTER);
-  
+
   // Call the checkButtonState() and determineColor() functions before getting the fillColor variable
   checkButtonState();
   determineColor();
-  
+
   // Set the fill color to white for now
   fill(fillColor);
   square(xPosition, yPosition, size);
-  
+
   fill(stripeColor);
   square(xPosition, yPosition, size * 0.8);
-  
+
   fill(fillColor);
   square(xPosition, yPosition, size * 0.6);
-  
+
   fill(stripeColor);
   square(xPosition, yPosition, size * 0.4);
-  
+
   fill(fillColor);
   square(xPosition, yPosition, size * 0.2);
 }
@@ -271,7 +271,7 @@ void checkButtonState() {
   if (mouseX >= xPosition - size/2 && mouseX <= xPosition + size/2 && mouseY >= yPosition - size/2 && mouseY <= yPosition + size/2) {
     // Change state to hover
     state = 1;
-    
+
     // Check for a mouse BUTTON PRESS (true when held down)
     if (mousePressed) {
       // Change state to selected
@@ -285,16 +285,16 @@ void checkButtonState() {
 }
 
 void determineColor() {
-  
+
   // Determine the fill color based on the state
   if (state == 1) {
     fillColor = hoverColor;
   }
-  
+
   else if (state == 2) {
     fillColor = selectedColor;
   }
-  
+
   else {
     if (buttonOn) {
       fillColor = buttonOnColor;
@@ -322,7 +322,7 @@ Output so far:
 
 **Create a new tab**
 
-Near the play button, click the tab with a down arrow and select **New Tab**. 
+Near the play button, click the tab with a down arrow and select **New Tab**.
 
 ![](../../.gitbook/assets/image%20%28358%29.png)
 
@@ -407,7 +407,7 @@ Now, we need a custom function to display the object. Put this inside/before the
 
 ```java
 void display() {
-    
+
 }
 ```
 
@@ -416,22 +416,22 @@ Copy the code in `draw()` in the first tab and paste it in the `display()` funct
 ```java
 void display() {
     rectMode(CENTER);
-    
+
     checkButtonState();
     determineColor();
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size);
-    
+
     fill(stripeColor);
     square(xPosition, yPosition, size * 0.8);
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size * 0.6);
-    
+
     fill(stripeColor);
     square(xPosition, yPosition, size * 0.4);
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size * 0.2);
 }
@@ -444,7 +444,7 @@ Copy the functions that follow `draw()` in the first tab and paste them before t
     // Check if the mouse cursor is within the button
     if (mouseX >= xPosition - size/2 && mouseX <= xPosition + size/2 && mouseY >= yPosition - size/2 && mouseY <= yPosition + size/2) {
       state = 1;    // Hover
-    
+
       if (mousePressed) {
         state = 2;   // Selected
       }
@@ -500,7 +500,7 @@ void mouseClicked() {
     // Switch the buttonOn variable to its opposite
     buttonOn = !buttonOn;
   }
-  
+
 }
 */
 ```
@@ -530,25 +530,25 @@ class Button {
     selectedColor = tempSelectedColor;
     buttonOnColor = tempButtonOnColor;
   }
-  
+
   void display() {
     rectMode(CENTER);
-    
+
     checkButtonState();
     determineColor();
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size);
-    
+
     fill(stripeColor);
     square(xPosition, yPosition, size * 0.8);
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size * 0.6);
-    
+
     fill(stripeColor);
     square(xPosition, yPosition, size * 0.4);
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size * 0.2);
   }
@@ -557,7 +557,7 @@ class Button {
     // Check if the mouse cursor is within the button
     if (mouseX >= xPosition - size/2 && mouseX <= xPosition + size/2 && mouseY >= yPosition - size/2 && mouseY <= yPosition + size/2) {
       state = 1;    // Hover
-    
+
       if (mousePressed) {
         state = 2;   // Selected
       }
@@ -642,16 +642,16 @@ Button blueButton;
 void setup() {
   // Create a canvas that's 600 by 600
   size(600, 600); 
-  
+
   // Red button 
   redButton = new Button(225, 225, 100, color(150, 0, 0), color(255, 100, 100), color(255, 200, 200), color(255, 0, 0)); 
-  
+
   // Yellow button 
   yellowButton = new Button(375, 225, 100, color(150, 150, 0), color(255, 255, 100), color(255, 255, 200), color(255, 255, 0));
-  
+
   // Green button 
   greenButton = new Button(225, 375, 100, color(0, 150, 0), color(100, 255, 100), color(200, 255, 200), color(0, 255, 0));
-  
+
   // Blue button 
   blueButton = new Button(375, 375, 100, color(0, 0, 150), color(100, 100, 255), color(200, 200, 255), color(0, 0, 255));
 }
@@ -659,7 +659,7 @@ void setup() {
 void draw() {
   // Set background to black
   background(0);
-  
+
   redButton.display();
   yellowButton.display();
   greenButton.display();
@@ -673,7 +673,7 @@ void mouseClicked() {
     // Switch the buttonOn variable to its opposite
     buttonOn = !buttonOn;
   }
-  
+
 }
 */
 ```
@@ -694,17 +694,17 @@ void mouseClicked() {
     // Switch the buttonOn variable to its opposite
     redButton.buttonOn = !redButton.buttonOn;
   }
-  
+
   if (yellowButton.state > 0) {
     // Switch the buttonOn variable to its opposite
     yellowButton.buttonOn = !yellowButton.buttonOn;
   }
-  
+
   if (greenButton.state > 0) {
     // Switch the buttonOn variable to its opposite
     greenButton.buttonOn = !greenButton.buttonOn;
   }
-  
+
   if (blueButton.state > 0) {
     // Switch the buttonOn variable to its opposite
     blueButton.buttonOn = !blueButton.buttonOn;
@@ -725,16 +725,16 @@ Button blueButton;
 void setup() {
   // Create a canvas that's 600 by 600
   size(600, 600); 
-  
+
   // Red button 
   redButton = new Button(225, 225, 100, color(150, 0, 0), color(255, 100, 100), color(255, 200, 200), color(255, 0, 0)); 
-  
+
   // Yellow button 
   yellowButton = new Button(375, 225, 100, color(150, 150, 0), color(255, 255, 100), color(255, 255, 200), color(255, 255, 0));
-  
+
   // Green button 
   greenButton = new Button(225, 375, 100, color(0, 150, 0), color(100, 255, 100), color(200, 255, 200), color(0, 255, 0));
-  
+
   // Blue button 
   blueButton = new Button(375, 375, 100, color(0, 0, 150), color(100, 100, 255), color(200, 200, 255), color(0, 0, 255));
 }
@@ -742,7 +742,7 @@ void setup() {
 void draw() {
   // Set background to black
   background(0);
-  
+
   redButton.display();
   yellowButton.display();
   greenButton.display();
@@ -754,17 +754,17 @@ void mouseClicked() {
     // Switch the buttonOn variable to its opposite
     redButton.buttonOn = !redButton.buttonOn;
   }
-  
+
   if (yellowButton.state > 0) {
     // Switch the buttonOn variable to its opposite
     yellowButton.buttonOn = !yellowButton.buttonOn;
   }
-  
+
   if (greenButton.state > 0) {
     // Switch the buttonOn variable to its opposite
     greenButton.buttonOn = !greenButton.buttonOn;
   }
-  
+
   if (blueButton.state > 0) {
     // Switch the buttonOn variable to its opposite
     blueButton.buttonOn = !blueButton.buttonOn;
@@ -797,25 +797,25 @@ class Button {
     selectedColor = tempSelectedColor;
     buttonOnColor = tempButtonOnColor;
   }
-  
+
   void display() {
     rectMode(CENTER);
-    
+
     checkButtonState();
     determineColor();
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size);
-    
+
     fill(stripeColor);
     square(xPosition, yPosition, size * 0.8);
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size * 0.6);
-    
+
     fill(stripeColor);
     square(xPosition, yPosition, size * 0.4);
-    
+
     fill(fillColor);
     square(xPosition, yPosition, size * 0.2);
   }
@@ -824,7 +824,7 @@ class Button {
     // Check if the mouse cursor is within the button
     if (mouseX >= xPosition - size/2 && mouseX <= xPosition + size/2 && mouseY >= yPosition - size/2 && mouseY <= yPosition + size/2) {
       state = 1;    // Hover
-    
+
       if (mousePressed) {
         state = 2;   // Selected
       }
