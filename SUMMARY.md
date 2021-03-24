@@ -30,6 +30,10 @@
 * [Week 9 \(Creating Custom Objects\)](class-exercises/week-9-creating-custom-objects/README.md)
   * [Creating Custom Objects \(Processing\)](class-exercises/week-9-creating-custom-objects/creating-custom-objects-processing.md)
   * [Cannon Game \(Unity\)](class-exercises/week-9-creating-custom-objects/cannon-game-unity.md)
+* [Week 10 \(Sensors & TouchDesigner\)](class-exercises/week-10-sensors-and-touchdesigner/README.md)
+  * [TouchOSC](class-exercises/week-10-sensors-and-touchdesigner/touchosc.md)
+  * [More Activities](class-exercises/week-10-sensors-and-touchdesigner/more-activities/README.md)
+    * [Audio-Reactive 3D Shapes](class-exercises/week-10-sensors-and-touchdesigner/more-activities/audio-reactive-3d-shapes.md)
 
 ## Glossary and Terms
 
