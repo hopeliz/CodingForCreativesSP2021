@@ -1,4 +1,4 @@
-# Cannon Ball Game \(Unity\)
+# Cannon Game \(Unity\)
 
 This activity looks at creating and using prefabs. It uses Unity 2020.2 and all code should allow you to copy and paste.
 
