@@ -106,6 +106,15 @@
 * [Popular SOPs](touchdesigner-info/popular-sops.md)
 * [Popular DATs](touchdesigner-info/popular-dats.md)
 
+## Arduino Info
+
+* [Arduinos!](arduino-info/arduinos.md)
+* [The Parts](arduino-info/the-parts.md)
+* [The Setup](arduino-info/the-setup/README.md)
+  * [Using the Serial Connection](arduino-info/the-setup/using-the-serial-connection.md)
+  * [Output Component Setup Examples](arduino-info/the-setup/output-component-setup-examples.md)
+  * [Input Component Setup Examples](arduino-info/the-setup/input-component-setup-examples.md)
+
 ## Templates & Shortcuts
 
 * [Power of Negative 1](templates-and-shortcuts/power-of-negative-1.md)
