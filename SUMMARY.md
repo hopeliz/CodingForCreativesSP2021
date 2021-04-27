@@ -127,6 +127,7 @@
   * [Processing Example](templates-and-shortcuts/wasd-movement-code/processing-example.md)
   * [Unity Example \(3D\)](templates-and-shortcuts/wasd-movement-code/unity-example-3d.md)
   * [Unity Example \(2D Platformer\)](templates-and-shortcuts/wasd-movement-code/unity-example-2d-platformer.md)
+* [Parenting Example Script](templates-and-shortcuts/parenting-example-script.md)
 
 ## Useful Links
 
