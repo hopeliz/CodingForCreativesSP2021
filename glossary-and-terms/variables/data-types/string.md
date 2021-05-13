@@ -101,11 +101,13 @@ Common string functions:
 
 More Processing string functions can be found here: [https://processing.org/reference/String.html](https://processing.org/reference/String.html)
 
-## Notation
+## Notation and Escape Sequences
 
-Certain notation can be used within strings to accomplish things like creating a new line \(equivalent to pressing the enter or return key\), inserting an apostrophe when single quotes are used, inserting a tab, etc.
+Certain notation can be used within strings to accomplish things like creating a new line \(equivalent to pressing the enter or return key\), inserting an apostrophe when single quotes are used, inserting a tab, etc. These combinations are called "escape sequences."
 
-**`\n`** = new line  
+Common examples:
+
+**`\n`** = new line \(sometimes written as "newline"\)  
 **`\r`** = carriage return  
 **`\t`** = tab  
 **`\'`** = apostrophe \(to use when single quotes are used for a string\)  

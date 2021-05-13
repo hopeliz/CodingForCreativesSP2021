@@ -67,6 +67,5 @@ people[0][0] = "Charlie";
 println(people[0][0] + " " + people[0][1]);
  
 // Prints "Charlie Stanton"
-
 ```
 
