@@ -20,9 +20,9 @@ In Processing, use the `square()` function. The four pieces of information neede
 2. y-coordinate
 3. size in pixels
 
-Let's put this in a draw\(\) function so that it draws it each frame.
+Let's put this in a draw() function so that it draws it each frame.
 
-For this example, we'll start with a 25 x 25 square with the **top left** corner at \(10, 10\).
+For this example, we'll start with a 25 x 25 square with the **top left** corner at (10, 10).
 
 ```java
 void setup() {
@@ -36,7 +36,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](<../../.gitbook/assets/image (194).png>)
 
 ## Step 3: Use Variables Instead
 
@@ -61,7 +61,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28197%29.png)
+![](<../../.gitbook/assets/image (194).png>)
 
 ## Step 4: Create the Next Square
 
@@ -92,7 +92,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28196%29.png)
+![](<../../.gitbook/assets/image (195).png>)
 
 Oops! We only want two squares right now!
 
@@ -122,7 +122,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28195%29.png)
+![](<../../.gitbook/assets/image (196).png>)
 
 
 
@@ -137,7 +137,7 @@ float size0 = 25;
 float size1 = 50;
 ```
 
-Update the names of the variables in the setup\(\) code.
+Update the names of the variables in the setup() code.
 
 Full code:
 
@@ -164,7 +164,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28200%29.png)
+![](<../../.gitbook/assets/image (197).png>)
 
 ## Step 6: Make a Third Square
 
@@ -202,7 +202,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28198%29.png)
+![](<../../.gitbook/assets/image (198).png>)
 
 ## Step 7: Switching to Arrays Instead of Variables
 
@@ -216,7 +216,7 @@ float sizes[] = { 25, 50, 75 };
 
 Imagine each value as a one-column table starting with Row 0. The row number is the **index** number we are wanting to access.
 
-Then, we can use the array and index as a variable by using the array name followed by the index in square brackets **\[ \]**:
+Then, we can use the array and index as a variable by using the array name followed by the index in square brackets **\[ ]**:
 
 ```java
     square(xPos, yPos, sizes[0]);
@@ -254,7 +254,7 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28199%29.png)
+![](<../../.gitbook/assets/image (199).png>)
 
 ## Step 8: Looping Through Array Values
 
@@ -264,9 +264,9 @@ To loop through the code, use a **for loop**.
 
 A for loop looks at the information in the parentheses. There are three parts in the parentheses:
 
-1. Initiation of a counting or control variable \(such as `i`, standing for _index_\)
-2. Conditions to run the code \(when i is less than the size of our array\). If the information/comparison is "true," the code following in the curly brackets `{ }` runs. Otherwise, the code is ignored.
-3. What to do at the end of the loop code \(updates the control variable\)
+1. Initiation of a counting or control variable (such as `i`, standing for _index_)
+2. Conditions to run the code (when i is less than the size of our array). If the information/comparison is "true," the code following in the curly brackets `{ }` runs. Otherwise, the code is ignored.
+3. What to do at the end of the loop code (updates the control variable)
 
 Here is an example knowing we have an array with 3 values - indices run from 0-2. We don't want the loop code to run if it is 3 or higher.
 
@@ -282,7 +282,7 @@ We won't always know how big our arrays will be or are, so there is a built-in w
 for (int i = 0; i < sizes.length; i++) {  }
 ```
 
-In the curly brackets { }, put one line of the repeated code \(the square and the xPos update\). The other repeated code can be removed.
+In the curly brackets { }, put one line of the repeated code (the square and the xPos update). The other repeated code can be removed.
 
 ```java
 for (int i = 0; i < sizes.length; i++) {
@@ -325,13 +325,13 @@ void draw() {
 
 Output when played:
 
-![](../../.gitbook/assets/image%20%28199%29.png)
+![](<../../.gitbook/assets/image (199).png>)
 
 ## Step 9: Adding Interaction
 
 To show this array growing, let's add to the array each time the user clicks the mouse.
 
-In Processing, there is a built-in function called `mouseClicked()` that runs a block of code ONLY when you click \(press and release button of\) the mouse.
+In Processing, there is a built-in function called `mouseClicked()` that runs a block of code ONLY when you click (press and release button of) the mouse.
 
 {% hint style="warning" %}
 As you use `mouseClicked()`, if it doesn't work right away, it might be seeing your mouse move as you click, recognizing it as a `mouseDragged()` instead. Try keeping the mouse still when you click.
@@ -384,7 +384,7 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares1%20%282%29%20%281%29.gif)
+![](<../../.gitbook/assets/week5movingsquares1 (2).gif>)
 
 This will make each new square 100. But what if you want to make it 25 pixels bigger than the last?
 
@@ -394,7 +394,7 @@ Well, we can get the index number of the last size value by getting the array's 
 sizes.length - 1
 ```
 
-Get that number using the name of the array, followed by square brackets \[ \], and put that index number in it.
+Get that number using the name of the array, followed by square brackets \[ ], and put that index number in it.
 
 ```java
 sizes[sizes.length - 1]
@@ -443,7 +443,7 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares.gif)
+![](../../.gitbook/assets/Week5MovingSquares.gif)
 
 
 
@@ -494,7 +494,7 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares3.gif)
+![](../../.gitbook/assets/Week5MovingSquares3.gif)
 
 ## Step 11: More Arrays and Randomness!
 
@@ -503,7 +503,7 @@ Thinking of the index number as a row number, we can make other arrays with info
 Let's add random color by adding arrays for `red`, `green`, and `blue` values:
 
 {% hint style="info" %}
-Remember: Color values range from 0 \(black/no color\) to 255 \(brightest of that color\) and matching colors for all three values will result in shades of gray.
+Remember: Color values range from 0 (black/no color) to 255 (brightest of that color) and matching colors for all three values will result in shades of gray.
 {% endhint %}
 
 ```java
@@ -523,7 +523,7 @@ void mouseClicked() {
 }
 ```
 
-In the for loop, we need to tell the computer to give the squares a color using `fill()` with values \(or variables\) for red, green, and blue in that order.
+In the for loop, we need to tell the computer to give the squares a color using `fill()` with values (or variables) for red, green, and blue in that order.
 
 ```java
 for (int i = 0; i < sizes.length; i++) {
@@ -571,7 +571,7 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares4.gif)
+![](../../.gitbook/assets/Week5MovingSquares4.gif)
 
 ## Step 12: Adding Movement
 
@@ -652,7 +652,7 @@ void mouseClicked() {
 
 Output when clicked:
 
-![](../../.gitbook/assets/week5movingsquares5.gif)
+![](../../.gitbook/assets/Week5MovingSquares5.gif)
 
 
 
@@ -689,7 +689,7 @@ void mouseClicked() {
 
 Update the for loop to reflect the changes of the variables using `[i]` after the `xPos` variable. 
 
-Since `xPos` will be random, remove the line that updates `xPos` **in both the for loop and outside it.**
+Since `xPos` will be random, remove the line that updates `xPos`** in both the for loop and outside it.**
 
 ```java
 for (int i = 0; i < sizes.length; i++) {
@@ -734,13 +734,13 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares6.gif)
+![](../../.gitbook/assets/Week5MovingSquares6.gif)
 
 ## Step 14: Add a Background
 
 The black streaks you see are actually from the squares having a default black stroke of 1 pixel. Each frame, the square is moving down one pixel, so it's drawn over itself.
 
-To have them appear to just move down when appearing, add a background to the draw\(\) function to "reset" the background.
+To have them appear to just move down when appearing, add a background to the draw() function to "reset" the background.
 
 ```java
 float sizes[] = { };
@@ -777,7 +777,7 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares7.gif)
+![](../../.gitbook/assets/Week5MovingSquares7.gif)
 
 ## Step 15: Random Directions
 
@@ -795,13 +795,13 @@ To make sure these arrays all have the same number of indices, add code to `mous
 direction = append(direction, random(0, 3));
 ```
 
-This will give you an error! We declared direction as an integer and `random()` gives us a float. We can change or _**cast**_ ****the `random()` result into an integer by using `int()` and putting the `random()` code in the parentheses.
+This will give you an error! We declared direction as an integer and `random()` gives us a float. We can change or _**cast**_** **the `random()` result into an integer by using `int()` and putting the `random()` code in the parentheses.
 
 ```java
 direction = append(direction, int(random(0, 3)));
 ```
 
-int\(\) will take the who number of the floating point numbers from random\(\) - this means there is an unequal chance to get a 0, 1, or 2 than a 3 because it would only be 3 at exactly 3.0. One way around this is to have the random number be between -0.51 and 3.99 \(or even more precise\).
+int() will take the who number of the floating point numbers from random() - this means there is an unequal chance to get a 0, 1, or 2 than a 3 because it would only be 3 at exactly 3.0. One way around this is to have the random number be between -0.51 and 3.99 (or even more precise).
 
 ```java
 direction = append(direction, int(random(0, 3.99)));
@@ -891,5 +891,4 @@ void mouseClicked() {
 
 Output when played:
 
-![](../../.gitbook/assets/week5movingsquares8.gif)
-
+![](../../.gitbook/assets/Week5MovingSquares8.gif)

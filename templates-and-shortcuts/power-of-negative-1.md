@@ -6,9 +6,9 @@ There will be times when you just want an image or a sprite to flip horizontally
 
 ![](../.gitbook/assets/mario.png)
 
-![Facing right \(default\)](../.gitbook/assets/mario-transform.png)
+![Facing right (default)](../.gitbook/assets/mario-transform.png)
 
-Multiple the first value \(x-axis\) by -1...
+Multiple the first value (x-axis) by -1...
 
 ![](../.gitbook/assets/mario2.png)
 
@@ -25,4 +25,3 @@ Additionally, if you were to multiply by -1 on the Y-Axis, you can flip it verti
 In some languages and programs, simply multiplying the speed by -1 can reverse the animation.
 
 ![](../.gitbook/assets/animneg.gif)
-

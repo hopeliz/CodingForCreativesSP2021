@@ -1,4 +1,4 @@
-# Rubber Ducky Activity \(Unity\)
+# Rubber Ducky Activity (Unity)
 
 ## Step 1: Import the Rubber Ducky Asset
 
@@ -10,7 +10,7 @@ In the Project tab, click on the Scenes folder under Assets.
 
 Right-click in the tab and select.
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](<../../.gitbook/assets/image (121).png>)
 
 Give it a name and press ENTER to confirm.
 
@@ -20,19 +20,19 @@ It will have a Main Camera and Directional light.
 
 ### 1b. Import the Unity Package
 
-Under the Assets menu, select Import Package &gt; Custome Package...
+Under the Assets menu, select Import Package > Custome Package...
 
-![](../../.gitbook/assets/image%20%28153%29.png)
+![](<../../.gitbook/assets/image (122).png>)
 
 Find and select the Rubber Ducky Unity Package.
 
 Click the **Import** button. This will add a Prefabs folder with two assets - the model and a game object with the material - and add to an existing Materials folder or add a new one with the texture and material for the duck.
 
-![](../../.gitbook/assets/image%20%28134%29.png)
+![](<../../.gitbook/assets/image (123).png>)
 
-![](../../.gitbook/assets/image%20%28137%29.png)
+![](<../../.gitbook/assets/image (124).png>)
 
-![](../../.gitbook/assets/image%20%28143%29.png)
+![](<../../.gitbook/assets/image (125).png>)
 
 ## 2. Preparing the Rubber Duck Asset
 
@@ -46,97 +46,97 @@ Click and drag the "rubberDuckyWithColor" asset to your scene in the Scene tab o
 
 To make it centered, click on your duck. In the Inspector tab, right-click on the name of the Transform component and select **Reset Postion**.
 
-![](../../.gitbook/assets/image%20%28136%29.png)
+![](<../../.gitbook/assets/image (126).png>)
 
 ### 2b. Unparent the Ducky
 
 In the Hierarchy tab, twirl down the "rubberDuckyWithColor" to see the "children" objects.
 
-![](../../.gitbook/assets/image%20%28151%29.png)
+![](<../../.gitbook/assets/image (127).png>)
 
 If you try to click and drag the LO3spShape object out of rubberDuckyWithColor, you'll get this error:
 
-![](../../.gitbook/assets/image%20%28148%29.png)
+![](<../../.gitbook/assets/image (128).png>)
 
-So instead, first, right-click on rubberDuckyWithColor and select Prefab &gt; Unpack Completely.
+So instead, first, right-click on rubberDuckyWithColor and select Prefab > Unpack Completely.
 
-![](../../.gitbook/assets/image%20%28132%29.png)
+![](<../../.gitbook/assets/image (129).png>)
 
 This will remove the blue text and you can now click and drag the shape out of its parent.
 
-![](../../.gitbook/assets/image%20%28138%29.png)
+![](<../../.gitbook/assets/image (130).png>)
 
 Delete the empty rubberDuckyWithColor object and rename your LOD3spShape.
 
-![](../../.gitbook/assets/image%20%28140%29.png)
+![](<../../.gitbook/assets/image (131).png>)
 
-![](../../.gitbook/assets/image%20%28127%29.png)
+![](<../../.gitbook/assets/image (132).png>)
 
-![](../../.gitbook/assets/image%20%28152%29.png)
+![](<../../.gitbook/assets/image (133).png>)
 
 ## 3. Put the Ducky in "Water"
 
 For this activity, it's the best to move your Game tag over to make it visible at the same time as your Scene Tab.
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](<../../.gitbook/assets/image (134).png>)
 
-Create a plane by right-clicking in your Hierarchy tab and selecting 3D Object &gt; Plane.
+Create a plane by right-clicking in your Hierarchy tab and selecting 3D Object > Plane.
 
-![](../../.gitbook/assets/image%20%28141%29.png)
+![](<../../.gitbook/assets/image (135).png>)
 
 Name it! I named mine Water.
 
 You can move it around or use the Inspector tab to get it to the coordinates 0, 0, 0.
 
-![](../../.gitbook/assets/image%20%28150%29.png)
+![](<../../.gitbook/assets/image (136).png>)
 
-I want to use the water as a "horizon" line or "water level," so I raised it using the **Move Tool** \(on the top left\) to raise it to around 0.89 for the Y axis.
+I want to use the water as a "horizon" line or "water level," so I raised it using the **Move Tool** (on the top left) to raise it to around 0.89 for the Y axis.
 
-![](../../.gitbook/assets/image%20%28146%29.png)
+![](<../../.gitbook/assets/image (137).png>)
 
 The duck is a bit too low in my project - in yours, it might seem too high. Select and adjust your duck to the height you like.
 
-![](../../.gitbook/assets/image%20%28147%29.png)
+![](<../../.gitbook/assets/image (138).png>)
 
 We want the duck to go through the "water" so select your water object and remove or disable the Mesh Collider.
 
-![Uncheck the checkbox next to Mesh Collider to disable it.](../../.gitbook/assets/image%20%28126%29.png)
+![Uncheck the checkbox next to Mesh Collider to disable it.](<../../.gitbook/assets/image (139).png>)
 
 Let's color correct this, starting with the light.
 
 Click on your Directional Light in the Hierarchy tab.
 
-In the Inspector tab, change the color from the default yellow to white \(or whatever you like\).
+In the Inspector tab, change the color from the default yellow to white (or whatever you like).
 
-![](../../.gitbook/assets/image%20%28131%29.png)
+![](<../../.gitbook/assets/image (140).png>)
 
 Now, we can also add a color to the water.
 
-In your Project tab, go to your Assets &gt; Materials folder.
+In your Project tab, go to your Assets > Materials folder.
 
 Create a new material:
 
-![](../../.gitbook/assets/image%20%28142%29.png)
+![](<../../.gitbook/assets/image (141).png>)
 
-Name it! \(I chose "Water"\) 
+Name it! (I chose "Water") 
 
 Then, select the new material and change the Albedo color to the color you want in the Inspector tab.
 
-![](../../.gitbook/assets/image%20%28124%29.png)
+![](<../../.gitbook/assets/image (142).png>)
 
 Click and drag your material to your water object.
 
-![](../../.gitbook/assets/image%20%28122%29.png)
+![](<../../.gitbook/assets/image (143).png>)
 
 ## 4. Add a Script to Make the Duck Float
 
 Let's make a script to have the duck appear to float when it's below the surface of the water.
 
-In your Project tab, go to your Assets &gt; Scripts folder \(or create a Scripts folder\).
+In your Project tab, go to your Assets > Scripts folder (or create a Scripts folder).
 
-Right-click and create a new C\# Script:
+Right-click and create a new C# Script:
 
-![](../../.gitbook/assets/image%20%28135%29.png)
+![](<../../.gitbook/assets/image (144).png>)
 
 Give it a name that:
 
@@ -145,7 +145,7 @@ Give it a name that:
 
 I'll name mine "DuckyController"
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](<../../.gitbook/assets/image (145).png>)
 
 Double-click to open the Script.
 
@@ -153,7 +153,7 @@ Double-click to open the Script.
 IMPORTANT: The name of your script MUST match the name that follows the word "class" in your script - usually on line 5.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28139%29.png)
+![](<../../.gitbook/assets/image (146).png>)
 
 Since we are wanting to modify our ducky object, we should store it in a variable. If we make it **public**, we can assign this in Unity. Place this inside the class, but above the `Start()` function.
 
@@ -177,7 +177,7 @@ if (ducky.transform.position.y < 0) { }
 
 If it is too low, we want to move the duck upward.
 
-We will put this in the Update\(\) function so that it will check the duck location and move it on EVERY frame where the if statement is true.
+We will put this in the Update() function so that it will check the duck location and move it on EVERY frame where the if statement is true.
 
 We can move it up using the following code:
 
@@ -226,19 +226,19 @@ Save your code and return to Unity.
 
 Add your script to your ducky object by clicking and dragging OR click on the ducky and add it through using the **Add Component** button.
 
-![](../../.gitbook/assets/image%20%28130%29.png)
+![](<../../.gitbook/assets/image (147).png>)
 
 The script will appear as a component - the last one before the material.
 
-Replace "None \(Game Object\)" with the object you want to be stored as "Ducky." You can click and drag from the Hierarchy tab to the field OR click on the "bull's eye" icon to the right of the field and select from the options that pop up.
+Replace "None (Game Object)" with the object you want to be stored as "Ducky." You can click and drag from the Hierarchy tab to the field OR click on the "bull's eye" icon to the right of the field and select from the options that pop up.
 
 It should look like this when assigned:
 
-![](../../.gitbook/assets/image%20%28144%29.png)
+![](<../../.gitbook/assets/image (148).png>)
 
-Now, test it! Press the play button and use the **Move Tool** and move the ducky down in the Scene tab.
+Now, test it! Press the play button and use the **Move Tool **and move the ducky down in the Scene tab.
 
-![](../../.gitbook/assets/week3-3.gif)
+![](../../.gitbook/assets/Week3-3.gif)
 
 ## 5. Make Adjustments
 
@@ -252,7 +252,7 @@ Add a variable to keep a reference of where the duck starts:
 public float waterLevel;
 ```
 
-The Start\(\) function runs just once before the first frame update, so we should capture that info at that time.
+The Start() function runs just once before the first frame update, so we should capture that info at that time.
 
 ```csharp
  // Start is called before the first frame update
@@ -277,15 +277,15 @@ Then update your if statement:
 
 When you go back to Unity, you'll see the component has been updated:
 
-![](../../.gitbook/assets/image%20%28145%29.png)
+![](<../../.gitbook/assets/image (149).png>)
 
 When you press play, the number will update to where your ducky starts.
 
-![](../../.gitbook/assets/image%20%28149%29.png)
+![](<../../.gitbook/assets/image (150).png>)
 
 Test it out!
 
-![](../../.gitbook/assets/week3-4.gif)
+![](../../.gitbook/assets/Week3-4.gif)
 
 ## 6. Adding Gravity
 
@@ -295,11 +295,11 @@ We can add gravity with a **Rigidbody** component.
 
 Add the Rigidbody component through the **Add Component** button when you have the ducky selected.
 
-![](../../.gitbook/assets/image%20%28133%29.png)
+![](<../../.gitbook/assets/image (151).png>)
 
 This adds gravity by default.
 
-![](../../.gitbook/assets/image%20%28128%29.png)
+![](<../../.gitbook/assets/image (152).png>)
 
 If you play the game now, it will fall and keep falling.
 
@@ -320,7 +320,7 @@ To turn on the gravity, use:
 ducky.GetComponent<Rigidbody>().useGravity = true;
 ```
 
-The GetComponent&lt;&gt;\(\) function looks into the object is attached to and locates the type of component in the angle brackets &lt;&gt;. Once it has that, it can find the properties and values. Not only can it get them, but you can also usually update them.
+The GetComponent<>() function looks into the object is attached to and locates the type of component in the angle brackets <>. Once it has that, it can find the properties and values. Not only can it get them, but you can also usually update them.
 
 Here is the final code for this step:
 
@@ -365,7 +365,7 @@ public class DuckyController : MonoBehaviour
 
 Try it!
 
-![](../../.gitbook/assets/week3-5.gif)
+![](../../.gitbook/assets/Week3-5.gif)
 
 Whoops! Looks like gravity is stronger than the float code!
 
@@ -380,7 +380,7 @@ ducky.GetComponent<Rigidbody>().velocity = Vector3.zero;
 ducky.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 ```
 
-Just like `useGravity`, velocity is a property \(seen under _Info_ in the Unity component\) that can be updated.
+Just like `useGravity`, velocity is a property (seen under _Info_ in the Unity component) that can be updated.
 
 `Vector3.zero` is a shortcut for `new Vector3(0, 0, 0);`
 
@@ -422,5 +422,4 @@ void Update()
 
 Test it out!
 
-![](../../.gitbook/assets/week3-6.gif)
-
+![](../../.gitbook/assets/Week3-6.gif)

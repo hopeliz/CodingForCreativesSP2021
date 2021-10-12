@@ -20,7 +20,6 @@
 * White: 255, 255, 255 or 1, 1, 1
 * Gray: all matching values
 
-### **Alpha \(Opacity\)**
+### **Alpha (Opacity)**
 
 * values range from 0 to 1
-

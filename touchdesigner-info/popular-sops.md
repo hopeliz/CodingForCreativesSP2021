@@ -1,6 +1,6 @@
 # Popular SOPs
 
-Surface operators \(SOPs\) are colored blue and manipulate 3D objects.
+Surface operators (SOPs) are colored blue and manipulate 3D objects.
 
 ![](../.gitbook/assets/td-op-create-dialog-full-sop.png)
 
@@ -10,7 +10,7 @@ For 3D scenes, you'll need the following:
 
 * Light COMP
 * Camera COMP
-* Geometry COMP \(see below how to do this with pre-existing 3D objects\)
+* Geometry COMP (see below how to do this with pre-existing 3D objects)
 * Render Top
 
 Adding each will set them up without adding more connections.
@@ -39,7 +39,7 @@ For when you want some randomness.
 
 ### Switch SOP
 
-Takes in multiple surface operators \(SOPS\) and creates an array. A single element of the array can be accessed by the Switch SOP's Index parameter. 
+Takes in multiple surface operators (SOPS) and creates an array. A single element of the array can be accessed by the Switch SOP's Index parameter. 
 
 ![](../.gitbook/assets/switch-sop.png)
 
@@ -64,4 +64,3 @@ Creates 3D shapes or text.
 Manipulates position, rotation, scale, etc.
 
 ![](../.gitbook/assets/transform-sop.png)
-

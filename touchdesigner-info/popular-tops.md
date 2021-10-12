@@ -1,6 +1,6 @@
 # Popular TOPs
 
-Texture operators \(TOPs\) are colored purple and manipulate 2D images and videos.
+Texture operators (TOPs) are colored purple and manipulate 2D images and videos.
 
 ![](../.gitbook/assets/td-op-create-dialog-full.png)
 
@@ -32,7 +32,7 @@ Using **`absTime.seconds`** in different parameters can make this move!
 
 ### Switch TOP
 
-Takes in multiple texture operators \(TOPS\) and creates an array. A single element of the array can be accessed by the Switch TOP's Index parameter. ALSO, for TOPs, you can blend between each element. This is great for fading in and out images and videos or representing number values as shades of color.
+Takes in multiple texture operators (TOPS) and creates an array. A single element of the array can be accessed by the Switch TOP's Index parameter. ALSO, for TOPs, you can blend between each element. This is great for fading in and out images and videos or representing number values as shades of color.
 
 ![](../.gitbook/assets/tdswitchtop.gif)
 
@@ -115,4 +115,3 @@ Blends two TOP operators into a single image - similar to blending two Photoshop
 ![](../.gitbook/assets/composite-top.png)
 
 ![](../.gitbook/assets/composite-top2.png)
-

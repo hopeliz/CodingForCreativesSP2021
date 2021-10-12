@@ -2,17 +2,17 @@
 
 ## Supplies for All
 
-![](../../.gitbook/assets/image%20%28496%29.png)
+![](<../../.gitbook/assets/image (514).png>)
 
 ## Photoresistor
 
 ### Additional Supplies
 
-![](../../.gitbook/assets/image%20%28515%29.png)
+![](<../../.gitbook/assets/image (515).png>)
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to pin A0 \(analog\).](../../.gitbook/assets/image%20%28504%29.png)
+![The data (yellow) wire is connected to pin A0 (analog).](<../../.gitbook/assets/image (516).png>)
 
 ### Code
 
@@ -50,11 +50,11 @@ This sensor works like a bat or a clicker from _The Last of Us_ to detect object
 
 ### Additional Supplies
 
-![](../../.gitbook/assets/image%20%28518%29.png)
+![](<../../.gitbook/assets/image (517).png>)
 
 ### Diagram
 
-![The Trigger \(yellow\) wire is connected to pin 7 and Echo \(green\) to pin 6.](../../.gitbook/assets/image%20%28498%29.png)
+![The Trigger (yellow) wire is connected to pin 7 and Echo (green) to pin 6.](<../../.gitbook/assets/image (518).png>)
 
 ### Code
 
@@ -110,4 +110,3 @@ void loop() {
   }
 }
 ```
-

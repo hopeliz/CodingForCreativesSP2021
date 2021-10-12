@@ -1,18 +1,18 @@
 # Create a Night Light
 
-This is an example of using an input \(sensor\) component to change an output of an output component.
+This is an example of using an input (sensor) component to change an output of an output component.
 
 ## Supplies
 
-![](../../.gitbook/assets/image%20%28521%29.png)
+![](<../../.gitbook/assets/image (520).png>)
 
-![](../../.gitbook/assets/image%20%28522%29.png)
+![](<../../.gitbook/assets/image (521).png>)
 
 ## Diagram
 
-![](../../.gitbook/assets/image%20%28520%29.png)
+![](<../../.gitbook/assets/image (522).png>)
 
-The photoresistor data \(yellow\) is connected to pin A0 \(analog\) and the LED data \(orange\) is connected to pin 2 \(digital\).
+The photoresistor data (yellow) is connected to pin A0 (analog) and the LED data (orange) is connected to pin 2 (digital).
 
 ## Code
 
@@ -57,4 +57,3 @@ void loop() {
   delay(100);
 }
 ```
-

@@ -1,6 +1,6 @@
 # Popular CHOPs
 
-Channel operators \(CHOPs\) are colored green and manipulate number data, booleans \(on/off or true/false\), and audio.
+Channel operators (CHOPs) are colored green and manipulate number data, booleans (on/off or true/false), and audio.
 
 ![](../.gitbook/assets/td-op-create-dialog-full-chop.png)
 
@@ -26,13 +26,13 @@ For when you want some randomness.
 
 ![](../.gitbook/assets/noise-chop.png)
 
-To see it moving in real-time, use the **Common &gt; Time Slice** parameter.
+To see it moving in real-time, use the **Common > Time Slice** parameter.
 
 ![](../.gitbook/assets/tdnoisechop.gif)
 
 ### Switch CHOP
 
-Takes in multiple channel operators \(CHOPS\) and creates an array. A single element of the array can be accessed by the Switch CHOP's Index parameter.
+Takes in multiple channel operators (CHOPS) and creates an array. A single element of the array can be accessed by the Switch CHOP's Index parameter.
 
 ![](../.gitbook/assets/switch-chop.png)
 
@@ -42,7 +42,7 @@ Provides a "copy" that displays selected channels from the original channel oper
 
 Click and drag the original CHOP onto the Select CHOP or type the original CHOP's name into the Select CHOP's CHOP parameter.
 
-Click the dropdown arrow to the right of the Channels parameter to select \(one-by-one\) one or more channels.
+Click the dropdown arrow to the right of the Channels parameter to select (one-by-one) one or more channels.
 
 ![](../.gitbook/assets/select-chop.png)
 
@@ -106,7 +106,7 @@ _Example of counting the times the timer is "done":_
 This GIF is at 30 fps and doesn't show each time it's done, but you can see it in the program.
 {% endhint %}
 
-![](../.gitbook/assets/tdcountchop-1-%20%283%29%20%282%29.gif)
+![](<../.gitbook/assets/tdcountchop-1- (3).gif>)
 
 ## Timers
 
@@ -114,7 +114,7 @@ This GIF is at 30 fps and doesn't show each time it's done, but you can see it i
 
 Provides a timer and whether it is "ready" or "done."
 
-![](../.gitbook/assets/tdcountchop-1-%20%283%29%20%283%29.gif)
+![](<../.gitbook/assets/tdcountchop-1- (3) (1).gif>)
 
 ## Audio
 
@@ -133,4 +133,3 @@ Gets audio from an audio OR video file.
 ### Audio File Out CHOP
 
 Exports an audio file.
-

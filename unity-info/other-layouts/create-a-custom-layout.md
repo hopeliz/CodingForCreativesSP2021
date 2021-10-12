@@ -10,21 +10,20 @@ Click and drag on the borders between windows to resize them.
 
 Use the Layout dropdown at the top right of the screen. It will show "Layout" or the name of the last selected layout.
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](<../../.gitbook/assets/image (67).png>)
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](<../../.gitbook/assets/image (68).png>)
 
 Click **Save Layout...** and name your new layout.
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](<../../.gitbook/assets/image (69).png>)
 
 It will now appear in the options.
 
-![](../../.gitbook/assets/image%20%2870%29.png)
+![](<../../.gitbook/assets/image (70).png>)
 
 ## **Deleting a Layout**
 
-Select **Delete Layout...** from the Layout dropdown list then click on the layout\(s\) you want to delete.
+Select **Delete Layout...** from the Layout dropdown list then click on the layout(s) you want to delete.
 
-![](../../.gitbook/assets/image%20%2876%29.png)
-
+![](<../../.gitbook/assets/image (71).png>)

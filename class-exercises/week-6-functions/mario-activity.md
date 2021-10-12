@@ -8,17 +8,17 @@ Open Unity Hub and click on the **NEW** button.
 
 Select 2D from the Templates, name your project file, and choose where you want to save your project folder.
 
-![](../../.gitbook/assets/image%20%28207%29.png)
+![](<../../.gitbook/assets/image (200).png>)
 
 Click **CREATE** and wait...for...ever...
 
 Once your Unity project loads, it will look like this:
 
-![](../../.gitbook/assets/image%20%28236%29.png)
+![](<../../.gitbook/assets/image (201).png>)
 
 Click and drag the Game tab to the right so that it snaps and allows you to see both the Scene and Game windows at the same time.
 
-![](../../.gitbook/assets/image%20%28239%29.png)
+![](<../../.gitbook/assets/image (202).png>)
 
 The Game window is what the player would see.
 
@@ -26,45 +26,47 @@ The Game window is what the player would see.
 
 Download these assets:
 
-{% file src="../../.gitbook/assets/marioassets.zip" caption="MarioAssets.zip" %}
+{% file src="../../.gitbook/assets/MarioAssets.zip" %}
+MarioAssets.zip
+{% endfile %}
 
-Extract the files and open them in your File Explorer \(outside of Unity\).
+Extract the files and open them in your File Explorer (outside of Unity).
 
 In the folder, Images, you should have these:
 
-![](../../.gitbook/assets/image%20%28214%29.png)
+![](<../../.gitbook/assets/image (203).png>)
 
 In Unity, in the Project window, click the Assets folder to open it.
 
 Right-click and create a Sprites folder.
 
-![](../../.gitbook/assets/image%20%28238%29.png)
+![](<../../.gitbook/assets/image (204).png>)
 
-![](../../.gitbook/assets/image%20%28222%29.png)
+![](<../../.gitbook/assets/image (205).png>)
 
 Enter the Sprites folder.
 
-![](../../.gitbook/assets/image%20%28232%29.png)
+![](<../../.gitbook/assets/image (206).png>)
 
 Click and drag your Mario assets/images into the folder. This will create copies of the images in your project folder.
 
-![](../../.gitbook/assets/image%20%28224%29.png)
+![](<../../.gitbook/assets/image (207).png>)
 
 ## Step 3: Create the Scene
 
 Click on the Scenes folder in your Project window.
 
-![](../../.gitbook/assets/image%20%28240%29.png)
+![](<../../.gitbook/assets/image (208).png>)
 
 Right-click and create a new scene. I'll call mine, Mario.
 
-![](../../.gitbook/assets/image%20%28221%29.png)
+![](<../../.gitbook/assets/image (209).png>)
 
-![](../../.gitbook/assets/image%20%28228%29.png)
+![](<../../.gitbook/assets/image (210).png>)
 
 Double-click it to open it.
 
-![](../../.gitbook/assets/image%20%28225%29.png)
+![](<../../.gitbook/assets/image (211).png>)
 
 2D objects have a Main Camera object by default.
 
@@ -72,25 +74,25 @@ Double-click it to open it.
 
 Right-click in the Hierarchy window to add a 2D Object called a "sprite." I'm using a square sprite to create a platform/ground.
 
-![](../../.gitbook/assets/image%20%28212%29.png)
+![](<../../.gitbook/assets/image (212).png>)
 
 I renamed mine "ground."
 
-![](../../.gitbook/assets/image%20%28206%29.png)
+![](<../../.gitbook/assets/image (213).png>)
 
 It starts off as a white square, let's use the corner vectors to make it larger. Click and drag to reposition it.
 
-![Default](../../.gitbook/assets/image%20%28229%29.png)
+![Default](<../../.gitbook/assets/image (214).png>)
 
-![](../../.gitbook/assets/image%20%28217%29.png)
+![](<../../.gitbook/assets/image (215).png>)
 
 Click the _color_ property in the Inspector window in the **Sprite Renderer** component to change the color.
 
-![](../../.gitbook/assets/image%20%28223%29.png)
+![](<../../.gitbook/assets/image (216).png>)
 
-Click and drag your "stand" image from the Project window \(Assets &gt; Sprites\) into the Scene window. Place him a little above the "ground" so we can watch him fall.
+Click and drag your "stand" image from the Project window (Assets > Sprites) into the Scene window. Place him a little above the "ground" so we can watch him fall.
 
-![](../../.gitbook/assets/image%20%28215%29.png)
+![](<../../.gitbook/assets/image (217).png>)
 
 Rename the sprite to Mario in the Hierarchy window and resize the sprite to your liking.
 
@@ -98,7 +100,7 @@ Rename the sprite to Mario in the Hierarchy window and resize the sprite to your
 Holding SHIFT as you drag will keep him proportional as you resize him.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%28210%29.png)
+![](<../../.gitbook/assets/image (218).png>)
 
 ## Step 5: Make the Sprites Have Borders and Gravity
 
@@ -110,33 +112,33 @@ In your Inspector window, click the **Add Component** button and search for and 
 
 Once added, the Inspector window will look like this:
 
-![](../../.gitbook/assets/image%20%28230%29.png)
+![](<../../.gitbook/assets/image (219).png>)
 
 The Rigidbody 2D component adds gravity while the Box Collider 2D adds a boundary. By default, the boundary is the edges of the sprite image.
 
 If you play it now, Mario falls right through the ground!
 
-![](../../.gitbook/assets/week6mario01.gif)
+![](../../.gitbook/assets/Week6Mario01.gif)
 
 Click on the Ground object in the Hierarchy or Scene window and add a **Box Collider 2D** component to it so the Mario sprite stops at the ground.
 
-![](../../.gitbook/assets/image%20%28231%29.png)
+![](<../../.gitbook/assets/image (220).png>)
 
-![](../../.gitbook/assets/image%20%28209%29.png)
+![](<../../.gitbook/assets/image (221).png>)
 
 Now, Mario lands correctly.
 
-![](../../.gitbook/assets/week6mario02.gif)
+![](../../.gitbook/assets/Week6Mario02.gif)
 
 ## Step 6: Creating the Script
 
 In the Project window, in the Assets folder, create a folder named "Scripts" and open it.
 
-Right-click and create a new C\# Script.
+Right-click and create a new C# Script.
 
 I will name my script, MarioMove.cs.
 
-![](../../.gitbook/assets/image%20%28208%29.png)
+![](<../../.gitbook/assets/image (222).png>)
 
 After naming it, double-click it to open it in Visual Studio.
 
@@ -230,7 +232,7 @@ public class MarioMove : MonoBehaviour
 
 Our default variables are what we start with, default to, have available throughout the game, etc.
 
-For this script, I will have variables for the Mario game object \(so I can move him around\) and for the Sprite image it displays - in this case, the standing image.
+For this script, I will have variables for the Mario game object (so I can move him around) and for the Sprite image it displays - in this case, the standing image.
 
 ```csharp
 using System.Collections;
@@ -277,13 +279,13 @@ Click and drag the MarioMove.cs script from your Project folder to the Mario gam
 
 It will look like this when it's added:
 
-![](../../.gitbook/assets/image%20%28202%29.png)
+![](<../../.gitbook/assets/image (223).png>)
 
 Click and drag your Mario object from the Hierarchy window or click on the "target" icon on the right of _Mario_ in the component to select from a list.
 
 For the _Standing Image_, click and drag from the Project window your "stand" image from the "Sprites" folder OR use the "target" icon on the right of _Standing Image_ to select from a list.
 
-![](../../.gitbook/assets/image%20%28235%29.png)
+![](<../../.gitbook/assets/image (224).png>)
 
 ## Step 9: Moving Mario With Arrow Keys
 
@@ -367,9 +369,9 @@ public class MarioMove : MonoBehaviour
 
 Save your script and test in Unity!
 
-![Current look of the component in the Inspector window.](../../.gitbook/assets/image%20%28233%29.png)
+![Current look of the component in the Inspector window.](<../../.gitbook/assets/image (225).png>)
 
-![](../../.gitbook/assets/week6mario03.gif)
+![](../../.gitbook/assets/Week6Mario03.gif)
 
 You can adjust the Move Speed right in the Inspector window!
 
@@ -407,15 +409,15 @@ if (isWalking)
 }
 ```
 
-This code says, "If the variable 'isWalking' is true, run the Walk\(\) function."
+This code says, "If the variable 'isWalking' is true, run the Walk() function."
 
 So let's go to our `Walk()` function and tell the computer to do something. Start with switching to the first walk sprite image.
 
 We can access Mario's sprite through its **Sprite Renderer** component:
 
-![](../../.gitbook/assets/image%20%28219%29.png)
+![](<../../.gitbook/assets/image (226).png>)
 
-In the code, we can get any component with GetComponent&lt;NameOfComponent&gt;\(\) and update a property like it was a variable.
+In the code, we can get any component with GetComponent\<NameOfComponent>() and update a property like it was a variable.
 
 ```csharp
 public void Walk()
@@ -424,7 +426,7 @@ public void Walk()
 }
 ```
 
-Now that we say what to do when it's walking, we have to say somewhere WHEN to turn on \(make `true`\) `isWalking` and when to turn it off \(make `false`\).
+Now that we say what to do when it's walking, we have to say somewhere WHEN to turn on (make `true`) `isWalking` and when to turn it off (make `false`).
 
 We can have `isWalking` turn on/become `true` whenever we are pushing an arrow button to make Mario move by adding to the if statements in the `Update()` function.
 
@@ -442,7 +444,7 @@ if (Input.GetKey(KeyCode.LeftArrow))
 }
 ```
 
-Well, we turn on `isWalking`, we need to turn it off. The most obvious would be to turn off when the user releases or stops pressing the arrow key. Instead of creating code to look for key releases, let's turn these two if statements into an if/else if/else statement so the default would have `isWalking` turned off \(`false`\). 
+Well, we turn on `isWalking`, we need to turn it off. The most obvious would be to turn off when the user releases or stops pressing the arrow key. Instead of creating code to look for key releases, let's turn these two if statements into an if/else if/else statement so the default would have `isWalking` turned off (`false`). 
 
 ```csharp
 if (Input.GetKey(KeyCode.RightArrow))
@@ -549,15 +551,15 @@ Save your script and return to Unity.
 
 This is what the Mario Move component now looks like:
 
-![](../../.gitbook/assets/image%20%28216%29.png)
+![](<../../.gitbook/assets/image (227).png>)
 
-Click and drag the images from the Project window under Assets &gt; Sprites to the Walk 1-4 fields or use the "target" icon on the right of each to choose from a list. **For Walk 4, use the same image as Walk 2.**
+Click and drag the images from the Project window under Assets > Sprites to the Walk 1-4 fields or use the "target" icon on the right of each to choose from a list. **For Walk 4, use the same image as Walk 2.**
 
-![](../../.gitbook/assets/image%20%28204%29.png)
+![](<../../.gitbook/assets/image (228).png>)
 
 Test it!
 
-![](../../.gitbook/assets/week6mario04.gif)
+![](../../.gitbook/assets/Week6Mario04.gif)
 
 ## Step 11: Completing the Walk Cycle
 
@@ -597,7 +599,7 @@ public void Walk()
 
 Now, we need to control WHEN to change the `currentWalkImage` to the next number using a countdown technique.
 
-At the top of the script, add two floating point variables to the Walk variables - one to keep track of the speed of the animation \(how long an image is seen\) and a countdown to control the change to the next image.
+At the top of the script, add two floating point variables to the Walk variables - one to keep track of the speed of the animation (how long an image is seen) and a countdown to control the change to the next image.
 
 ```csharp
 public float spriteLength = 1;
@@ -613,9 +615,9 @@ void Start()
 }
 ```
 
-Back to our Walk\(\) function...
+Back to our Walk() function...
 
-As long as Walk\(\) is running, we want the spriteCountdown variable to countdown and do stuff when it hits zero.
+As long as Walk() is running, we want the spriteCountdown variable to countdown and do stuff when it hits zero.
 
 ```csharp
 spriteCountdown -= 1 * Time.deltaTime;
@@ -623,7 +625,7 @@ spriteCountdown -= 1 * Time.deltaTime;
 
 Here, we are subtracting 1 from whatever `spriteCountdown` is on that frame with a shortcut `-=`. Multiplying it by `Time.deltaTime` normalizes the speed of the countdown so it's roughly 1 second if the countdown begins at 1.
 
-Now, for the trigger - using an if statement to test when the countdown reaches or goes lower than zero and have it run code \(update the `currentWalkImage`\). We only have four walk images, so we need to add 1 until it gets to the fourth image, then reset to 0.
+Now, for the trigger - using an if statement to test when the countdown reaches or goes lower than zero and have it run code (update the `currentWalkImage`). We only have four walk images, so we need to add 1 until it gets to the fourth image, then reset to 0.
 
 ```csharp
 if (spriteCountdown <= 0)
@@ -755,15 +757,15 @@ public class MarioMove : MonoBehaviour
 
 Save your script and test it in Unity!
 
-![](../../.gitbook/assets/week6mario05.gif)
+![](../../.gitbook/assets/Week6Mario05.gif)
 
 It's slow moving and the animation is suuuuper slow.
 
 I'm going to increase my `moveSpeed` to 4 and decrease my `spriteLength` to 0.1 within the component in the Inspector window.
 
-![](../../.gitbook/assets/image%20%28227%29.png)
+![](<../../.gitbook/assets/image (229).png>)
 
-![](../../.gitbook/assets/week6mario06.gif)
+![](../../.gitbook/assets/Week6Mario06.gif)
 
 Way better!
 
@@ -812,7 +814,7 @@ public void Jump()
 }
 ```
 
-Back in our `Update()` function, we need to tell it when to run the `Jump()` function - with a keystroke and only on the first frame the key is pressed \(`Input.GetKeyDown()`\). 
+Back in our `Update()` function, we need to tell it when to run the `Jump()` function - with a keystroke and only on the first frame the key is pressed (`Input.GetKeyDown()`). 
 
 ```csharp
 if (Input.GetKeyDown(KeyCode.Space))
@@ -970,15 +972,15 @@ Save your script and return to Unity.
 
 Your Mario Move component will now look like this:
 
-![](../../.gitbook/assets/image%20%28220%29.png)
+![](<../../.gitbook/assets/image (230).png>)
 
-Click and drag your jump sprite from the Project window \(in Assets &gt; Sprites\) to the Jumping Image field in the Inspector window or click the "target" icon on the right to choose from a list.
+Click and drag your jump sprite from the Project window (in Assets > Sprites) to the Jumping Image field in the Inspector window or click the "target" icon on the right to choose from a list.
 
-![](../../.gitbook/assets/image%20%28213%29.png)
+![](<../../.gitbook/assets/image (231).png>)
 
 Test it!
 
-![](../../.gitbook/assets/week6mario07.gif)
+![](../../.gitbook/assets/Week6Mario07.gif)
 
 We are getting closer!
 
@@ -992,7 +994,7 @@ Back to the script...
 
 For now, we will have Mario turn off jumping when it hits any other object with a collider - like our ground - by using a built-in function, `OnColliderEnter2D()`. _Enter_ at the end of the function means it only runs on the first frame it recognizes the collision.
 
-At the end of the script, but before/inside the final curly bracket }, put this \(it will start to autofill\):
+At the end of the script, but before/inside the final curly bracket }, put this (it will start to autofill):
 
 ```csharp
 public void OnCollisionEnter2D(Collision2D collision)
@@ -1010,9 +1012,9 @@ public void OnCollisionEnter2D(Collision2D collision)
 }
 ```
 
-This fixes \#1.
+This fixes #1.
 
-Now for \#2:
+Now for #2:
 
 In the script - in `Jump()`, we can say to add force only when it's not already jumping.
 
@@ -1030,7 +1032,7 @@ public void Jump()
 
 The code for our spacebar will run `Jump()` before turning `isJumping` to true, so this will only jump once.
 
-For \#3:
+For #3:
 
 In the script that moves our Mario object with arrow keys, check to see if Mario is jumping before making `isWalking` true.
 
@@ -1193,7 +1195,7 @@ public class MarioMove : MonoBehaviour
 
 Save your script and test it in Unity!
 
-![](../../.gitbook/assets/week6mario08.gif)
+![](../../.gitbook/assets/Week6Mario08.gif)
 
 ## Step 13: Changing Directions
 
@@ -1419,33 +1421,33 @@ public class MarioMove : MonoBehaviour
 
 Save your script and test it in Unity!
 
-![](../../.gitbook/assets/week6mario09.gif)
+![](../../.gitbook/assets/Week6Mario09.gif)
 
 ## Step 14: Add Sound
 
 In Unity, create a folder in your Assets folder in the Project window and name it Audio.
 
-![](../../.gitbook/assets/image%20%28205%29%20%281%29%20%282%29.png)
+![](<../../.gitbook/assets/image (205) (1) (1).png>)
 
 Just as you click and dragged the image files from the MarioAssets folder, click and drag the audio files from the Audio file.
 
-![](../../.gitbook/assets/image%20%28211%29.png)
+![](<../../.gitbook/assets/image (232).png>)
 
-![](../../.gitbook/assets/image%20%28226%29.png)
+![](<../../.gitbook/assets/image (233).png>)
 
 Click on your Mario object in your Hierarchy or Scene windows.
 
 Click the **Add Component** button in the Inspector window. Search for and add the **Audio Source** component.
 
-![](../../.gitbook/assets/image%20%28218%29.png)
+![](<../../.gitbook/assets/image (234).png>)
 
-Click and drag the smw\_jump.wav file from the Project window \(in Assets &gt; Audio\) to the field for AudioClip OR click on the "target" icon to the right of AudioClip to select from a list.
+Click and drag the smw_jump.wav file from the Project window (in Assets > Audio) to the field for AudioClip OR click on the "target" icon to the right of AudioClip to select from a list.
 
-![](../../.gitbook/assets/image%20%28203%29.png)
+![](<../../.gitbook/assets/image (235).png>)
 
 Click the checkbox next to _Play on Awake_ to turn it off.
 
-![](../../.gitbook/assets/image%20%28237%29.png)
+![](<../../.gitbook/assets/image (236).png>)
 
 Go to your script.
 
@@ -1474,11 +1476,10 @@ Save your script and return to Unity.
 
 Your Mario Move component will now look like this:
 
-![](../../.gitbook/assets/image%20%28234%29.png)
+![](<../../.gitbook/assets/image (237).png>)
 
 Click and drag your Mario object to the _Jump Sound_ field OR click on the "target" icon to the right of _Jump Sound_ to select from a list. We use the Mario object here because the sound is attached to it.
 
-![](../../.gitbook/assets/image%20%28201%29.png)
+![](<../../.gitbook/assets/image (238).png>)
 
 Test it! It should now have sound!
-

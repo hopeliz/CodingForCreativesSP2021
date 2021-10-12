@@ -47,4 +47,3 @@ public void OnCollisionEnter2D(Collision2D collision)
 ```
 
 When a function provides information such as a Collision2D type here named collision, we can use it to access the game object and all its features.
-

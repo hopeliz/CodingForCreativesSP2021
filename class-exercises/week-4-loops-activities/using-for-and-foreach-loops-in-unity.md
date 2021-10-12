@@ -8,7 +8,7 @@ Once opening a Unity project, in the Project tab, click on the Scenes folder und
 
 Right-click in the tab and select.
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](<../../.gitbook/assets/image (121).png>)
 
 Give it a name and press ENTER to confirm.
 
@@ -20,11 +20,11 @@ It will have a Main Camera and Directional light.
 
 In the Hierarchy window, right-click, then choose a primitive shape under "3D Object" For this exercise, I'll be using cubes.
 
-![](../../.gitbook/assets/image%20%28191%29.png)
+![](<../../.gitbook/assets/image (168).png>)
 
 My default appears like this:
 
-![](../../.gitbook/assets/image%20%28184%29.png)
+![](<../../.gitbook/assets/image (157).png>)
 
 {% hint style="info" %}
 If you cannot see your object in the Scene window, select the object in the Hierarchy window. Then hover over the Scene window and press the F key to "focus" on the selected item. You can select multiple items to bring them all into frame.
@@ -32,7 +32,7 @@ If you cannot see your object in the Scene window, select the object in the Hier
 
 I am going to use my right mouse button and middle button to rotate the scene to have the red X-axis on the gizmo on the top right to be on the right side:
 
-![](../../.gitbook/assets/image%20%28159%29.png)
+![](<../../.gitbook/assets/image (158).png>)
 
 This means moving the object to the left will move it into the negative end of X and right will be positive numbers.
 
@@ -42,41 +42,41 @@ Speaking of positioning...
 
 When you create an object, it might use the position, rotation, and size from another object.
 
-Each game object has a **Transform** component that holds and displays the position, rotation, and scale \(size\) of the object.
+Each game object has a **Transform** component that holds and displays the position, rotation, and scale (size) of the object.
 
 Select the cube and you should see this Transform info in the **Inspector** window.
 
-![](../../.gitbook/assets/image%20%28169%29.png)
+![](<../../.gitbook/assets/image (169).png>)
 
 **Note:** Obviously, there are several other components for the shape, but we are focusing on the Transform for this exercise.
 
 To reset the position and rotation to zeros and the scale to 1 x 1 x 1, right-click on "Transform" and click "Reset."
 
-![](../../.gitbook/assets/image%20%28161%29.png)
+![](<../../.gitbook/assets/image (170).png>)
 
 It should now look like this:
 
-![](../../.gitbook/assets/image%20%28177%29.png)
+![](<../../.gitbook/assets/image (171).png>)
 
 {% hint style="info" %}
-You might have to refocus in the Scene window \(press F\).
+You might have to refocus in the Scene window (press F).
 {% endhint %}
 
 ## Step 4: Add a Script
 
 In this script, we are making our shape fly upward.
 
-In the Project window, right-click and choose Create &gt; C\# Script:
+In the Project window, right-click and choose Create > C# Script:
 
-![](../../.gitbook/assets/image%20%28181%29.png)
+![](<../../.gitbook/assets/image (172).png>)
 
 It will appear like this, ready to give the script a name:
 
-![](../../.gitbook/assets/image%20%28164%29.png)
+![](<../../.gitbook/assets/image (173).png>)
 
 I'm naming this FlyUp.cs:
 
-![](../../.gitbook/assets/image%20%28157%29.png)
+![](<../../.gitbook/assets/image (174).png>)
 
 {% hint style="info" %}
 Names are in Pascal casing and no spaces. It must match the class name within the script, so any renaming here needs to also happen within the script.
@@ -107,7 +107,7 @@ public class FlyUp : MonoBehaviour
 }
 ```
 
-**`Start()`** is like `setup()` in Processing - it runs once and on the first frame
+**`Start()` **is like `setup()` in Processing - it runs once and on the first frame
 
 **`Update()`** is like `draw()` in Processing - it runs once per frame and loops indefinitely
 
@@ -119,7 +119,7 @@ public GameObject cube;
 
 **`public`** is the _**scope**_ of the variable - `public` will allow it to be used by multiple blocks of code/functions within this script as well as other scripts AND it makes it visible in the Inspector window.
 
-**`GameObject`** is the type of variable - we are using this variable to access other components attached to the object like the Transform component \(and thus, the stored info for position, rotation, and scale\) of the cube.
+**`GameObject`** is the type of variable - we are using this variable to access other components attached to the object like the Transform component (and thus, the stored info for position, rotation, and scale) of the cube.
 
 The name of the variable is like any other - use camel casing and no spaces!
 
@@ -133,9 +133,9 @@ The LONG way would look something like this:
 cube.transform.position += new Vector3(0, 1, 0);
 ```
 
-Here, we are using the . \(dot\) to access the Transform component and then its position information in the game object, `cube`.
+Here, we are using the . (dot) to access the Transform component and then its position information in the game object, `cube`.
 
-We are adding to the Y value. Unity doesn't like updating just one axis, so a full Vector3 \(a set of three floating point values - often thought of x, y, and z coordinates\) needs to be defined.
+We are adding to the Y value. Unity doesn't like updating just one axis, so a full Vector3 (a set of three floating point values - often thought of x, y, and z coordinates) needs to be defined.
 
 Here is a shorthand way to do the same thing:
 
@@ -187,11 +187,11 @@ We'll be using this script for multiple items, so let's create an empty game obj
 
 In Hierarchy, right-click and select "Create Empty."
 
-![](../../.gitbook/assets/image%20%28158%29.png)
+![](<../../.gitbook/assets/image (175).png>)
 
 Once created, you can rename it by selecting it and single-clicking it.
 
-I named mine "Game Controller" \(out of habit\), but you can name it whatever works for you.
+I named mine "Game Controller" (out of habit), but you can name it whatever works for you.
 
 I also click and dragged it to the top of my list of objects.
 
@@ -201,7 +201,7 @@ Click and drag the FlyUp script from the Project window into the Inspector windo
 
 Here's what the Inspector looks like with Game Controller selected:
 
-![](../../.gitbook/assets/image%20%28154%29.png)
+![](<../../.gitbook/assets/image (176).png>)
 
 Don't worry about the Transform component here since we are concerned only with the added scripts/components.
 
@@ -209,13 +209,13 @@ You'll notice our variable appears and is currently "None" and looking for a Gam
 
 You can click and drag the cube from the Hierarchy window OR click the bull's eye symbol on the right side of the variable to bring up a list of possible objects in your scene.
 
-![](../../.gitbook/assets/image%20%28180%29.png)
+![](<../../.gitbook/assets/image (177).png>)
 
-Double-click on cube \(or whatever your shape is\).
+Double-click on cube (or whatever your shape is).
 
 It now shows as stored as our cube variable:
 
-![](../../.gitbook/assets/image%20%28193%29.png)
+![](<../../.gitbook/assets/image (178).png>)
 
 ## Step 7: Test the Code
 
@@ -223,7 +223,7 @@ Click the play button at the top of the screen.
 
 Output when played:
 
-![](../../.gitbook/assets/week4flyup1.gif)
+![](../../.gitbook/assets/Week4FlyUp1.gif)
 
 {% hint style="info" %}
 My settings have my screen turn green when I hit play. Yours might not change color.
@@ -277,33 +277,33 @@ Save the script and go back to Unity.
 
 It will update and the FlyUp component on Game Controller will have the new variable.
 
-![](../../.gitbook/assets/image%20%28192%29.png)
+![](<../../.gitbook/assets/image (179).png>)
 
 You can now adjust this speed and it will modify the speed in which the cube moves up.
 
 ## Step 9: Add More Cubes
 
-Click on your cube \(or other shape\).
+Click on your cube (or other shape).
 
 You can right-click copy and right-click paste, use CTRL+C / CTRL+V, OR what I like doing: CTRL+D to **duplicate**.
 
 This makes a copy and adds a number after the name.
 
-![](../../.gitbook/assets/image%20%28175%29.png)
+![](<../../.gitbook/assets/image (180).png>)
 
 It also duplicates the position, rotation, and scale, so it will be overlapping the one you duplicated.
 
 Use the coordinates in the Transform object OR click the **move tool** button on the top left and click and drag the vectors for each duplicate - preferably in a row:
 
-![](../../.gitbook/assets/image%20%28166%29.png)
+![](<../../.gitbook/assets/image (181).png>)
 
 If you want to move them all to the left at once, click the first cube and CTRL+click each extra one you want to select. You can move them all at the same time.
 
-![](../../.gitbook/assets/image%20%28171%29.png)
+![](<../../.gitbook/assets/image (182).png>)
 
 Go back to your FlyUp script.
 
-Add variables for the new cubes \(you can replace the first one with `cube1`\):
+Add variables for the new cubes (you can replace the first one with `cube1`):
 
 ```csharp
 public GameObject cube1;
@@ -363,19 +363,19 @@ Look at all that repetition!
 
 Save the script and go back to Unity.
 
-Click on Game Controller \(or the object with your script\). It will now show the new variables:
+Click on Game Controller (or the object with your script). It will now show the new variables:
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](<../../.gitbook/assets/image (183).png>)
 
 Using the click-and-drag method or the click-on-the-bull's-eye method to assign the new cubes to the new variables.
 
-![](../../.gitbook/assets/image%20%28173%29.png)
+![](<../../.gitbook/assets/image (184).png>)
 
-![Note: I also updated the speed to 2](../../.gitbook/assets/image%20%28182%29.png)
+![Note: I also updated the speed to 2](<../../.gitbook/assets/image (186).png>)
 
 Once those are assigned, test it!
 
-![](../../.gitbook/assets/week4flyup2.gif)
+![](../../.gitbook/assets/Week4FlyUp2.gif)
 
 ## Step 10: Using a Foreach Loop to Make Things More Efficient
 
@@ -383,7 +383,7 @@ Our code is very repetitive and takes up a lot of lines. Imagine trying to modif
 
 Let's consolidate it with a Foreach loop.
 
-A **foreach** loop takes each element of a group \(also known as an array or list\) and runs code on it.
+A **foreach** loop takes each element of a group (also known as an array or list) and runs code on it.
 
 We first need to create our array or group of objects.
 
@@ -397,7 +397,7 @@ The square brackets `[]` after the type tells the computer this variable will ho
 
 I usually give it a plural name to remember that it's a group of objects.
 
-Replace the code in the Update\(\) function with this loop:
+Replace the code in the Update() function with this loop:
 
 ```csharp
 foreach (GameObject cube in cubes)
@@ -408,9 +408,9 @@ foreach (GameObject cube in cubes)
 
 **`foreach`** is the type of loop.
 
-In the parentheses, we declare/create a temporary variable \(`cube`\), then use the keyword **`in`** followed by the name of our array, list, or group \(`cubes`\).
+In the parentheses, we declare/create a temporary variable (`cube`), then use the keyword **`in`** followed by the name of our array, list, or group (`cubes`).
 
-Then, we put the code we want to happen to each element \(temporarily stored here as `cube`\) for each frame inside the curly brackets `{}`.
+Then, we put the code we want to happen to each element (temporarily stored here as `cube`) for each frame inside the curly brackets `{}`.
 
 Full code:
 
@@ -449,37 +449,37 @@ Your FlyUp component on GameController will look different.
 
 In Unity 2020.2 and newer, the array will appear with its size to the right of it. Here, it is zero because we haven't said how big it is.
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](<../../.gitbook/assets/image (187).png>)
 
 We have five cubes, so make it 5.
 
-![](../../.gitbook/assets/image%20%28194%29.png)
+![](<../../.gitbook/assets/image (188).png>)
 
-Click on the arrow to the left of the array name \(Cubes\) to see the list of elements.
+Click on the arrow to the left of the array name (Cubes) to see the list of elements.
 
-![](../../.gitbook/assets/image%20%28185%29.png)
+![](<../../.gitbook/assets/image (189).png>)
 
 Reassign your cubes.
 
-![](../../.gitbook/assets/image%20%28160%29.png)
+![](<../../.gitbook/assets/image (190).png>)
 
 Now, test it!
 
-![](../../.gitbook/assets/week4flyup3.gif)
+![](../../.gitbook/assets/Week4FlyUp3.gif)
 
 You can even add another cube!
 
-Duplicate the last one listed - Cube \(4\) - and move it to where you can see it.
+Duplicate the last one listed - Cube (4) - and move it to where you can see it.
 
-![](../../.gitbook/assets/image%20%28190%29.png)
+![](<../../.gitbook/assets/image (191).png>)
 
 Click on Game Controller, and add an element under Cubes, using the plus sign and assigning the new cube as Element 5.
 
-![](../../.gitbook/assets/image%20%28163%29.png)
+![](<../../.gitbook/assets/image (192).png>)
 
 This will still work without having to update your script!
 
-![](../../.gitbook/assets/week4flyup4.gif)
+![](../../.gitbook/assets/Week4FlyUp4.gif)
 
 ## Step 11: Using a For Loop to Effect Individual Elements
 
@@ -498,9 +498,9 @@ for (int i = 0; i < cubes.Length; i++)
 
 **`for`** is the type of loop.
 
-In the parentheses, we create and initialize a temporary variable, `i`, \(which stands for _index_, another word for an element's position in a list\) to zero.
+In the parentheses, we create and initialize a temporary variable, `i`, (which stands for _index_, another word for an element's position in a list) to zero.
 
-We also say to run the code only when the variable `i` is less than the number of elements in our array by using the name of the array \(`cubes`\), then a dot, then the word `Length` to get its size, count, or length.
+We also say to run the code only when the variable `i` is less than the number of elements in our array by using the name of the array (`cubes`), then a dot, then the word `Length` to get its size, count, or length.
 
 Finally, we say what to do at the end of every time it runs through the loop: `i++` which is shorthand for `i = i + 1` so it updates `i` by one each time.
 
@@ -528,9 +528,9 @@ for (int i = 0; i < cubes.Length; i++)
 
 If you save and run the program, now, you'll get this common error in your Console window:
 
-![](../../.gitbook/assets/image%20%28178%29.png)
+![](<../../.gitbook/assets/image (193).png>)
 
-An IndexOutOfRangeException \(sometimes "out of bounds"\) means it's trying to get an element that doesn't exist - either one more than available or in this case, Element -1.
+An IndexOutOfRangeException (sometimes "out of bounds") means it's trying to get an element that doesn't exist - either one more than available or in this case, Element -1.
 
 So other if statements can test to see if it's the first element so that it knows not to check for a "previous" cube.
 
@@ -608,7 +608,6 @@ public class FlyUp : MonoBehaviour
 
 Here's what it looks like:
 
-![](../../.gitbook/assets/week4flyup5.gif)
+![](../../.gitbook/assets/Week4FlyUp5.gif)
 
 Try adding more cubes, adding to the array in the Inspector window and see it work with different amounts of cubes!
-

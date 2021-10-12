@@ -2,32 +2,34 @@
 
 Download and inport this Unity Package to take a look at the scripts, scene, and see them work.
 
-{% file src="../.gitbook/assets/parentingexample.zip" caption="ParentingExample.zip" %}
+{% file src="../.gitbook/assets/ParentingExample.zip" %}
+ParentingExample.zip
+{% endfile %}
 
 What's included:
 
-* Parenting \(Scene\)
-* MoveObject.cs \(Script\)
-* ObjectDetails.cs \(Script\)
-* SwitchParent.cs \(Script\)
+* Parenting (Scene)
+* MoveObject.cs (Script)
+* ObjectDetails.cs (Script)
+* SwitchParent.cs (Script)
 
-### **Parenting \(Scene\)**
+### **Parenting (Scene)**
 
 This scene has a cube on the left and a sphere on the right and a capsule in the center. The capsule is the object that changes its parent when you press a button. It's default parent is an empty game object called Empty Object.
 
 There is a UI Canvas with two buttons: Switch Parent and Reset Parent.
 
-![](../.gitbook/assets/image%20%28523%29.png)
+![](<../.gitbook/assets/image (523).png>)
 
-![](../.gitbook/assets/image%20%28525%29.png)
+![](<../.gitbook/assets/image (524).png>)
 
-### **MoveObject.cs \(Script\)**
+### **MoveObject.cs (Script)**
 
-This script is attached to both the cube and the sphere with the sphere having _Move Opposite_ checked.
+This script is attached to both the cube and the sphere with the sphere having _Move Opposite _checked.
 
-![](../.gitbook/assets/image%20%28530%29.png)
+![](<../.gitbook/assets/image (525).png>)
 
-![](../.gitbook/assets/image%20%28526%29.png)
+![](<../.gitbook/assets/image (526).png>)
 
 The script has the object it is attached to move when the Up Arrow or W key is pressed or when the Down Arrow or S key is pressed.
 
@@ -83,11 +85,11 @@ public class MoveObject : MonoBehaviour
 }
 ```
 
-### **ObjectDetails.cs \(Script\)**
+### **ObjectDetails.cs (Script)**
 
-This script is attached to the object that is changing parents \(the capsule\) to keep track of its original parent.
+This script is attached to the object that is changing parents (the capsule) to keep track of its original parent.
 
-![](../.gitbook/assets/image%20%28529%29.png)
+![](<../.gitbook/assets/image (527).png>)
 
 It sets its _Original Parent_ parameter upon playing the scene.
 
@@ -115,11 +117,11 @@ public class ObjectDetails : MonoBehaviour
 }
 ```
 
-### **SwitchParent.cs \(Script\)**
+### **SwitchParent.cs (Script)**
 
-SwitchParent has functions for both buttons to run, so I attached it to the Canvas. I set the _Affected Object_ to the Capsule, _Parent Option 1_ to the Cube, and _Parent Option 2_ to the Sphere within Unity.
+SwitchParent has functions for both buttons to run, so I attached it to the Canvas. I set the _Affected Object _to the Capsule, _Parent Option 1_ to the Cube, and _Parent Option 2_ to the Sphere within Unity.
 
-![](../.gitbook/assets/image%20%28524%29.png)
+![](<../.gitbook/assets/image (528).png>)
 
 ```csharp
 using System.Collections;
@@ -177,11 +179,10 @@ Note: `Start()` and `Update()` aren't needed here, but I left them in, in case i
 
 To call these functions, I have the button objects reference the SwitchParent script and call the specific function:
 
-![](../.gitbook/assets/image%20%28527%29.png)
+![](<../.gitbook/assets/image (529).png>)
 
-![](../.gitbook/assets/image%20%28528%29.png)
+![](<../.gitbook/assets/image (530).png>)
 
 ### Test it!
 
 When playing, the capsule should move with the parent object as well as appear as a child object in the Hierarchy window. When it's parented by its original parent, it will not move.
-

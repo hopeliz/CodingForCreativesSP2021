@@ -4,7 +4,7 @@
 
 * Whole number
 * Used for counting
-* Used for arrays indices \(rows of data\)
+* Used for arrays indices (rows of data)
 
 **Examples:**
 
@@ -30,7 +30,7 @@ score = 250
 Do not use commas in your numbers!
 {% endhint %}
 
-## Shortcuts \(Assignment Operators\)
+## Shortcuts (Assignment Operators)
 
 ### Quick Math
 
@@ -46,7 +46,7 @@ Do not use commas in your numbers!
 This updates the variable when used.
 {% endhint %}
 
-**Example:**    
+**Example:  **  
 
 _Processing, Java-based, and C-based:_  
 
@@ -109,4 +109,3 @@ println(health);        // Prints "9"
 {% hint style="warning" %}
 This `++` shortcut after the variable name does not work in Python. 
 {% endhint %}
-

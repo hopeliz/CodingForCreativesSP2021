@@ -19,7 +19,7 @@ Last Name:
 2. Add the first three letters of the ~~city~~ state in which you were born.
 
 {% hint style="danger" %}
-I changed the last two since the info \(if you used real info\) can be used for identity theft.
+I changed the last two since the info (if you used real info) can be used for identity theft.
 {% endhint %}
 
 ## Step 1: Create the Variables for the Four Steps
@@ -60,18 +60,18 @@ void draw() {
 }
 ```
 
-## Step 3: Use .substring\(\) to Get a Portion of a String Variable
+## Step 3: Use .substring() to Get a Portion of a String Variable
 
-To get parts of the strings \(i.e. "first 3 letters" etc.\).
+To get parts of the strings (i.e. "first 3 letters" etc.).
 
 ### **Using a function on an existing variable**
 
 The two ways you will see a variable work in or with a function are: 
 
-First way:   
-  
-The variable is used within the parentheses as information being used  
-  
+First way: \
+\
+The variable is used within the parentheses as information being used\
+\
 Example: 
 
 ```java
@@ -90,7 +90,7 @@ Second Way:
 
 The name of the variable followed by a period and the function name. 
 
-We will look further into this idea as we progress through the course. It's like starting with an object \(whatever the variable stands for\) and adding something to it OR digging deeper to get the object's properties.
+We will look further into this idea as we progress through the course. It's like starting with an object (whatever the variable stands for) and adding something to it OR digging deeper to get the object's properties.
 
 Example using the built-in `length()` function that gets the number of characters in a string: 
 
@@ -114,14 +114,14 @@ We need to get the substrings of the variables we have.
 
 Let's use the built-in `.substring()` function:
 
-`.substring(index of first letter)` __starts the string with the index/location of the first letter.
+`.substring(index of first letter)`_ _starts the string with the index/location of the first letter.
 
 `.substring(index of first letter, index of limit letter)` starts the string with the index/location of the first letter and ends on the letter before the limit letter.
 
 We'll use the second one since we need the beginning of each string. Remember to add a space between the second and third variables to show a separation between the first and last name.
 
 {% hint style="info" %}
-Remember: The "index" is the position in a list \(strings are lists of characters\) and it always starts with **ZERO**.
+Remember: The "index" is the position in a list (strings are lists of characters) and it always starts with **ZERO**.
 {% endhint %}
 
 ```java
@@ -207,7 +207,6 @@ print(starwars_first + " + starwars_last)
 
 **What to look at:**
 
-In python, substrings are controlled with square brackets `[ ]` and within them, the beginning letter and the end letter don't need a number to represent them. The "to", as in "from this letter **to** this letter" is symbolized by a colon \( `:` \)
+In python, substrings are controlled with square brackets `[ ]` and within them, the beginning letter and the end letter don't need a number to represent them. The "to", as in "from this letter **to** this letter" is symbolized by a colon ( `:` )
 
 The function to make the string lowercase is `.lower()`
-

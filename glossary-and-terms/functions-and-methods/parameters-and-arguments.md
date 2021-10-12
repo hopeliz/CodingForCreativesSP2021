@@ -55,4 +55,3 @@ changeColor(block11, grey);
 ```
 
 block11 and grey is sent to the function, setting **`blockToChange`** to `block11` and **`newColor`** to `grey` so the function knows to set block11 to grey. Then, any other blocks and colors can be used without extra or repeated code.
-

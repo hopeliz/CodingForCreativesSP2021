@@ -1,6 +1,6 @@
 # More Functions Activities
 
-{% page-ref page="snake-processing.md" %}
-
-
+{% content-ref url="snake-processing.md" %}
+[snake-processing.md](snake-processing.md)
+{% endcontent-ref %}
 

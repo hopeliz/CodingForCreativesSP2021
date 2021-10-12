@@ -2,7 +2,7 @@
 
 This section is under construction, but check out what's here:
 
-{% page-ref page="mouse-interaction.md" %}
-
-
+{% content-ref url="mouse-interaction.md" %}
+[mouse-interaction.md](mouse-interaction.md)
+{% endcontent-ref %}
 

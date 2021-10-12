@@ -2,17 +2,17 @@
 
 ## Supplies for All
 
-![](../../.gitbook/assets/image%20%28501%29.png)
+![](<../../.gitbook/assets/image (505).png>)
 
 ## Buzzer
 
 ### Additional Supplies
 
-![](../../.gitbook/assets/image%20%28511%29.png)
+![](<../../.gitbook/assets/image (506).png>)
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28488%29.png)
+![The data (yellow) wire is connected to digital pin 9.](<../../.gitbook/assets/image (507).png>)
 
 ### Code
 
@@ -39,11 +39,11 @@ void loop() {
 
 ### Additional Supplies
 
-![](../../.gitbook/assets/image%20%28494%29.png)
+![](<../../.gitbook/assets/image (508).png>)
 
 ### Diagram
 
-![The data \(yellow\) wire is connected to digital pin 9.](../../.gitbook/assets/image%20%28489%29.png)
+![The data (yellow) wire is connected to digital pin 9.](<../../.gitbook/assets/image (509).png>)
 
 ### Code
 
@@ -72,11 +72,11 @@ This example shows using and controlling two separate LEDs as an example of mult
 
 ### Additional Supplies
 
-![](../../.gitbook/assets/image%20%28506%29.png)
+![](<../../.gitbook/assets/image (510).png>)
 
 ### Diagram
 
-![The yellow data wire is connected to digital pin 10 and the orange wire to pin 9.](../../.gitbook/assets/image%20%28514%29.png)
+![The yellow data wire is connected to digital pin 10 and the orange wire to pin 9.](<../../.gitbook/assets/image (511).png>)
 
 ### Code
 
@@ -113,17 +113,17 @@ This is a special LED that you can use 0-255 color values to get any color of th
 
 ### Additional Supplies
 
-![](../../.gitbook/assets/image%20%28503%29.png)
+![](<../../.gitbook/assets/image (512).png>)
 
 ### Diagram
 
-Note: This diagram is for a Cathode RGB LED where the 2nd connector is the ground \(negative\) connection.
+Note: This diagram is for a Cathode RGB LED where the 2nd connector is the ground (negative) connection.
 
-![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](../../.gitbook/assets/image%20%28507%29.png)
+![The blue wire is connected to pin 9, green to pin 10, and red to pin 11.](<../../.gitbook/assets/image (513).png>)
 
 ## Code
 
-This example turns the light cyan using the "simple" way \(setting each color with a line of code\).
+This example turns the light cyan using the "simple" way (setting each color with a line of code).
 
 ```cpp
 // Red pin is connected to pin 11 on the Arduino circuit board
@@ -182,4 +182,3 @@ void RGB_Color(int redValue, int greenValue, int blueValue) {
   analogWrite(blue, blueValue);
 }
 ```
-

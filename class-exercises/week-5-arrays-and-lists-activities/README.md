@@ -1,6 +1,6 @@
-# Week 5 \(Arrays & Lists\) Activities
+# Week 5 (Arrays & Lists) Activities
 
-{% page-ref page="moving-squares-activity.md" %}
-
-
+{% content-ref url="moving-squares-activity.md" %}
+[moving-squares-activity.md](moving-squares-activity.md)
+{% endcontent-ref %}
 

@@ -15,4 +15,3 @@ You can...
 [...create and use variables with different data types](data-types/)
 
 [...cast or change one data type into another data type](casting-a-variable.md)
-

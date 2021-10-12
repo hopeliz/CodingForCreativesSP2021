@@ -1,8 +1,10 @@
 # Start Codes
 
-{% page-ref page="processing-start-code.md" %}
+{% content-ref url="processing-start-code.md" %}
+[processing-start-code.md](processing-start-code.md)
+{% endcontent-ref %}
 
-{% page-ref page="html-css-javascript-start-code.md" %}
-
-
+{% content-ref url="html-css-javascript-start-code.md" %}
+[html-css-javascript-start-code.md](html-css-javascript-start-code.md)
+{% endcontent-ref %}
 

@@ -1,6 +1,6 @@
 # Template
 
-Most, if not all your Processing projects will have the following code \(except for different sizes for your canvas\). 
+Most, if not all your Processing projects will have the following code (except for different sizes for your canvas). 
 
 Without a set canvas size, a default one will appear.
 
@@ -18,4 +18,3 @@ void draw() {
 ```
 
 This is helpful to copy and paste if you don't want to type it each time.
-

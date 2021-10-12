@@ -1,4 +1,4 @@
-# Creating Custom Objects \(Processing\)
+# Creating Custom Objects (Processing)
 
 This activity looks at creating custom reusable objects in Processing. All code should allow you to copy and paste.
 
@@ -19,7 +19,7 @@ void setup() {
 
 Let's create a simple button, but with a little complexity in its design. Something like this:
 
-![](../../.gitbook/assets/image%20%28479%29.png)
+![](<../../.gitbook/assets/image (476).png>)
 
 It's just layered squares.
 
@@ -57,7 +57,7 @@ void draw() {
 
 We have a LOT of repetition here - the color, the location of the squares - even the size is based on the size of the first square. Let's turn those things into reusable variables so we can update the whole thing easily.
 
-At the very top, above setup\(\) put the _global_ and _public_ variables:
+At the very top, above setup() put the _global_ and _public_ variables:
 
 ```java
 float xPosition = 300;
@@ -140,9 +140,9 @@ We can create a custom function that changes the fill color when the user hovers
 
 What we need to add variable-wise at the top of the sketch:
 
-* whether the button is on or off \(boolean\)
-* state of the button \(integer\)
-* colors for each state \(unselected/default, hover, selected, and "on"\)
+* whether the button is on or off (boolean)
+* state of the button (integer)
+* colors for each state (unselected/default, hover, selected, and "on")
 
 ```java
 boolean buttonOn = false;
@@ -316,7 +316,7 @@ void mouseClicked() {
 
 Output so far:
 
-![The circle click effects were added.](../../.gitbook/assets/week9-1_01.gif)
+![The circle click effects were added.](../../.gitbook/assets/Week9-1\_01.gif)
 
 ## Step 2: Move the Code to a Class
 
@@ -324,15 +324,15 @@ Output so far:
 
 Near the play button, click the tab with a down arrow and select **New Tab**. 
 
-![](../../.gitbook/assets/image%20%28477%29.png)
+![](<../../.gitbook/assets/image (477).png>)
 
 Give your object type a name.
 
-![](../../.gitbook/assets/image%20%28476%29.png)
+![](<../../.gitbook/assets/image (478).png>)
 
 This will create a tab with the name.
 
-![](../../.gitbook/assets/image%20%28478%29.png)
+![](<../../.gitbook/assets/image (479).png>)
 
 At the top, create a _class_ that is named for your new object type - use a capital letter to begin:
 
@@ -437,7 +437,7 @@ void display() {
 }
 ```
 
-Copy the functions that follow `draw()` in the first tab and paste them before the final curly bracket \(inside the class\) in the second tab \(the object tab\). The `mouseClicked()` needs to stay on the main tab to work.
+Copy the functions that follow `draw()` in the first tab and paste them before the final curly bracket (inside the class) in the second tab (the object tab). The `mouseClicked()` needs to stay on the main tab to work.
 
 ```java
   void checkButtonState() {
@@ -477,7 +477,7 @@ Copy the functions that follow `draw()` in the first tab and paste them before t
 Code so far:
 
 {% hint style="info" %}
-I have added /\* and \*/ around mouseClicked\(\) to "comment out" the function for now
+I have added /\* and \*/ around mouseClicked() to "comment out" the function for now
 {% endhint %}
 
 First tab
@@ -604,7 +604,7 @@ Button greenButton;
 Button blueButton;
 ```
 
-We can assign/set these buttons in setup\(\) putting _arguments_ in the parentheses that match the parameters in the constructor.
+We can assign/set these buttons in setup() putting _arguments_ in the parentheses that match the parameters in the constructor.
 
 For each, I'll use an unselected color that is a darker version of the color, a hover and selected color that is a lighter tint, and the "on" color the full color.
 
@@ -622,7 +622,7 @@ greenButton = new Button(225, 375, 100, color(0, 150, 0), color(100, 255, 100), 
 blueButton = new Button(375, 375, 100, color(0, 0, 150), color(100, 100, 255), color(200, 200, 255), color(0, 0, 255));
 ```
 
-Let's put code in the draw\(\) function to display some button objects we made.
+Let's put code in the draw() function to display some button objects we made.
 
 ```java
 redButton.display();
@@ -678,13 +678,13 @@ void mouseClicked() {
 */
 ```
 
-Output so far \(the buttons should have hover and select effects\):
+Output so far (the buttons should have hover and select effects):
 
-![](../../.gitbook/assets/image%20%28480%29.png)
+![](<../../.gitbook/assets/image (480).png>)
 
 ## Step 4: Get the Clicking Effect to Work
 
-The mouseClicked\(\) only works on the first tab, so we'll have to replace the code with references to our buttons.
+The mouseClicked() only works on the first tab, so we'll have to replace the code with references to our buttons.
 
 Remember to take off the /\* and \*/ lines.
 
@@ -856,5 +856,4 @@ class Button {
 
 Output:
 
-![The circle click effects were added to show actual clicking.](../../.gitbook/assets/week9-1_02.gif)
-
+![The circle click effects were added to show actual clicking.](../../.gitbook/assets/Week9-1\_02.gif)

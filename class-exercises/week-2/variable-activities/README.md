@@ -2,9 +2,11 @@
 
 Here are some exercises you can follow to get more familiar with variables.
 
-{% page-ref page="star-wars-name-exercise.md" %}
+{% content-ref url="star-wars-name-exercise.md" %}
+[star-wars-name-exercise.md](star-wars-name-exercise.md)
+{% endcontent-ref %}
 
-{% page-ref page="mad-libs-exercise.md" %}
-
-
+{% content-ref url="mad-libs-exercise.md" %}
+[mad-libs-exercise.md](mad-libs-exercise.md)
+{% endcontent-ref %}
 

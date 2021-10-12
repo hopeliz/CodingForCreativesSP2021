@@ -1,8 +1,10 @@
-# Week 6 \(Functions\)
+# Week 6 (Functions)
 
-{% page-ref page="mario-activity.md" %}
+{% content-ref url="mario-activity.md" %}
+[mario-activity.md](mario-activity.md)
+{% endcontent-ref %}
 
-{% page-ref page="raycasting-unity.md" %}
-
-
+{% content-ref url="raycasting-unity.md" %}
+[raycasting-unity.md](raycasting-unity.md)
+{% endcontent-ref %}
 

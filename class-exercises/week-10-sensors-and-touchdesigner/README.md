@@ -1,6 +1,6 @@
-# Week 10 \(Sensors & TouchDesigner\)
+# Week 10 (Sensors & TouchDesigner)
 
-{% page-ref page="touchosc.md" %}
-
-
+{% content-ref url="touchosc.md" %}
+[touchosc.md](touchosc.md)
+{% endcontent-ref %}
 

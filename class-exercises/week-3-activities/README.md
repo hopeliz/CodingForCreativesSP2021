@@ -1,6 +1,6 @@
-# Week 3 \(If/Else Statements\) Activities
+# Week 3 (If/Else Statements) Activities
 
-{% page-ref page="rubber-ducky-activity.md" %}
-
-
+{% content-ref url="rubber-ducky-activity.md" %}
+[rubber-ducky-activity.md](rubber-ducky-activity.md)
+{% endcontent-ref %}
 

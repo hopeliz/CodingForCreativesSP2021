@@ -1,6 +1,6 @@
-# Week 8 \(Randomness & Object Interaction\)
+# Week 8 (Randomness & Object Interaction)
 
-{% page-ref page="bouncing-ball-unity.md" %}
-
-
+{% content-ref url="bouncing-ball-unity.md" %}
+[bouncing-ball-unity.md](bouncing-ball-unity.md)
+{% endcontent-ref %}
 

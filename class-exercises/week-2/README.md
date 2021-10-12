@@ -1,10 +1,14 @@
-# Week 2 \(Variable\) Activities
+# Week 2 (Variable) Activities
 
-{% page-ref page="w2-1-getting-blobby.md" %}
+{% content-ref url="w2-1-getting-blobby.md" %}
+[w2-1-getting-blobby.md](w2-1-getting-blobby.md)
+{% endcontent-ref %}
 
-{% page-ref page="w2-2-unity-activity-notes.md" %}
+{% content-ref url="w2-2-unity-activity-notes.md" %}
+[w2-2-unity-activity-notes.md](w2-2-unity-activity-notes.md)
+{% endcontent-ref %}
 
-{% page-ref page="w2-2-touchdesigner-activity-notes.md" %}
-
-
+{% content-ref url="w2-2-touchdesigner-activity-notes.md" %}
+[w2-2-touchdesigner-activity-notes.md](w2-2-touchdesigner-activity-notes.md)
+{% endcontent-ref %}
 

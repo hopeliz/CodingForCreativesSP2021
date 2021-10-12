@@ -2,9 +2,9 @@
 
 TouchDesigner is a program that uses node-based programming and Python scripting.
 
-## Operators \(Nodes\)
+## Operators (Nodes)
 
-Each operator or node is like a [function](../glossary-and-terms/functions-and-methods/). Many will have input notches, parameters \(values within the operator\), and an output \(similar to a return\) that can go into another node.
+Each operator or node is like a [function](../glossary-and-terms/functions-and-methods/). Many will have input notches, parameters (values within the operator), and an output (similar to a return) that can go into another node.
 
 ## Types of Operators
 
@@ -12,31 +12,31 @@ In node-based programming, output data types have to match the input of the next
 
 ![](../.gitbook/assets/td-op-create-dialog.png)
 
-### **COMP \(Components\)**
+### **COMP (Components)**
 
 These are operators that handle things like user interface, lighting, etc.
 
-### TOP \(Texture Operators\)
+### TOP (Texture Operators)
 
 These operators handle 2D images, animations, and video effects. Think of these like Photoshop and AfterEffects.
 
-### CHOP \(Channel Operators\)
+### CHOP (Channel Operators)
 
-These operators deal with numbers, booleans \(on/off or true/false\), and audio. Each value is often displayed as a "channel."
+These operators deal with numbers, booleans (on/off or true/false), and audio. Each value is often displayed as a "channel."
 
 {% hint style="info" %}
 Numbers over time and some arrays of numbers will appear as a line graph. To change this into a value that "slices" through the line graph values, use the Time Slice CHOP or the Time Slice parameter under the Common tab.
 {% endhint %}
 
-### SOP \(Surface Operators\)
+### SOP (Surface Operators)
 
 These operators handle 3D shapes and objects. Think of these like Maya, Blender, etc.
 
-### MAT \(Materials\)
+### MAT (Materials)
 
 These operators handle materials, textures, and shaders.
 
-### DAT \(Data\)
+### DAT (Data)
 
 These operators handle Python and other types of scripting as well as tables.
 
@@ -96,11 +96,11 @@ Example of a Parameters window:
 
 Things to notice:
 
-On the top left, the **type of operator** is shown \(Movie File In\).
+On the top left, the **type of operator** is shown (Movie File In).
 
-Followed by the **name of the operator** that you can update. This will update the name that appears at the bottom of the operator node. \(`moviefilein1`\)
+Followed by the **name of the operator** that you can update. This will update the name that appears at the bottom of the operator node. (`moviefilein1`)
 
-The next line has **icons for help** on the left and **advanced features** like tags, comments, language, and views on the right.
+The next line has** icons for help** on the left and **advanced features** like tags, comments, language, and views on the right.
 
 To save space, most Parameter windows will have **tabs** - here, they are Play, Image, Trim, Tune, and Common. These will change depending on the operator.
 
@@ -108,11 +108,11 @@ The rest are parameters - like in a function - that are values that change how s
 
 ### Common Parameters
 
-For TOPs \(purple texture operators\), the **Common** tab is where you can update the resolution and aspect of the output image. It usually defaults to "Use Input," but can be changed. Free versions are limited, though.
+For TOPs (purple texture operators), the **Common** tab is where you can update the resolution and aspect of the output image. It usually defaults to "Use Input," but can be changed. Free versions are limited, though.
 
 ![](../.gitbook/assets/parameters2.png)
 
-For CHOPs \(green channel operators\), the **Common** tab is where you can change how a node appears \(line graph vs. moving bar graph, called a "Time Slice"\).
+For CHOPs (green channel operators), the **Common** tab is where you can change how a node appears (line graph vs. moving bar graph, called a "Time Slice").
 
 ![](../.gitbook/assets/time-slice1.png)
 
@@ -126,7 +126,7 @@ There are two ways to do this.
 
 First, expand the parameter you want to have the value in by pressing the plus sign that appears next to it when you hover over the name of the parameter:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ![](../.gitbook/assets/parameter.png)
 
@@ -134,11 +134,11 @@ This will show the variable name of the parameter.
 
 The colored squares next to the value mean:
 
-**Gray** - Value typed in
+**Gray **- Value typed in
 
 **Cyan** - An "expression" using Python to reference an operator or variable like `absTime.seconds`
 
-**Green** - An exported value \(references through file organization\)
+**Green** - An exported value (references through file organization)
 
 **Lavender** - Bind....this is new, so I have no idea.
 
@@ -160,7 +160,7 @@ or
 op('operatorname')[index]
 ```
 
-or \(for parameter values\)
+or (for parameter values)
 
 ```python
 op('operatorname').par.parametername
@@ -207,4 +207,3 @@ Click and drag from your source operator to the field for your target parameter 
 ## Output
 
 The output notch is on the right side of the operator.
-

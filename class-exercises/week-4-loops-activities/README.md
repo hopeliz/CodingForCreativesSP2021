@@ -1,6 +1,6 @@
-# Week 4 \(Loops\) Activities
+# Week 4 (Loops) Activities
 
-{% page-ref page="using-for-and-foreach-loops-in-unity.md" %}
-
-
+{% content-ref url="using-for-and-foreach-loops-in-unity.md" %}
+[using-for-and-foreach-loops-in-unity.md](using-for-and-foreach-loops-in-unity.md)
+{% endcontent-ref %}
 

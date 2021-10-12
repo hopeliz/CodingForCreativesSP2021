@@ -1,6 +1,9 @@
-# Week 9 \(Creating Custom Objects\)
+# Week 9 (Creating Custom Objects)
 
-{% page-ref page="creating-custom-objects-processing.md" %}
+{% content-ref url="creating-custom-objects-processing.md" %}
+[creating-custom-objects-processing.md](creating-custom-objects-processing.md)
+{% endcontent-ref %}
 
-{% page-ref page="cannon-game.md" %}
-
+{% content-ref url="cannon-game.md" %}
+[cannon-game.md](cannon-game.md)
+{% endcontent-ref %}

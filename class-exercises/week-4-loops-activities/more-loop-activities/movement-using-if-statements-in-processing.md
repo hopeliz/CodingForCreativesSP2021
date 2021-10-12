@@ -17,7 +17,7 @@ void setup() {
 
 Output when played:
 
-![](../../../.gitbook/assets/image%20%28188%29.png)
+![](<../../../.gitbook/assets/image (153).png>)
 
 You'll notice that the square isn't in the center.
 
@@ -40,7 +40,7 @@ void setup() {
 
 Output when played:
 
-![](../../../.gitbook/assets/image%20%28189%29.png)
+![](<../../../.gitbook/assets/image (154).png>)
 
 ## Step 2: Use Variables Instead of Values
 
@@ -64,7 +64,7 @@ void setup() {
 
 ## Step 3: Adding Interaction
 
-Processing has a built-in function called `keyPressed()` that runs when a key is pressed on the keyboard. The key that is pressed gets stored as a **char** type \(like a one-character string\).
+Processing has a built-in function called `keyPressed()` that runs when a key is pressed on the keyboard. The key that is pressed gets stored as a **char** type (like a one-character string).
 
 Copy and paste the `rect()` code into a `keyPressed()` function outside and after the `setup()` function.
 
@@ -200,16 +200,16 @@ void keyPressed() {
 ```
 
 {% hint style="danger" %}
-`key` is a **char** type variable. It's one of the few times when you MUST use single quotes for the 'w' \(comparison value\).
+`key` is a **char** type variable. It's one of the few times when you MUST use single quotes for the 'w' (comparison value).
 {% endhint %}
 
-Output when played \(keys pressed added to the graphic\):
+Output when played (keys pressed added to the graphic):
 
 ![](../../../.gitbook/assets/w4s4.gif)
 
 ## Step 5: Add Other Directions
 
-Copy and paste the if statement or practice typing the if statement and update the comparison value \(checking what key to match\) and changing the direction `y` will change.
+Copy and paste the if statement or practice typing the if statement and update the comparison value (checking what key to match) and changing the direction `y` will change.
 
 ```java
 ...
@@ -231,7 +231,7 @@ void keyPressed() {
 }
 ```
 
-Copy and paste the two if statements or practice typing them and update the axis and the comparison value \(checking what key to match\).
+Copy and paste the two if statements or practice typing them and update the axis and the comparison value (checking what key to match).
 
 ```java
 ...
@@ -350,9 +350,7 @@ void keyPressed() {
 }
 ```
 
-Output when played \(keys pressed added to the graphic\):
+Output when played (keys pressed added to the graphic):
 
 ![](../../../.gitbook/assets/w4s5.gif)
-
-
 
